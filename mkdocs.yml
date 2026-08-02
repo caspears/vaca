@@ -49,12 +49,14 @@ extra_css:
   - assets/display-mode.css
   - assets/day-dashboard.css
   - assets/day-navigator.css
+  - assets/production-day.css
 
 extra_javascript:
   - assets/checklist.js
   - assets/display-mode.js
   - assets/day-dashboard.js
   - assets/day-navigator.js
+  - assets/production-day.js
 
 nav:
   - Home: index.md

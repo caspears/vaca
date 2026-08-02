@@ -1,772 +1,90 @@
 # August 10 — Animal Kingdom and Hollywood Studios
 
-<div class="trip-navigator" data-active-park="ak">
-  <div class="trip-navigator-collapsed">
-    <div class="trip-next-summary">
-      <span class="trip-next-label">Next activity</span>
-      <div class="trip-next-title-line">
-        <span data-nav="next-icon">📍</span>
-        <span class="trip-next-title" data-nav="next-title">Loading…</span>
-        <span class="trip-next-time" data-nav="next-time"></span>
-      </div>
-    </div>
-    <button class="trip-nav-icon-button" type="button" data-nav="toggle" aria-label="Expand daily dashboard" aria-expanded="false">▼</button>
-    <a class="trip-nav-icon-button" data-nav="jump" href="#" aria-label="Jump to next activity">➜</a>
-  </div>
+<div class="trip-navigator" data-active-park="ak"><div class="trip-navigator-collapsed"><div class="trip-next-summary"><span class="trip-next-label">Next activity</span><div class="trip-next-title-line"><span data-nav="next-icon">📍</span><span class="trip-next-title" data-nav="next-title">Loading…</span><span class="trip-next-time" data-nav="next-time"></span></div></div><button class="trip-nav-icon-button" data-nav="toggle">▼</button><a class="trip-nav-icon-button" data-nav="jump" href="#">➜</a></div><div class="trip-navigator-expanded"><div class="trip-nav-progress"><div class="trip-nav-progress-fill"></div></div><div class="trip-navigator-grid"><div class="trip-nav-stat"><span class="trip-nav-stat-label">Progress</span><span class="trip-nav-stat-value" data-nav="progress">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Next timed commitment</span><span class="trip-nav-stat-value" data-nav="commitment">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Leave by</span><span class="trip-nav-stat-value" data-nav="leave">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Updated</span><span class="trip-nav-stat-value" data-nav="updated">—</span></div></div><div class="trip-nav-actions"><a class="trip-nav-action" data-nav="jump" href="#">➜ Jump to next</a><button class="trip-nav-action" data-nav="toggle">▲ Collapse</button></div></div></div>
 
-  <div class="trip-navigator-expanded">
-    <div class="trip-nav-progress"><div class="trip-nav-progress-fill"></div></div>
-    <div class="trip-navigator-grid">
-      <div class="trip-nav-stat">
-        <span class="trip-nav-stat-label">Progress</span>
-        <span class="trip-nav-stat-value" data-nav="progress">Loading…</span>
-      </div>
-      <div class="trip-nav-stat">
-        <span class="trip-nav-stat-label">Next timed commitment</span>
-        <span class="trip-nav-stat-value" data-nav="commitment">Loading…</span>
-      </div>
-      <div class="trip-nav-stat">
-        <span class="trip-nav-stat-label">Leave by</span>
-        <span class="trip-nav-stat-value" data-nav="leave">Loading…</span>
-      </div>
-      <div class="trip-nav-stat">
-        <span class="trip-nav-stat-label">Updated</span>
-        <span class="trip-nav-stat-value" data-nav="updated">—</span>
-      </div>
-    </div>
-    <div class="trip-nav-actions">
-      <a class="trip-nav-action" data-nav="jump" href="#">➜ Jump to next</a>
-      <button class="trip-nav-action" type="button" data-nav="toggle">▲ Collapse</button>
-    </div>
-  </div>
-</div>
+**Status:** 🟢 Reservations incorporated · family review pending
 
-**Status:** 🟡 Complete mobile prototype
+## Day at a glance
 
-## Daily mission
+🌿 **Animal Kingdom** · Early Entry through approximately 2:10 p.m.  
+🎬 **Hollywood Studios** · approximately 2:45–6:00 p.m.  
+🏨 **Animal Kingdom Lodge** · Boma at 7:00 p.m.
 
-Experience Animal Kingdom’s signature wildlife, simulator, trails, and live entertainment, then use reserved access for a focused Hollywood Studios afternoon.
-
-!!! info "Prototype features"
-    The compact navigator shows the next pending activity and its planned time. Expand it for progress, the next timed commitment, and leave-by information. Checklist status, display mode, navigator expansion, ratings, and revisit choices persist in this browser.
-
-!!! warning "Estimated times"
-    Lightning Lane windows and some show times remain planning estimates. Replace them after actual bookings.
-
-## Day-of itinerary
+<div class="schedule-warning"><strong>Critical evening constraint:</strong> Slinky Dog begins at 5:35 p.m. and Boma is at 7:00 p.m. Ride Slinky near the start of its window and leave immediately afterward. Alien Swirling Saucers is the first item to skip if Rise runs late.</div>
 
 <div class="trip-checklist" data-day-id="2026-08-10" data-trip-date="2026-08-10">
-  <div class="trip-checklist-toolbar">
-    <div class="trip-checklist-summary">Loading checklist…</div>
-    <button class="trip-checklist-button" type="button" data-action="toggle-finished">Show unfinished only</button>
-    <button class="trip-checklist-button" type="button" data-action="reset-day">Reset this day</button>
-  </div>
-  <div class="trip-checklist-items">
 
-<div class="trip-item park-ak" id="activity-navi"
-     data-item-id="navi" data-state="pending"
-     data-start-time="07:30" data-leave-time=""
-     data-kind="planned" data-park="ak"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">1</span><span>Pandora</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥈 Na’vi River Journey</div>
-      <div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div>
-      <div class="trip-item-note">Gentle immersive boat ride during Early Entry.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> Park entrance → Pandora: allow 8–12 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">07:30</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Na%27vi+River+Journey+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Na%27vi+River+Journey+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Early Entry priority while Flight of Passage is protected by Single Pass.</div>
-      <div class="trip-detail-label">Next</div><div>Kilimanjaro Safaris: approximately 8–12 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 07:30 · allow 20–30 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/navi-river-journey/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Na%27vi+River+Journey+POV+4K" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
+<section class="park-day-section park-ak">
+<div class="park-section-heading"><span class="park-section-icon">🌿</span><h2>Animal Kingdom</h2></div><div class="park-time-summary">Pandora → Africa → Asia → Discovery Island</div>
+<div class="mini-map"><div class="mini-map-header"><div class="mini-map-title">Clickable route overview</div><a class="mini-map-full" href="https://disneyworld.disney.go.com/maps/overview-details/" target="_blank">🗺️ Open full park map</a></div><div class="mini-map-route"><a class="mini-map-stop" href="#activity-navi" data-target-item="activity-navi"><span class="mini-map-dot">1</span><span class="mini-map-label">Na’vi River Journey</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-fop" data-target-item="activity-fop"><span class="mini-map-dot">2</span><span class="mini-map-label">Avatar Flight of Passage</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-safari" data-target-item="activity-safari"><span class="mini-map-dot">3</span><span class="mini-map-label">Kilimanjaro Safaris</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-gorilla" data-target-item="activity-gorilla"><span class="mini-map-dot">4</span><span class="mini-map-label">Gorilla Falls Exploration Trail</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-lion" data-target-item="activity-lion"><span class="mini-map-dot">5</span><span class="mini-map-label">Festival of the Lion King</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-everest" data-target-item="activity-everest"><span class="mini-map-dot">6</span><span class="mini-map-label">Expedition Everest</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-maharajah" data-target-item="activity-maharajah"><span class="mini-map-dot">7</span><span class="mini-map-label">Maharajah Jungle Trek</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-zootopia" data-target-item="activity-zootopia"><span class="mini-map-dot">8</span><span class="mini-map-label">Zootopia: Better Zoogether!</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-tiffins" data-target-item="activity-tiffins"><span class="mini-map-dot">9</span><span class="mini-map-label">Tiffins lunch</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-transfer" data-target-item="activity-transfer"><span class="mini-map-dot">10</span><span class="mini-map-label">Transfer to Hollywood Studios</span></a></div></div>
+<div class="trip-item park-ak" id="activity-navi" data-item-id="navi" data-state="pending" data-kind="planned" data-park="ak" data-commitment="false" data-window-label="≈7:30 a.m." data-leave-label="Be at park gate before Early Entry">
+<div class="trip-item-route"><span class="trip-item-number">1</span><span>Pandora · Early Entry</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥈 Na’vi River Journey</div><div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div><div class="trip-item-travel"><strong>From previous:</strong> Animal Kingdom entrance → Pandora, allow 8–12 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">≈7:30 a.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Be at park gate before Early Entry</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Na%27vi+River+Journey+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Na%27vi+River+Journey+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Use Early Entry, then stay in Pandora for Flight of Passage.</div><div class="trip-detail-label">Next</div><div>Flight of Passage, 3–6 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/navi-river-journey/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Na%E2%80%99vi+River+Journey" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-fop" data-item-id="fop" data-state="pending" data-kind="lightning" data-park="ak" data-commitment="true" data-window-label="9:00–10:00 a.m." data-leave-label="Approach by 8:55">
+<div class="trip-item-route"><span class="trip-item-number">2</span><span>Pandora</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Avatar Flight of Passage</div><div class="trip-item-badges"><span class="trip-badge planned">⚡ Single Pass · 📅 Confirmed</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Na’vi River Journey, 3–6 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">9:00–10:00 a.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Approach by 8:55</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">25–40 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Avatar+Flight+of+Passage+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Avatar+Flight+of+Passage+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Confirmed window; enter near the opening to protect the morning.</div><div class="trip-detail-label">Next</div><div>Safari, 10–15 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/avatar-flight-of-passage/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Avatar+Flight+of+Passage" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-safari" data-item-id="safari" data-state="pending" data-kind="planned" data-park="ak" data-commitment="false" data-window-label="≈9:45–10:00 a.m." data-leave-label="Leave Pandora after Flight of Passage">
+<div class="trip-item-route"><span class="trip-item-number">3</span><span>Africa</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Kilimanjaro Safaris</div><div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Flight of Passage, 10–15 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">≈9:45–10:00 a.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Leave Pandora after Flight of Passage</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">35–50 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Kilimanjaro+Safaris+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Kilimanjaro+Safaris+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Exact start depends on Flight of Passage exit time.</div><div class="trip-detail-label">Next</div><div>Gorilla Falls, 2 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/kilimanjaro-safaris/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Kilimanjaro+Safaris" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-gorilla" data-item-id="gorilla" data-state="pending" data-kind="planned" data-park="ak" data-commitment="false" data-window-label="≈10:35–11:00 a.m." data-leave-label="Flexible">
+<div class="trip-item-route"><span class="trip-item-number">4</span><span>Africa</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Gorilla Falls Exploration Trail</div><div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Safari exit, 2 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">≈10:35–11:00 a.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Flexible</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Gorilla+Falls+Exploration+Trail+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Gorilla+Falls+Exploration+Trail+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Shorten if needed to protect Lion King.</div><div class="trip-detail-label">Next</div><div>Lion King, 3–6 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/gorilla-falls-exploration-trail/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Gorilla+Falls+Exploration+Trail" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-lion" data-item-id="lion" data-state="pending" data-kind="show" data-park="ak" data-commitment="true" data-window-label="Target ≈11:30 a.m." data-leave-label="Target theater by 11:10">
+<div class="trip-item-route"><span class="trip-item-number">5</span><span>Africa</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Festival of the Lion King</div><div class="trip-item-badges"><span class="trip-badge planned">🎭 Show · 📅 Reconfirm time</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Gorilla Falls, 3–6 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">Target ≈11:30 a.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Target theater by 11:10</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">40–50 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Festival+of+the+Lion+King+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Festival+of+the+Lion+King+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Use first practical performance after Africa activities.</div><div class="trip-detail-label">Next</div><div>Everest, 10–15 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/entertainment/animal-kingdom/festival-of-the-lion-king/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Festival+of+the+Lion+King" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-everest" data-item-id="everest" data-state="pending" data-kind="planned" data-park="ak" data-commitment="false" data-window-label="≈12:15 p.m." data-leave-label="Leave Africa after Lion King">
+<div class="trip-item-route"><span class="trip-item-number">6</span><span>Asia</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Expedition Everest</div><div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Lion King, 10–15 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">≈12:15 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Leave Africa after Lion King</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–35 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Expedition+Everest+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Expedition+Everest+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Protect Zootopia and Tiffins if standby is long.</div><div class="trip-detail-label">Next</div><div>Zootopia, 8–12 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/expedition-everest/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Expedition+Everest" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-maharajah" data-item-id="maharajah" data-state="pending" data-kind="planned" data-park="ak" data-commitment="false" data-window-label="Only if ahead" data-leave-label="Flexible">
+<div class="trip-item-route"><span class="trip-item-number">7</span><span>Asia · optional</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥉 Maharajah Jungle Trek</div><div class="trip-item-badges"><span class="trip-badge planned">🧭 Optional</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Everest, 3–5 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">Only if ahead</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Flexible</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">15–25 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Maharajah+Jungle+Trek+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Maharajah+Jungle+Trek+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>First Animal Kingdom item to skip.</div><div class="trip-detail-label">Next</div><div>Zootopia, 8–12 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/maharajah-jungle-trek/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Maharajah+Jungle+Trek" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-zootopia" data-item-id="zootopia" data-state="pending" data-kind="show" data-park="ak" data-commitment="false" data-window-label="Target ≈12:25–12:35" data-leave-label="Leave Asia by ≈12:15">
+<div class="trip-item-route"><span class="trip-item-number">8</span><span>Discovery Island</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥈 Zootopia: Better Zoogether!</div><div class="trip-item-badges"><span class="trip-badge planned">🎭 Theater · 🧭 Strongly recommended</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Asia, 8–12 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">Target ≈12:25–12:35</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Leave Asia by ≈12:15</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Zootopia+Better+Zoogether+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Zootopia+Better+Zoogether+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Defer if show timing risks Tiffins.</div><div class="trip-detail-label">Next</div><div>Tiffins, 3–6 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/zootopia-better-zoogether/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Zootopia%3A+Better+Zoogether%21" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-ak" id="activity-tiffins" data-item-id="tiffins" data-state="pending" data-kind="meal" data-park="ak" data-commitment="true" data-window-label="1:00 p.m." data-leave-label="Arrive by 12:50">
+<div class="trip-item-route"><span class="trip-item-number">9</span><span>Discovery Island</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Tiffins lunch</div><div class="trip-item-badges"><span class="trip-badge planned">🍽️ Dining · 📅 Reserved</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Zootopia, 3–6 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">1:00 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Arrive by 12:50</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">60–70 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Tiffins+Restaurant+Disney+Animal+Kingdom" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Tiffins+Restaurant+Disney+Animal+Kingdom&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Finish near 2:00 and walk directly to exit.</div><div class="trip-detail-label">Next</div><div>Park exit and bus</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/dining/animal-kingdom/tiffins/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Tiffins+lunch" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item transfer-card" id="activity-transfer" data-item-id="transfer" data-state="pending" data-kind="transfer" data-park="transfer" data-commitment="false" data-window-label="Target ≈2:10 p.m." data-leave-label="Leave Tiffins near 2:00">
+<div class="trip-item-route"><span class="trip-item-number">10</span><span>Disney bus</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Transfer to Hollywood Studios</div><div class="trip-item-badges"><span class="trip-badge planned">🚌 Transfer · 🧭 Time-sensitive</span></div><div class="trip-item-travel"><strong>From previous:</strong> Tiffins → exit, 8–12 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">Target ≈2:10 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Leave Tiffins near 2:00</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">25–40 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Disney%27s+Hollywood+Studios" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Disney%27s+Hollywood+Studios&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Target Studios entry around 2:40–2:55.</div><div class="trip-detail-label">Next</div><div>Runaway decision point</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/guest-services/bus-transportation/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Transfer+to+Hollywood+Studios" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div>
+</section>
+
+<section class="park-day-section park-hs">
+<div class="park-section-heading"><span class="park-section-icon">🎬</span><h2>Hollywood Studios</h2></div><div class="park-time-summary">Optional Runaway Railway → Echo Lake → Galaxy’s Edge → Toy Story Land</div>
+<div class="mini-map"><div class="mini-map-header"><div class="mini-map-title">Clickable route overview</div><a class="mini-map-full" href="https://disneyworld.disney.go.com/maps/overview-details/" target="_blank">🗺️ Open full park map</a></div><div class="mini-map-route"><a class="mini-map-stop" href="#activity-runaway" data-target-item="activity-runaway"><span class="mini-map-dot">11</span><span class="mini-map-label">Runaway Railway decision point</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-star" data-target-item="activity-star"><span class="mini-map-dot">12</span><span class="mini-map-label">Star Tours</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-rise" data-target-item="activity-rise"><span class="mini-map-dot">13</span><span class="mini-map-label">Rise of the Resistance</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-alien" data-target-item="activity-alien"><span class="mini-map-dot">14</span><span class="mini-map-label">Alien Swirling Saucers</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-slinky" data-target-item="activity-slinky"><span class="mini-map-dot">15</span><span class="mini-map-label">Slinky Dog Dash</span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-boma" data-target-item="activity-boma"><span class="mini-map-dot">16</span><span class="mini-map-label">Boma dinner</span></a></div></div>
+<div class="decision-card"><strong>Runaway Railway decision rule:</strong> Ride before Star Tours only if you enter by about <strong>2:45 p.m.</strong> and standby is <strong>15 minutes or less</strong>. Otherwise skip it.</div>
+<div class="trip-item park-hs" id="activity-runaway" data-item-id="runaway" data-state="pending" data-kind="planned" data-park="hs" data-commitment="false" data-window-label="Before Star Tours only" data-leave-label="Skip if it risks Star Tours">
+<div class="trip-item-route"><span class="trip-item-number">11</span><span>Hollywood Boulevard · optional</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥈 Runaway Railway decision point</div><div class="trip-item-badges"><span class="trip-badge planned">🧭 Optional standby</span></div><div class="trip-item-travel"><strong>From previous:</strong> From park entrance, 3–5 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">Before Star Tours only</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Skip if it risks Star Tours</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min total</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Mickey+and+Minnie%27s+Runaway+Railway+Disney+Hollywood+Studios" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Mickey+and+Minnie%27s+Runaway+Railway+Disney+Hollywood+Studios&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Ride only if inside by ≈2:45 and posted wait ≤15 min.</div><div class="trip-detail-label">Next</div><div>Star Tours, 5–8 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/mickey-minnies-runaway-railway/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Runaway+Railway+decision+point" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-hs" id="activity-star" data-item-id="star" data-state="pending" data-kind="lightning" data-park="hs" data-commitment="true" data-window-label="3:05–4:05 p.m." data-leave-label="Be near Echo Lake by 2:55–3:00">
+<div class="trip-item-route"><span class="trip-item-number">12</span><span>Echo Lake</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥈 Star Tours</div><div class="trip-item-badges"><span class="trip-badge planned">⚡ Multi Pass · 📅 Confirmed</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Runaway Railway, 5–8 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">3:05–4:05 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Be near Echo Lake by 2:55–3:00</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Star+Tours+Disney+Hollywood+Studios" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Star+Tours+Disney+Hollywood+Studios&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Enter around 3:05–3:20.</div><div class="trip-detail-label">Next</div><div>Rise, 8–12 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/star-tours/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Star+Tours" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-hs" id="activity-rise" data-item-id="rise" data-state="pending" data-kind="lightning" data-park="hs" data-commitment="true" data-window-label="4:05–5:05 p.m." data-leave-label="Leave Echo Lake by ≈3:50">
+<div class="trip-item-route"><span class="trip-item-number">13</span><span>Galaxy’s Edge</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Rise of the Resistance</div><div class="trip-item-badges"><span class="trip-badge planned">⚡ Single Pass · 📅 Confirmed</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Star Tours, 8–12 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">4:05–5:05 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Leave Echo Lake by ≈3:50</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">35–50 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Star+Wars+Rise+of+the+Resistance+Disney+Hollywood+Studios" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Star+Wars+Rise+of+the+Resistance+Disney+Hollywood+Studios&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Enter near 4:05. If delayed, Alien is first to sacrifice.</div><div class="trip-detail-label">Next</div><div>Alien, 8–10 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/star-wars-rise-of-the-resistance/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Rise+of+the+Resistance" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-hs" id="activity-alien" data-item-id="alien" data-state="pending" data-kind="lightning" data-park="hs" data-commitment="true" data-window-label="4:40–5:40 p.m." data-leave-label="Go directly after Rise">
+<div class="trip-item-route"><span class="trip-item-number">14</span><span>Toy Story Land</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥉 Alien Swirling Saucers</div><div class="trip-item-badges"><span class="trip-badge planned">⚡ Multi Pass · 📅 Confirmed</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Rise, 8–10 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">4:40–5:40 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Go directly after Rise</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">15–25 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Alien+Swirling+Saucers+Disney+Hollywood+Studios" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Alien+Swirling+Saucers+Disney+Hollywood+Studios&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Lower priority than Rise, Slinky, and Boma.</div><div class="trip-detail-label">Next</div><div>Slinky, 1–3 min</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/alien-swirling-saucers/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Alien+Swirling+Saucers" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-hs" id="activity-slinky" data-item-id="slinky" data-state="pending" data-kind="lightning" data-park="hs" data-commitment="true" data-window-label="5:35–6:35 p.m." data-leave-label="Be there by 5:30–5:35">
+<div class="trip-item-route"><span class="trip-item-number">15</span><span>Toy Story Land</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Slinky Dog Dash</div><div class="trip-item-badges"><span class="trip-badge planned">⚡ Multi Pass · 📅 Confirmed</span></div><div class="trip-item-travel"><strong>From previous:</strong> From Alien, 1–3 min</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">5:35–6:35 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Be there by 5:30–5:35</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Slinky+Dog+Dash+Disney+Hollywood+Studios" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Slinky+Dog+Dash+Disney+Hollywood+Studios&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Ride near opening, then leave park immediately.</div><div class="trip-detail-label">Next</div><div>Bus to lodge</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/slinky-dog-dash/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Slinky+Dog+Dash" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div>
+</section>
+
+<section class="park-day-section park-resort">
+<div class="park-section-heading"><span class="park-section-icon">🏨</span><h2>Animal Kingdom Lodge</h2></div><div class="park-time-summary">Direct bus return for Boma</div>
+<div class="trip-item transfer-card" id="activity-boma" data-item-id="boma" data-state="pending" data-kind="meal" data-park="transfer" data-commitment="true" data-window-label="7:00 p.m." data-leave-label="Exit Studios immediately after Slinky">
+<div class="trip-item-route"><span class="trip-item-number">16</span><span>Animal Kingdom Lodge</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥇 Boma dinner</div><div class="trip-item-badges"><span class="trip-badge planned">🍽️ Dining · 📅 Reserved</span></div><div class="trip-item-travel"><strong>From previous:</strong> Slinky exit → park exit 8–12 min, then bus</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Window / time</span><span class="trip-time-value">7:00 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Exit Studios immediately after Slinky</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">75–90 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Boma+Flavors+of+Africa+Disney+Animal+Kingdom+Lodge" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Boma+Flavors+of+Africa+Disney+Animal+Kingdom+Lodge&travelmode=walking" target="_blank">➜ Navigate</a></div>
+<details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Tight but workable; do not add another attraction.</div><div class="trip-detail-label">Next</div><div>Optional pool</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="https://disneyworld.disney.go.com/dining/animal-kingdom-lodge/boma-flavors-of-africa/" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Boma+dinner" target="_blank">▶️ Video</a><a class="trip-action-link" href="../park-maps/" target="_blank">🗺️ Park maps</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1">★</button><button class="trip-rating-star" type="button" data-rating-value="2">★</button><button class="trip-rating-star" type="button" data-rating-value="3">★</button><button class="trip-rating-star" type="button" data-rating-value="4">★</button><button class="trip-rating-star" type="button" data-rating-value="5">★</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div>
+</section>
 </div>
 
-<div class="trip-item park-ak" id="activity-safari"
-     data-item-id="safari" data-state="pending"
-     data-start-time="08:10" data-leave-time="07:58"
-     data-kind="planned" data-park="ak"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">2</span><span>Africa</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Kilimanjaro Safaris</div>
-      <div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div>
-      <div class="trip-item-note">Signature wildlife experience and major family priority.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Na’vi: approximately 8–12 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">08:10</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">35–45 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Kilimanjaro+Safaris+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Kilimanjaro+Safaris+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Scheduled early to favor cooler temperatures and potentially more active animals.</div>
-      <div class="trip-detail-label">Next</div><div>Gorilla Falls: approximately 2 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 08:10 · leave prior stop by 07:58 · allow 35–45 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/kilimanjaro-safaris/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Kilimanjaro+Safaris+Disney+World+full+ride" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
+## Contingency order
 
-<div class="trip-item park-ak" id="activity-gorilla"
-     data-item-id="gorilla" data-state="pending"
-     data-start-time="08:55" data-leave-time=""
-     data-kind="planned" data-park="ak"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">3</span><span>Africa</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Gorilla Falls Exploration Trail</div>
-      <div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div>
-      <div class="trip-item-note">Animal trail that follows the Safari with almost no backtracking.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Safari exit: approximately 2 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">08:55</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Gorilla+Falls+Exploration+Trail+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Gorilla+Falls+Exploration+Trail+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Can be shortened if the Lightning Lane or Lion King timing tightens.</div>
-      <div class="trip-detail-label">Next</div><div>Flight of Passage or Lion King, depending actual times.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 08:55 · allow 20–30 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/gorilla-falls-exploration-trail/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Gorilla+Falls+Exploration+Trail+walkthrough" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-ak" id="activity-fop"
-     data-item-id="fop" data-state="pending"
-     data-start-time="09:40" data-leave-time="09:25"
-     data-kind="lightning" data-park="ak"
-     data-commitment="true">
-  <div class="trip-item-route"><span class="trip-item-number">4</span><span>Pandora</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Avatar Flight of Passage</div>
-      <div class="trip-item-badges"><span class="trip-badge lightning">⚡ Lightning Lane Single Pass</span><span class="trip-badge reservation">📅 Target window</span></div>
-      <div class="trip-item-note">Signature flying simulator. Replace this estimate with the purchased return window.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Gorilla Falls: approximately 10–15 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">09:40</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">25–40 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Avatar+Flight+of+Passage+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Avatar+Flight+of+Passage+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Planning estimate assumes a roughly 9:15–10:15 return window.</div>
-      <div class="trip-detail-label">Next</div><div>Festival of the Lion King: approximately 10–15 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 09:40 · leave prior stop by 09:25 · allow 25–40 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/avatar-flight-of-passage/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Avatar+Flight+of+Passage+ride+experience+video" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-ak" id="activity-lion-king"
-     data-item-id="lion-king" data-state="pending"
-     data-start-time="10:30" data-leave-time="10:10"
-     data-kind="show" data-park="ak"
-     data-commitment="true">
-  <div class="trip-item-route"><span class="trip-item-number">5</span><span>Africa</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Festival of the Lion King</div>
-      <div class="trip-item-badges"><span class="trip-badge show">🎭 Show</span><span class="trip-badge reservation">📅 Planned performance</span></div>
-      <div class="trip-item-note">High-priority live show and seated indoor break.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Flight of Passage: approximately 10–15 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">10:30</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">40 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Festival+of+the+Lion+King+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Festival+of+the+Lion+King+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Estimated 10:30 performance. Reconfirm the final published schedule.</div>
-      <div class="trip-detail-label">Next</div><div>Expedition Everest: approximately 10–15 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 10:30 · leave prior stop by 10:10 · allow 40 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/entertainment/animal-kingdom/festival-of-the-lion-king/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Festival+of+the+Lion+King+Disney+World+preview" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-ak" id="activity-everest"
-     data-item-id="everest" data-state="pending"
-     data-start-time="11:25" data-leave-time="11:10"
-     data-kind="planned" data-park="ak"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">6</span><span>Asia</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Expedition Everest</div>
-      <div class="trip-item-badges"><span class="trip-badge planned">🧭 Planned</span></div>
-      <div class="trip-item-note">High-priority adventurous coaster with a backward section.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Lion King: approximately 10–15 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">11:25</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">25–40 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Expedition+Everest+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Expedition+Everest+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Time includes walking and a moderate standby assumption.</div>
-      <div class="trip-detail-label">Next</div><div>Maharajah Jungle Trek: approximately 3–5 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 11:25 · leave prior stop by 11:10 · allow 25–40 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/expedition-everest/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Expedition+Everest+POV+Disney+World" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-ak" id="activity-maharajah"
-     data-item-id="maharajah" data-state="pending"
-     data-start-time="12:00" data-leave-time=""
-     data-kind="planned" data-park="ak"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">7</span><span>Asia · optional</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥉 Maharajah Jungle Trek</div>
-      <div class="trip-item-badges"><span class="trip-badge planned">🧭 Optional</span></div>
-      <div class="trip-item-note">Secondary animal trail; first item to skip if time or energy is short.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Everest: approximately 3–5 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">12:00</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">15–25 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Maharajah+Jungle+Trek+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Maharajah+Jungle+Trek+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Use only if the schedule is ahead and everyone wants another trail.</div>
-      <div class="trip-detail-label">Next</div><div>Zootopia: approximately 8–12 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 12:00 · allow 15–25 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/maharajah-jungle-trek/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Maharajah+Jungle+Trek+walkthrough" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-ak" id="activity-zootopia"
-     data-item-id="zootopia" data-state="pending"
-     data-start-time="12:25" data-leave-time="12:10"
-     data-kind="show" data-park="ak"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">8</span><span>Discovery Island</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥈 Zootopia: Better Zoogether!</div>
-      <div class="trip-item-badges"><span class="trip-badge show">🎭 Theater</span><span class="trip-badge planned">🧭 Planned</span></div>
-      <div class="trip-item-note">Immersive 4D theater experience and indoor break.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Asia: approximately 8–12 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">12:25</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Zootopia+Better+Zoogether+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Zootopia+Better+Zoogether+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Original estimate places this immediately before Tiffins because it is nearby.</div>
-      <div class="trip-detail-label">Next</div><div>Tiffins: approximately 3–6 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 12:25 · leave prior stop by 12:10 · allow 20–30 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/animal-kingdom/zootopia-better-zoogether/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Zootopia+Better+Zoogether+preview" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-ak" id="activity-tiffins"
-     data-item-id="tiffins" data-state="pending"
-     data-start-time="13:00" data-leave-time="12:50"
-     data-kind="meal" data-park="ak"
-     data-commitment="true">
-  <div class="trip-item-route"><span class="trip-item-number">9</span><span>Discovery Island</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Tiffins lunch</div>
-      <div class="trip-item-badges"><span class="trip-badge meal">🍽️ Dining</span><span class="trip-badge reservation">📅 Reserved</span></div>
-      <div class="trip-item-note">Confirmed dining reservation.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Zootopia: approximately 3–6 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">13:00</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">60–75 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Tiffins+Restaurant+Disney+Animal+Kingdom" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Tiffins+Restaurant+Disney+Animal+Kingdom&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Confirmed reservation at 1:00 p.m. Leave the prior stop around 12:50.</div>
-      <div class="trip-detail-label">Next</div><div>Animal Kingdom exit and park-to-park bus.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 13:00 · leave prior stop by 12:50 · allow 60–75 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/dining/animal-kingdom/tiffins/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Tiffins+Animal+Kingdom+restaurant+tour" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item transfer-card" id="activity-transfer-hs"
-     data-item-id="transfer-hs" data-state="pending"
-     data-start-time="14:20" data-leave-time="14:10"
-     data-kind="transfer" data-park="transfer"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">10</span><span>Park transfer</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Bus to Hollywood Studios</div>
-      <div class="trip-item-badges"><span class="trip-badge transfer">🚌 Transfer</span><span class="trip-badge planned">🧭 Planned</span></div>
-      <div class="trip-item-note">Direct park-to-park transfer.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Tiffins to exit: approximately 8–12 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">14:20</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">25–40 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Disney%27s+Hollywood+Studios" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Disney%27s+Hollywood+Studios&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Original plan assumes lunch ends around 2:10 p.m.</div>
-      <div class="trip-detail-label">Next</div><div>Slinky Dog or Rise, whichever return window comes first.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 14:20 · leave prior stop by 14:10 · allow 25–40 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/guest-services/bus-transportation/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Disney+World+park+to+park+bus" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-hs" id="activity-slinky"
-     data-item-id="slinky" data-state="pending"
-     data-start-time="15:20" data-leave-time="15:05"
-     data-kind="lightning" data-park="hs"
-     data-commitment="true">
-  <div class="trip-item-route"><span class="trip-item-number">11</span><span>Toy Story Land</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Slinky Dog Dash</div>
-      <div class="trip-item-badges"><span class="trip-badge lightning">⚡ Lightning Lane Multi Pass</span><span class="trip-badge reservation">📅 Target window</span></div>
-      <div class="trip-item-note">Highest-priority Studios Multi Pass attraction.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From park entrance: approximately 8–12 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">15:20</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–35 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Slinky+Dog+Dash+Disney+Hollywood+Studios" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Slinky+Dog+Dash+Disney+Hollywood+Studios&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Planning estimate assumes a return window around 3:00–4:00.</div>
-      <div class="trip-detail-label">Next</div><div>Rise of the Resistance: approximately 5–8 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 15:20 · leave prior stop by 15:05 · allow 20–35 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/slinky-dog-dash/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Slinky+Dog+Dash+POV+4K" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-hs" id="activity-rise"
-     data-item-id="rise" data-state="pending"
-     data-start-time="16:00" data-leave-time="15:48"
-     data-kind="lightning" data-park="hs"
-     data-commitment="true">
-  <div class="trip-item-route"><span class="trip-item-number">12</span><span>Galaxy’s Edge</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Rise of the Resistance</div>
-      <div class="trip-item-badges"><span class="trip-badge lightning">⚡ Lightning Lane Single Pass</span><span class="trip-badge reservation">📅 Target window</span></div>
-      <div class="trip-item-note">Large-scale Star Wars experience.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Slinky Dog: approximately 5–8 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">16:00</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">35–50 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Star+Wars+Rise+of+the+Resistance+Disney+Hollywood+Studios" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Star+Wars+Rise+of+the+Resistance+Disney+Hollywood+Studios&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Planning estimate assumes a return window around 3:30–4:30.</div>
-      <div class="trip-detail-label">Next</div><div>Runaway Railway: approximately 10–15 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 16:00 · leave prior stop by 15:48 · allow 35–50 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/star-wars-rise-of-the-resistance/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Rise+of+the+Resistance+spoiler+free+preview" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-hs" id="activity-runaway"
-     data-item-id="runaway" data-state="pending"
-     data-start-time="16:55" data-leave-time="16:40"
-     data-kind="lightning" data-park="hs"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">13</span><span>Hollywood Boulevard</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥈 Mickey & Minnie’s Runaway Railway</div>
-      <div class="trip-item-badges"><span class="trip-badge lightning">⚡ Possible Lightning Lane</span><span class="trip-badge planned">🧭 Conditional</span></div>
-      <div class="trip-item-note">Preferred secondary Studios attraction.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Rise: approximately 10–15 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">16:55</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–35 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Mickey+and+Minnie%27s+Runaway+Railway+Disney+Hollywood+Studios" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Mickey+and+Minnie%27s+Runaway+Railway+Disney+Hollywood+Studios&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Assumes same-day availability after redeeming Slinky Dog.</div>
-      <div class="trip-detail-label">Next</div><div>Star Tours: approximately 5–8 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 16:55 · leave prior stop by 16:40 · allow 20–35 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/mickey-minnies-runaway-railway/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Mickey+Minnies+Runaway+Railway+POV" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item park-hs" id="activity-star-tours"
-     data-item-id="star-tours" data-state="pending"
-     data-start-time="17:30" data-leave-time="17:20"
-     data-kind="lightning" data-park="hs"
-     data-commitment="false">
-  <div class="trip-item-route"><span class="trip-item-number">14</span><span>Echo Lake</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥈 Star Tours</div>
-      <div class="trip-item-badges"><span class="trip-badge lightning">⚡ Lightning Lane</span><span class="trip-badge planned">🧭 Conditional</span></div>
-      <div class="trip-item-note">Simulator option if time permits.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From Runaway Railway: approximately 5–8 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">17:30</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">20–30 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Star+Tours+Disney+Hollywood+Studios" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Star+Tours+Disney+Hollywood+Studios&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Skip if it threatens the Boma transportation buffer.</div>
-      <div class="trip-detail-label">Next</div><div>Hollywood Studios bus area: approximately 8–12 min.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 17:30 · leave prior stop by 17:20 · allow 20–30 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/attractions/hollywood-studios/star-tours/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Star+Tours+Disney+World+POV" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-<div class="trip-item transfer-card" id="activity-boma"
-     data-item-id="boma" data-state="pending"
-     data-start-time="19:00" data-leave-time="17:50"
-     data-kind="meal" data-park="transfer"
-     data-commitment="true">
-  <div class="trip-item-route"><span class="trip-item-number">15</span><span>Animal Kingdom Lodge</span></div>
-  <div class="trip-item-main">
-    <div>
-      <div class="trip-item-title">🥇 Boma dinner</div>
-      <div class="trip-item-badges"><span class="trip-badge meal">🍽️ Dining</span><span class="trip-badge reservation">📅 Reserved</span></div>
-      <div class="trip-item-note">Confirmed dining reservation.</div>
-      <div class="trip-item-travel"><strong>From previous:</strong> From park exit + bus: allow 30–45 min</div>
-      <div class="trip-time-panel">
-        <div class="trip-time-cell"><span class="trip-time-label">Planned</span><span class="trip-time-value">19:00</span></div>
-        <div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">75–90 min</span></div>
-        <div class="trip-time-cell countdown-cell"><span class="trip-time-label">Countdown</span><span class="trip-time-value trip-countdown">Calculated on load</span></div>
-      </div>
-    </div>
-    <button class="trip-item-state" type="button">⬜ Not decided</button>
-  </div>
-  <div class="trip-item-actions">
-    <a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Boma+Flavors+of+Africa+Disney+Animal+Kingdom+Lodge" target="_blank" rel="noopener">📍 Locate</a>
-    <a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Boma+Flavors+of+Africa+Disney+Animal+Kingdom+Lodge&travelmode=walking" target="_blank" rel="noopener">➜ Navigate</a>
-  </div>
-  <details>
-    <summary>More details and links</summary>
-    <div class="trip-detail-grid">
-      <div class="trip-detail-label">Why / planning</div><div>Confirmed reservation at 7:00 p.m. Leave Studios around 5:45–6:00.</div>
-      <div class="trip-detail-label">Next</div><div>Optional pool after dinner if energy remains.</div>
-    </div>
-    <div class="trip-original-plan"><strong>Original scheduled estimate:</strong> 19:00 · leave prior stop by 17:50 · allow 75–90 min.</div>
-    <div class="trip-detail-actions">
-      <a class="trip-action-link" href="https://disneyworld.disney.go.com/dining/animal-kingdom-lodge/boma-flavors-of-africa/" target="_blank" rel="noopener">📷 Official</a>
-      <a class="trip-action-link" href="https://www.youtube.com/results?search_query=Boma+Flavors+of+Africa+restaurant+tour" target="_blank" rel="noopener">▶️ Video</a>
-      <a class="trip-action-link" href="../park-maps/" target="_blank" rel="noopener">🗺️ Park maps</a>
-    </div>
-    <div class="trip-rating">
-      <div class="trip-rating-title">Family rating after the experience</div>
-      <div class="trip-rating-controls">
-        <button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button>
-        <button class="trip-revisit-toggle" type="button" aria-pressed="false">🔁 Revisit?</button>
-      </div>
-      <div class="trip-rating-summary">Not rated yet.</div>
-    </div>
-  </details>
-</div>
-
-  </div>
-</div>
+1. Maharajah Jungle Trek
+2. Runaway Railway
+3. Alien Swirling Saucers
+4. Zootopia only if needed to protect Tiffins
+5. Star Tours only if the park transfer is significantly delayed
