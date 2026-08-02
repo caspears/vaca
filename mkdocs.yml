@@ -47,16 +47,15 @@ extra_css:
   - assets/checklist.css
   - assets/activity-card.css
   - assets/display-mode.css
-  - assets/day-dashboard.css
   - assets/day-navigator.css
   - assets/production-day.css
   - assets/production-day-v1.0.1.css
+  - assets/revisit.css
 
 extra_javascript:
   - assets/checklist.js
   - assets/display-mode.js
-  - assets/day-dashboard.js
-  - assets/day-navigator.js
+  - assets/day-navigator-v1.0.2.js
   - assets/production-day.js
 
 nav:
@@ -65,6 +64,7 @@ nav:
       - Documentation Conventions: style-guide.md
       - Pre-Trip Checklist: pre-trip-checklist.md
       - Lightning Lane: lightning-lane.md
+  - Revisit List: revisit.md
   - Disney:
       - Overview: disney/overview.md
       - Park Maps: disney/park-maps.md
