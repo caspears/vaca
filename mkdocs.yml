@@ -50,6 +50,7 @@ extra_css:
   - assets/day-dashboard.css
   - assets/day-navigator.css
   - assets/production-day.css
+  - assets/production-day-v1.0.1.css
 
 extra_javascript:
   - assets/checklist.js
