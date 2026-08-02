@@ -1,0 +1,108 @@
+/* v1.5: numbered schematic route maps */
+
+.mini-map {
+  display: none !important;
+}
+
+.park-route-map {
+  margin: .9rem 0 1.2rem;
+  border: 2px solid var(--day-accent, var(--md-primary-fg-color));
+  border-radius: .9rem;
+  overflow: hidden;
+  background: rgba(255,255,255,.9);
+}
+
+html[data-trip-display="dark"] .park-route-map {
+  background: rgba(0,0,0,.18);
+}
+
+.park-route-map-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  padding: .65rem .75rem;
+  background: var(--day-accent, var(--md-primary-fg-color));
+  color: #fff;
+}
+
+.park-route-map-title {
+  font-weight: 900;
+}
+
+.park-route-map-note {
+  font-size: .75rem;
+  opacity: .92;
+}
+
+.park-route-map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+}
+
+.park-route-map .route-line {
+  fill: none;
+  stroke: var(--day-accent, #345995);
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: .38;
+}
+
+.park-route-map .route-stop circle {
+  fill: var(--day-accent, #345995);
+  stroke: #fff;
+  stroke-width: 4;
+}
+
+.park-route-map .route-stop text.stop-number {
+  fill: #fff;
+  font-size: 17px;
+  font-weight: 900;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.park-route-map .route-stop text.stop-label {
+  fill: #101318;
+  font-size: 16px;
+  font-weight: 850;
+  text-anchor: middle;
+}
+
+.park-route-map .route-stop text.stop-time {
+  fill: #46505c;
+  font-size: 13px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+html[data-trip-display="dark"] .park-route-map .route-stop text.stop-label {
+  fill: #f7f9fc;
+}
+
+html[data-trip-display="dark"] .park-route-map .route-stop text.stop-time {
+  fill: #d8dee8;
+}
+
+.park-route-map .route-stop:hover circle,
+.park-route-map .route-stop:focus circle {
+  filter: brightness(1.15);
+  stroke-width: 6;
+}
+
+@media (max-width: 620px) {
+  .park-route-map svg {
+    min-height: 330px;
+  }
+
+  .park-route-map .route-stop text.stop-label {
+    font-size: 14px;
+  }
+
+  .park-route-map .route-stop text.stop-time {
+    font-size: 12px;
+  }
+}

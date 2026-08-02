@@ -1,0 +1,95 @@
+/* v1.4: consistent day themes, compact attraction visuals and desktop layout fix */
+
+:root {
+  --day-bg: #eef2f5;
+  --day-accent: #455468;
+  --day-dark-bg: #202832;
+  --day-dark-card: #2d3744;
+}
+
+/* Keep the sticky navigator below Material's header, drawers and sidebars. */
+.trip-navigator {
+  z-index: 3 !important;
+  top: 4.1rem !important;
+}
+
+.md-header,
+.md-tabs,
+.md-sidebar,
+.md-overlay,
+.md-nav--primary {
+  z-index: 20 !important;
+}
+
+/* The old full-viewport section treatment ran underneath desktop sidebars. */
+.park-day-section {
+  margin: 1rem 0 !important;
+  padding: 1rem !important;
+  border-radius: .9rem;
+}
+
+/* Consistent themed background behind all daily cards. */
+.trip-checklist.theme-tl {
+  --day-bg: #dff7f8; --day-accent: #0d6574; --day-dark-bg: #123a47; --day-dark-card: #1f5260;
+}
+.trip-checklist.theme-mixed {
+  --day-bg: #e8f1e7; --day-accent: #285b35; --day-dark-bg: #18251c; --day-dark-card: #26382b;
+}
+.trip-checklist.theme-mk {
+  --day-bg: #e6efff; --day-accent: #244d9a; --day-dark-bg: #14264b; --day-dark-card: #243b68;
+}
+.trip-checklist.theme-epic {
+  --day-bg: #eee9ff; --day-accent: #4b3b87; --day-dark-bg: #1d1738; --day-dark-card: #30275a;
+}
+.trip-checklist.theme-ioa {
+  --day-bg: #e1f4f0; --day-accent: #17695f; --day-dark-bg: #123c38; --day-dark-card: #21574f;
+}
+.trip-checklist.theme-usf {
+  --day-bg: #e6edf5; --day-accent: #2c5077; --day-dark-bg: #14283e; --day-dark-card: #243e5a;
+}
+.trip-checklist.theme-departure {
+  --day-bg: #edf0f4; --day-accent: #455468; --day-dark-bg: #202832; --day-dark-card: #303b49;
+}
+
+.trip-checklist[class*="theme-"] {
+  margin: 1rem 0;
+  padding: .85rem;
+  border: 2px solid color-mix(in srgb, var(--day-accent) 58%, transparent);
+  border-radius: 1rem;
+  background: var(--day-bg);
+}
+
+.trip-checklist[class*="theme-"] .trip-item {
+  background: #fff !important;
+  color: #111318 !important;
+  border-color: color-mix(in srgb, var(--day-accent) 55%, #20242a) !important;
+  box-shadow: 0 2px 7px rgba(0,0,0,.10);
+}
+
+html[data-trip-display="dark"] .trip-checklist[class*="theme-"] {
+  background: var(--day-dark-bg);
+  border-color: color-mix(in srgb, var(--day-accent) 55%, #fff);
+}
+
+html[data-trip-display="dark"] .trip-checklist[class*="theme-"] .trip-item {
+  background: var(--day-dark-card) !important;
+  color: #f7f9fc !important;
+  border-color: color-mix(in srgb, var(--day-accent) 55%, #fff) !important;
+}
+
+html[data-trip-display="dark"] .trip-checklist[class*="theme-"] .trip-item-travel,
+html[data-trip-display="dark"] .trip-checklist[class*="theme-"] .trip-item-note {
+  color: #e6ebf1 !important;
+}
+
+@media (min-width: 1220px) {
+  .md-content__inner {
+    max-width: 100%;
+  }
+
+  .park-day-section,
+  .trip-checklist[class*="theme-"] {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
