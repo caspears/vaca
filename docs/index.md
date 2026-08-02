@@ -19,3 +19,14 @@
 - [ ] Confirm Three Broomsticks breakfast for Aug 13.
 - [ ] Move Leaky Cauldron breakfast to Aug 14.
 - [ ] Confirm Hard Rock after-checkout parking for Aug 15.
+
+## Live park conditions
+
+Each day page includes an experimental live panel:
+
+- Orlando forecast for that trip date when it is within the forecast horizon;
+- current waits for selected priority attractions;
+- manual refresh plus automatic updates;
+- graceful fallback to the official park apps if a third-party request is blocked.
+
+Current waits shown before a park day are reference data, not a prediction.

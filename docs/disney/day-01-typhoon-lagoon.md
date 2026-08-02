@@ -2,6 +2,30 @@
 
 <div class="trip-navigator" data-active-park="ak"><div class="trip-navigator-collapsed"><div class="trip-next-summary"><span class="trip-next-label">Next activity</span><div class="trip-next-title-line"><span data-nav="next-icon">📍</span><span class="trip-next-title" data-nav="next-title">Loading…</span><span class="trip-next-time" data-nav="next-time"></span></div></div><button class="trip-nav-icon-button" data-nav="toggle">▼</button><a class="trip-nav-icon-button" data-nav="jump" href="#">➜</a></div><div class="trip-navigator-expanded"><div class="trip-nav-progress"><div class="trip-nav-progress-fill"></div></div><div class="trip-navigator-grid"><div class="trip-nav-stat"><span class="trip-nav-stat-label">Progress</span><span class="trip-nav-stat-value" data-nav="progress">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Next timed commitment</span><span class="trip-nav-stat-value" data-nav="commitment">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Leave by</span><span class="trip-nav-stat-value" data-nav="leave">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Updated</span><span class="trip-nav-stat-value" data-nav="updated">—</span></div></div><div class="trip-nav-actions"><a class="trip-nav-action" data-nav="jump" href="#">➜ Jump to next</a><button class="trip-nav-action" data-nav="toggle">▲ Collapse</button></div></div></div>
 
+
+<div class="live-park-panel" data-trip-date="2026-08-09" data-queue-parks="[]" data-priority-rides="[]">
+  <div class="live-park-panel-header">
+    <span class="live-park-panel-title">🌦️ Live park conditions</span>
+    <button class="live-refresh" type="button">↻ Refresh</button>
+  </div>
+  <div class="live-park-grid">
+    <section class="live-card">
+      <h3>Orlando weather</h3>
+      <div data-live-weather>Loading forecast…</div>
+    </section>
+    <section class="live-card">
+      <h3>Priority attraction waits</h3>
+      <div data-live-waits>Loading current waits…</div>
+    </section>
+  </div>
+  <div class="live-source">
+    Updated <span data-live-updated>—</span>. Weather: Open-Meteo.
+    Wait times: <a href="https://queue-times.com/en-US" target="_blank" rel="noopener">Powered by Queue-Times.com</a>.
+    Before the trip, waits are a current reference—not a prediction. The official park apps remain authoritative.
+  </div>
+</div>
+
+
 ## Route summary
 <div class="mini-map"><div class="mini-map-header"><div class="mini-map-title">Route and timing</div><a class="mini-map-full" href="https://www.google.com/maps" target="_blank">🗺️ Full map</a></div><div class="mini-map-route"><a class="mini-map-stop" href="#activity-akl-precheck" data-target-item="activity-akl-precheck"><span class="mini-map-dot">1</span><span class="mini-map-label"><span class="summary-type-icon">🏨</span>Animal Kingdom Lodge pre-check-in <span class="route-time">(≈8:30)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-typhoon" data-target-item="activity-typhoon"><span class="mini-map-dot">2</span><span class="mini-map-label"><span class="summary-type-icon">🌊</span>Typhoon Lagoon <span class="route-time">(opening–3:45)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-jiko" data-target-item="activity-jiko"><span class="mini-map-dot">3</span><span class="mini-map-label"><span class="summary-type-icon">🍽️</span>Jiko <span class="route-time">(6:15)</span></span></a></div></div>
 

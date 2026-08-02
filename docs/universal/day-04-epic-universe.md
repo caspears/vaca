@@ -3,6 +3,30 @@
 <div class="trip-navigator" data-active-park="ak"><div class="trip-navigator-collapsed"><div class="trip-next-summary"><span class="trip-next-label">Next activity</span><div class="trip-next-title-line"><span data-nav="next-icon">📍</span><span class="trip-next-title" data-nav="next-title">Loading…</span><span class="trip-next-time" data-nav="next-time"></span></div></div><button class="trip-nav-icon-button" data-nav="toggle">▼</button><a class="trip-nav-icon-button" data-nav="jump" href="#">➜</a></div><div class="trip-navigator-expanded"><div class="trip-nav-progress"><div class="trip-nav-progress-fill"></div></div><div class="trip-navigator-grid"><div class="trip-nav-stat"><span class="trip-nav-stat-label">Progress</span><span class="trip-nav-stat-value" data-nav="progress">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Next timed commitment</span><span class="trip-nav-stat-value" data-nav="commitment">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Leave by</span><span class="trip-nav-stat-value" data-nav="leave">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Updated</span><span class="trip-nav-stat-value" data-nav="updated">—</span></div></div><div class="trip-nav-actions"><a class="trip-nav-action" data-nav="jump" href="#">➜ Jump to next</a><button class="trip-nav-action" data-nav="toggle">▲ Collapse</button></div></div></div>
 > **Breakfast-ticket action:** The travel document currently lists Café L’air de la Sirène for August 13. Confirm/change it to August 12.
 
+
+<div class="live-park-panel" data-trip-date="2026-08-12" data-queue-parks="[{&quot;id&quot;: 334, &quot;name&quot;: &quot;Epic Universe&quot;}]" data-priority-rides="[{&quot;parkId&quot;: 334, &quot;name&quot;: &quot;Mario Kart: Bowser's Challenge&quot;}, {&quot;parkId&quot;: 334, &quot;name&quot;: &quot;Harry Potter and the Battle at the Ministry&quot;}, {&quot;parkId&quot;: 334, &quot;name&quot;: &quot;Monsters Unchained: The Frankenstein Experiment&quot;}]">
+  <div class="live-park-panel-header">
+    <span class="live-park-panel-title">🌦️ Live park conditions</span>
+    <button class="live-refresh" type="button">↻ Refresh</button>
+  </div>
+  <div class="live-park-grid">
+    <section class="live-card">
+      <h3>Orlando weather</h3>
+      <div data-live-weather>Loading forecast…</div>
+    </section>
+    <section class="live-card">
+      <h3>Priority attraction waits</h3>
+      <div data-live-waits>Loading current waits…</div>
+    </section>
+  </div>
+  <div class="live-source">
+    Updated <span data-live-updated>—</span>. Weather: Open-Meteo.
+    Wait times: <a href="https://queue-times.com/en-US" target="_blank" rel="noopener">Powered by Queue-Times.com</a>.
+    Before the trip, waits are a current reference—not a prediction. The official park apps remain authoritative.
+  </div>
+</div>
+
+
 <div class="mini-map"><div class="mini-map-header"><div class="mini-map-title">Route and timing</div><a class="mini-map-full" href="https://www.google.com/maps" target="_blank">🗺️ Full map</a></div><div class="mini-map-route"><a class="mini-map-stop" href="#activity-early" data-target-item="activity-early"><span class="mini-map-dot">1</span><span class="mini-map-label"><span class="summary-type-icon">🧭</span>Early Park Admission <span class="route-time">(60 min before opening)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-nintendo" data-target-item="activity-nintendo"><span class="mini-map-dot">2</span><span class="mini-map-label"><span class="summary-type-icon">🎮</span>Super Nintendo World <span class="route-time">(morning)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-ministry" data-target-item="activity-ministry"><span class="mini-map-dot">3</span><span class="mini-map-label"><span class="summary-type-icon">🪄</span>Ministry of Magic <span class="route-time">(late morning)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-berk" data-target-item="activity-berk"><span class="mini-map-dot">4</span><span class="mini-map-label"><span class="summary-type-icon">🎭</span>Untrainable Dragon <span class="route-time">(showtime TBD)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-monsters" data-target-item="activity-monsters"><span class="mini-map-dot">5</span><span class="mini-map-label"><span class="summary-type-icon">⚡</span>Monsters Unchained <span class="route-time">(afternoon)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-blue" data-target-item="activity-blue"><span class="mini-map-dot">6</span><span class="mini-map-label"><span class="summary-type-icon">🍽️</span>Blue Dragon <span class="route-time">(5:15)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-goodnight" data-target-item="activity-goodnight"><span class="mini-map-dot">7</span><span class="mini-map-label"><span class="summary-type-icon">🎭</span>Celestial Goodnight <span class="route-time">(optional)</span></span></a></div></div>
 <div class="trip-checklist" data-day-id="2026-08-12" data-trip-date="2026-08-12">
 <div class="trip-item park-epic" id="activity-early" data-item-id="early" data-state="pending" data-kind="planned" data-park="epic" data-park-name="Epic Universe" data-commitment="false" data-window-label="Arrive 60 min before opening" data-leave-label="Be at security early" data-locate-url="https://www.google.com/maps/search/?api=1&query=Universal+Epic+Universe" data-navigate-url="https://www.google.com/maps/dir/?api=1&destination=Universal+Epic+Universe&travelmode=walking">

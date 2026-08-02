@@ -24,11 +24,13 @@ extra_css:
   - assets/production-day-v1.0.1.css
   - assets/revisit.css
   - assets/full-site.css
+  - assets/release-candidate.css
 extra_javascript:
   - assets/checklist.js
   - assets/display-mode.js
   - assets/trip-app.js
   - assets/production-day.js
+  - assets/live-park-data.js
 nav:
   - Home: index.md
   - Daily Plans:

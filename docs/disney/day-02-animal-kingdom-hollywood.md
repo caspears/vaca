@@ -4,6 +4,30 @@
 
 **Status:** 🟢 Reservations incorporated · family review pending
 
+
+<div class="live-park-panel" data-trip-date="2026-08-10" data-queue-parks="[{&quot;id&quot;: 8, &quot;name&quot;: &quot;Animal Kingdom&quot;}, {&quot;id&quot;: 7, &quot;name&quot;: &quot;Hollywood Studios&quot;}]" data-priority-rides="[{&quot;parkId&quot;: 8, &quot;name&quot;: &quot;Avatar Flight of Passage&quot;}, {&quot;parkId&quot;: 8, &quot;name&quot;: &quot;Kilimanjaro Safaris&quot;}, {&quot;parkId&quot;: 8, &quot;name&quot;: &quot;Expedition Everest&quot;}, {&quot;parkId&quot;: 7, &quot;name&quot;: &quot;Mickey & Minnie's Runaway Railway&quot;}, {&quot;parkId&quot;: 7, &quot;name&quot;: &quot;Star Tours&quot;}, {&quot;parkId&quot;: 7, &quot;name&quot;: &quot;Star Wars: Rise of the Resistance&quot;}, {&quot;parkId&quot;: 7, &quot;name&quot;: &quot;Slinky Dog Dash&quot;}]">
+  <div class="live-park-panel-header">
+    <span class="live-park-panel-title">🌦️ Live park conditions</span>
+    <button class="live-refresh" type="button">↻ Refresh</button>
+  </div>
+  <div class="live-park-grid">
+    <section class="live-card">
+      <h3>Orlando weather</h3>
+      <div data-live-weather>Loading forecast…</div>
+    </section>
+    <section class="live-card">
+      <h3>Priority attraction waits</h3>
+      <div data-live-waits>Loading current waits…</div>
+    </section>
+  </div>
+  <div class="live-source">
+    Updated <span data-live-updated>—</span>. Weather: Open-Meteo.
+    Wait times: <a href="https://queue-times.com/en-US" target="_blank" rel="noopener">Powered by Queue-Times.com</a>.
+    Before the trip, waits are a current reference—not a prediction. The official park apps remain authoritative.
+  </div>
+</div>
+
+
 ## Day at a glance
 
 🌿 **Animal Kingdom** · Early Entry through approximately 2:10 p.m.  

@@ -1,0 +1,163 @@
+/* v1.2 release-candidate stabilization */
+
+/* Each attribute/status is an independent, high-contrast pill. */
+.trip-item-badges {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem !important;
+  margin: .45rem 0 .35rem;
+}
+
+.trip-badge {
+  display: inline-flex !important;
+  align-items: center;
+  width: auto !important;
+  max-width: 100%;
+  min-height: 30px;
+  margin: 0 !important;
+  padding: .3rem .65rem !important;
+  border: 1px solid rgba(0,0,0,.24);
+  border-radius: 999px !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+  color: #fff !important;
+  font-size: .78rem;
+  font-weight: 850;
+  line-height: 1.15;
+  white-space: normal;
+}
+
+.trip-badge.planned { background: #2f6b3d !important; }
+.trip-badge.lightning { background: #0057c8 !important; }
+.trip-badge.show { background: #6c3ca3 !important; }
+.trip-badge.meal { background: #9a4500 !important; }
+.trip-badge.transfer { background: #455468 !important; }
+.trip-badge.extra { background: #7b4a00 !important; }
+.trip-badge.hotel { background: #136e59 !important; }
+.trip-badge.flight { background: #173d73 !important; }
+.trip-badge.confirmed { background: #4d367b !important; }
+
+html[data-trip-display="sunlight"] .trip-badge,
+html[data-trip-display="light"] .trip-badge {
+  border-color: rgba(0,0,0,.42);
+  box-shadow: none;
+}
+
+/* Live weather and wait-time panel */
+.live-park-panel {
+  margin: .85rem 0 1.1rem;
+  border: 2px solid var(--md-primary-fg-color);
+  border-radius: .85rem;
+  overflow: hidden;
+  background: var(--trip-card-bg);
+  color: var(--trip-text);
+}
+
+.live-park-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  padding: .65rem .75rem;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+.live-park-panel-title {
+  font-weight: 900;
+}
+
+.live-refresh {
+  min-height: 38px;
+  border: 1px solid rgba(255,255,255,.75);
+  border-radius: 999px;
+  padding: .35rem .65rem;
+  background: rgba(255,255,255,.14);
+  color: #fff;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.live-park-grid {
+  display: grid;
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr);
+  gap: .7rem;
+  padding: .75rem;
+}
+
+.live-card {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .7rem;
+  padding: .65rem;
+  background: var(--trip-action-bg);
+}
+
+.live-card h3 {
+  margin: 0 0 .45rem;
+  font-size: 1rem;
+}
+
+.live-weather-main {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.live-muted {
+  color: var(--trip-muted);
+  font-size: .82rem;
+}
+
+.live-rides {
+  display: grid;
+  gap: .42rem;
+}
+
+.live-ride {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: .5rem;
+  align-items: center;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: .38rem;
+}
+
+.live-ride:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.live-wait {
+  border-radius: 999px;
+  padding: .24rem .48rem;
+  background: #e4e8ef;
+  color: #111;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.live-wait.open-short { background: #d6f0dd; color: #155c2a; }
+.live-wait.open-medium { background: #fff1c9; color: #684b00; }
+.live-wait.open-long { background: #f5d6d2; color: #7a2218; }
+.live-wait.closed { background: #dfe2e7; color: #454b55; }
+
+.live-source {
+  padding: 0 .75rem .7rem;
+  font-size: .78rem;
+  color: var(--trip-muted);
+}
+
+.live-source a {
+  font-weight: 800;
+}
+
+.live-error {
+  border-left: .3rem solid #a33;
+  padding-left: .55rem;
+}
+
+@media (max-width: 650px) {
+  .live-park-grid {
+    grid-template-columns: 1fr;
+  }
+}
