@@ -1,0 +1,10 @@
+Delete these files if they were copied into the repository from the prior incremental patch:
+
+docs/disney/day-01-checklist.md
+docs/disney/day-02-checklist.md
+docs/disney/day-03-checklist.md
+docs/FOOD-SUGGESTIONS.md
+MKDOCS-PATCH.md
+README-UPDATE.md
+
+They were patch instructions, not intended as published site pages.

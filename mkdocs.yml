@@ -9,6 +9,7 @@ theme:
     - navigation.footer
     - search.suggest
     - search.highlight
+    - content.action.edit
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -24,8 +25,10 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
 plugins:
   - search
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -38,6 +41,13 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+
+extra_css:
+  - assets/checklist.css
+
+extra_javascript:
+  - assets/checklist.js
+
 nav:
   - Home: index.md
   - Start Here:
@@ -52,7 +62,7 @@ nav:
   - Universal:
       - Overview: universal/overview.md
       - Aug 12 — Epic Universe: universal/day-04-epic-universe.md
-      - Aug 13 — Islands of Adventure: universal/day-05-islands-of-adventure.md
+      - Aug 13 — Islands of Adventure: universal/day-05-islands-adventure.md
       - Aug 14 — Universal Studios Florida: universal/day-06-universal-studios.md
       - Aug 15 — Departure Day: universal/day-07-departure.md
   - Reference:
