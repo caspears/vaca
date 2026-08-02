@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfeef2"/>
+      <stop offset="1" stop-color="#def9fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" rx="18" fill="url(#g)"/>
+  <circle cx="258" cy="45" r="58" fill="#0d5e70" opacity=".13"/>
+  <circle cx="285" cy="145" r="76" fill="#0d5e70" opacity=".10"/>
+  <path d="M0 145 C70 105 115 175 190 130 S275 105 320 132 V180 H0Z" fill="#0d5e70" opacity=".18"/>
+  <text x="242" y="80" text-anchor="middle" font-size="58">🏨</text>
+  <text x="18" y="68" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#123a47">
+    <tspan x="18" dy="0">Animal Kingdom Lodge</tspan><tspan x="18" dy="24">pre-check-in</tspan>
+  </text>
+  <rect x="18" y="145" width="92" height="8" rx="4" fill="#0d5e70" opacity=".75"/>
+</svg>

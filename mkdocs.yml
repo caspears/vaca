@@ -25,6 +25,7 @@ extra_css:
   - assets/revisit.css
   - assets/full-site.css
   - assets/release-candidate.css
+  - assets/theme-thumbnails.css
 extra_javascript:
   - assets/vacation-api-config.js
   - assets/checklist.js
@@ -42,6 +43,9 @@ nav:
       - Aug 13 — Islands of Adventure: universal/day-05-islands-of-adventure.md
       - Aug 14 — Universal Studios Florida: universal/day-06-universal-studios.md
       - Aug 15 — Departure: universal/day-07-departure.md
+  - Park Overviews:
+      - Disney: disney/overview.md
+      - Universal: universal/overview.md
   - Revisit List: revisit.md
   - Planning:
       - Checklist: pre-trip-checklist.md
@@ -49,4 +53,7 @@ nav:
       - Dining: dining.md
       - Transportation: transportation.md
       - Disney Maps: disney/park-maps.md
+      - Souvenir Strategy: souvenir-strategy.md
       - Documentation Conventions: style-guide.md
+  - About:
+      - Change Log: changelog.md
