@@ -1,16 +1,16 @@
 # Change Log
 
-## 0.3.1 — August 10 sunlight and mapping prototype
+## 0.4 — Complete August 10 mobile prototype
 
-- Added persistent Sunlight, Light, and Dark display controls.
-- Made Sunlight mode the default.
-- Increased text and border contrast for outdoor use.
-- Added restrained Animal Kingdom, Hollywood Studios, and transfer color accents.
-- Replaced generic map buttons with attraction-specific Google Maps Locate and Navigate links.
-- Moved official pages, videos, and general park maps into expandable details.
-- Added a Disney Park Maps page to the primary Disney navigation.
+- Replaced the large dashboard with a compact one-line sticky navigator.
+- Added expandable dashboard details and persistent expansion state.
+- Added separate expand and jump-to-next controls.
+- Added park-aware Animal Kingdom, Hollywood Studios, and transfer theming.
+- Preserved Outdoor, Light, and Dark display modes.
+- Added scheduled-status icons, Lightning Lane bolt badges, countdowns, and leave-by information.
+- Added persistent 1–5 star family ratings and a revisit marker for every activity.
+- Retained browser-local checklist state and attraction navigation links.
 
-## 0.3 — August 10 activity-card prototype
+## 0.3.2 — Scheduled status prototype
 
-- Added numbered route and mobile activity cards.
-- Added travel estimates, official links, videos, and expandable details.
+- Added timed commitments, countdowns, badges, and original planned estimates.
