@@ -1,16 +1,10 @@
-# Install v0.2.1
+# v0.2.2 install
 
-1. Delete the files listed in `REMOVE-THESE-FILES.txt` if they exist.
-2. Copy the contents of this ZIP into the repository root.
-3. Allow existing files to be replaced.
-4. Commit and push to `main`.
-5. Wait for GitHub Pages deployment to finish.
-6. Open one of the Disney daily pages on a phone.
-7. Tap a status button repeatedly and confirm this cycle:
-   - Not decided
-   - Completed
-   - Skipped
-   - Not decided
-8. Refresh the page and confirm the selected state remains.
+1. Copy `mkdocs.yml` to the repository root, replacing the current file.
+2. Copy `docs/index.md` to `docs/index.md`, replacing the current file.
+3. Commit and push to `main`.
 
-No manual editing or merging is required.
+This fixes:
+- the incorrect navigation path for `day-05-islands-of-adventure.md`;
+- the strict-build warning;
+- missing links in the itinerary-at-a-glance table.
