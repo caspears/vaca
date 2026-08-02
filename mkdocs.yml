@@ -1,5 +1,6 @@
 site_name: Orlando Family Vacation 2026
 site_description: Family review guide and vacation playbook for Disney and Universal Orlando
+
 theme:
   name: material
   features:
@@ -44,9 +45,12 @@ markdown_extensions:
 
 extra_css:
   - assets/checklist.css
+  - assets/activity-card.css
+  - assets/display-mode.css
 
 extra_javascript:
   - assets/checklist.js
+  - assets/display-mode.js
 
 nav:
   - Home: index.md
@@ -56,6 +60,7 @@ nav:
       - Lightning Lane: lightning-lane.md
   - Disney:
       - Overview: disney/overview.md
+      - Park Maps: disney/park-maps.md
       - Aug 9 — Typhoon Lagoon: disney/day-01-typhoon-lagoon.md
       - Aug 10 — Animal Kingdom & Hollywood Studios: disney/day-02-animal-kingdom-hollywood.md
       - Aug 11 — Magic Kingdom: disney/day-03-magic-kingdom.md

@@ -1,17 +1,16 @@
 # Change Log
 
-## 0.2.1 — Corrected mobile checklist package
+## 0.3.1 — August 10 sunlight and mapping prototype
 
-- Replaced instructional placeholder pages with complete daily pages.
-- Added checklist JavaScript and CSS directly to the published site.
-- Added support for Material for MkDocs instant navigation.
-- Added mobile three-state status controls and browser-local persistence.
-- Added meal suggestions directly to Disney daily pages.
+- Added persistent Sunlight, Light, and Dark display controls.
+- Made Sunlight mode the default.
+- Increased text and border contrast for outdoor use.
+- Added restrained Animal Kingdom, Hollywood Studios, and transfer color accents.
+- Replaced generic map buttons with attraction-specific Google Maps Locate and Navigate links.
+- Moved official pages, videos, and general park maps into expandable details.
+- Added a Disney Park Maps page to the primary Disney navigation.
 
-## 0.2 — Initial checklist patch
+## 0.3 — August 10 activity-card prototype
 
-- Superseded by 0.2.1 because the package required manual merging and could be misapplied.
-
-## 0.1 — Initial family-review repository
-
-- Added site framework and initial Disney planning pages.
+- Added numbered route and mobile activity cards.
+- Added travel estimates, official links, videos, and expandable details.
