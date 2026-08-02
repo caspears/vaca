@@ -1,0 +1,7 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vaca-live-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-02",
+  "observability": {"enabled": true}
+}

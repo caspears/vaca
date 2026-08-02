@@ -26,6 +26,7 @@ extra_css:
   - assets/full-site.css
   - assets/release-candidate.css
 extra_javascript:
+  - assets/vacation-api-config.js
   - assets/checklist.js
   - assets/display-mode.js
   - assets/trip-app.js

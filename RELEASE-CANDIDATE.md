@@ -1,3 +1,19 @@
+# Orlando Vacation Site v1.3 Release Candidate
+
+## v1.3 live companion
+
+- Cloudflare Worker CORS proxy with five-minute caching.
+- One combined request per day page for weather and relevant parks.
+- Ride-level weather near planned times.
+- Conservative Level 1 guidance:
+  - Use reserved access
+  - Good standby opportunity
+  - Wait for later
+  - Protect the schedule
+  - Weather caution
+- Polling pauses while the page is hidden and refreshes when reopened.
+- Automated PowerShell deployment/configuration script.
+
 # Orlando Vacation Site v1.2 Release Candidate
 
 ## v1.2.1 refinements
