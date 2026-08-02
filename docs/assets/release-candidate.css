@@ -161,3 +161,50 @@ html[data-trip-display="light"] .trip-badge {
     grid-template-columns: 1fr;
   }
 }
+
+/* v1.2.1 spacing and linked live waits */
+.trip-time-cell {
+  display: flex !important;
+  flex-direction: column;
+  gap: .22rem;
+}
+
+.trip-time-label {
+  display: block !important;
+  margin: 0 0 .12rem !important;
+  line-height: 1.15;
+}
+
+.trip-time-value {
+  display: block !important;
+  line-height: 1.28;
+}
+
+.live-weather-windows {
+  display: grid;
+  gap: .3rem;
+  margin-top: .5rem;
+  padding-top: .45rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.live-wait-link {
+  text-decoration: none;
+}
+
+.card-live-wait {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 999px;
+  padding: .3rem .62rem;
+  color: #111 !important;
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.card-live-wait.open-short { background:#d6f0dd; color:#155c2a !important; }
+.card-live-wait.open-medium { background:#fff1c9; color:#684b00 !important; }
+.card-live-wait.open-long { background:#f5d6d2; color:#7a2218 !important; }
+.card-live-wait.closed { background:#dfe2e7; color:#454b55 !important; }

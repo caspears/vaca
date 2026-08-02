@@ -1,5 +1,12 @@
 # Orlando Vacation Site v1.2 Release Candidate
 
+## v1.2.1 refinements
+
+- Shows approximate hourly start/end windows for rain and thunderstorms.
+- Adds a linked current Queue-Times wait inside each matched ride card, before **Next**.
+- Makes priority wait badges in the live panel link to the Queue-Times attraction page.
+- Adds consistent spacing between **Window / time**, **Leave by**, **Allow**, and their values.
+
 ## Included fixes
 
 - Removed the duplicate `orlando-vacation-site-starter/` directory.
