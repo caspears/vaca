@@ -1,48 +1,20 @@
 site_name: Orlando Family Vacation 2026
-site_description: Family review guide and vacation playbook for Disney and Universal Orlando
-
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - navigation.footer
     - search.suggest
-    - search.highlight
-    - content.action.edit
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      accent: amber
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      accent: amber
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
 plugins:
   - search
-
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
   - tables
-  - toc:
-      permalink: true
   - pymdownx.details
-  - pymdownx.emoji
   - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-
 extra_css:
   - assets/checklist.css
   - assets/activity-card.css
@@ -51,34 +23,27 @@ extra_css:
   - assets/production-day.css
   - assets/production-day-v1.0.1.css
   - assets/revisit.css
-
+  - assets/full-site.css
 extra_javascript:
   - assets/checklist.js
   - assets/display-mode.js
-  - assets/day-navigator-v1.0.2.js
+  - assets/trip-app.js
   - assets/production-day.js
-
 nav:
   - Home: index.md
-  - Start Here:
-      - Documentation Conventions: style-guide.md
-      - Pre-Trip Checklist: pre-trip-checklist.md
-      - Lightning Lane: lightning-lane.md
-  - Revisit List: revisit.md
-  - Disney:
-      - Overview: disney/overview.md
-      - Park Maps: disney/park-maps.md
+  - Daily Plans:
       - Aug 9 — Typhoon Lagoon: disney/day-01-typhoon-lagoon.md
       - Aug 10 — Animal Kingdom & Hollywood Studios: disney/day-02-animal-kingdom-hollywood.md
       - Aug 11 — Magic Kingdom: disney/day-03-magic-kingdom.md
-  - Universal:
-      - Overview: universal/overview.md
       - Aug 12 — Epic Universe: universal/day-04-epic-universe.md
       - Aug 13 — Islands of Adventure: universal/day-05-islands-of-adventure.md
       - Aug 14 — Universal Studios Florida: universal/day-06-universal-studios.md
-      - Aug 15 — Departure Day: universal/day-07-departure.md
-  - Reference:
-      - Transportation: transportation.md
+      - Aug 15 — Departure: universal/day-07-departure.md
+  - Revisit List: revisit.md
+  - Planning:
+      - Checklist: pre-trip-checklist.md
+      - Lightning Lane: lightning-lane.md
       - Dining: dining.md
-      - Souvenir Strategy: souvenir-strategy.md
-      - Change Log: changelog.md
+      - Transportation: transportation.md
+      - Disney Maps: disney/park-maps.md
+      - Documentation Conventions: style-guide.md

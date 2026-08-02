@@ -1,14 +1,13 @@
-# Transportation Guide
+# Transportation
 
-| Segment | Recommended mode | Planning allowance |
+| Segment | Plan | Allow |
 |---|---|---:|
-| Gaylord Palms → Animal Kingdom Lodge | Rental car | 20–30 min plus unloading |
-| Animal Kingdom Lodge → Typhoon Lagoon | Rental car | 15–25 min including parking |
-| Lodge → Animal Kingdom | Disney bus | 30–45 min door to gate |
-| Animal Kingdom → Hollywood Studios | Disney bus | 25–40 min |
-| Hollywood Studios → Lodge | Disney bus | 30–45 min |
-| Lodge → Magic Kingdom | Disney bus | 35–50 min |
-| Lodge → Hard Rock | Rental car | 30–45 min |
-| Hard Rock → Epic Universe | Universal hotel shuttle | Reconfirm schedule |
-| Hard Rock → Islands of Adventure | Walk | About 10–15 min |
-| Hard Rock → Universal Studios | Walk or water taxi | About 10–20 min |
+| Animal Kingdom Lodge → Disney parks | Disney bus | 30–50 min |
+| Animal Kingdom → Hollywood Studios | Park-to-park bus | 25–40 min |
+| Animal Kingdom Lodge → Hard Rock | Rental car | 30–45 min |
+| Hard Rock → USF/IOA | Walk or water taxi | 10–20 min |
+| Hard Rock → Epic Universe | Hotel shuttle | Reconfirm |
+| Hard Rock → MCO | Rental car | 30–50 min plus return |
+
+## August 15
+Leave luggage with Bell Services and keep the car at Hard Rock. Return around 2:15–2:45 and drive directly to MCO.

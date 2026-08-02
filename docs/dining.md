@@ -1,21 +1,12 @@
-# Dining Guide
+# Dining and Included Food
 
-| Date | Meal | Time | Location |
-|---|---|---:|---|
-| Aug 9 | Dinner | 6:15 p.m. | Jiko |
-| Aug 10 | Lunch | 1:00 p.m. | Tiffins |
-| Aug 10 | Dinner | 7:00 p.m. | Boma |
-| Aug 11 | Breakfast | After first rides | Friar’s Nook |
-| Aug 12 | Dinner | 5:15 p.m. | Blue Dragon |
-| Aug 13 | Late lunch | 2:00 p.m. | Mythos |
-| Aug 13 | Dinner | Flexible | Hard Rock pool/hotel |
+| Date | Item | Time / placement |
+|---|---|---|
+| Aug 9 | Jiko | 6:15 |
+| Aug 10 | Tiffins / Boma | 1:00 / 7:00 |
+| Aug 11 | Friar’s Nook | after rope drop |
+| Aug 12 | Café L’air de la Sirène / Blue Dragon | before 10 / 5:15 |
+| Aug 13 | Three Broomsticks / Mythos | before 10 / 2:00 |
+| Aug 14 | Leaky Cauldron / Florean flight + cooler bag | 9:00 / afternoon |
 
-## Seating requests
-
-### Blue Dragon
-
-Request the immersive main dining area, ideally where the dragons and lanterns are visible. Mention the birthday celebration.
-
-### Mythos
-
-Request indoor seating near the windows with a lagoon view. Mention the birthday celebration.
+The Florean product includes the four-flavor ice-cream flight and one Honeydukes cooler bag together.

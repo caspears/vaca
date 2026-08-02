@@ -1,159 +1,21 @@
 # August 9 — Typhoon Lagoon and Animal Kingdom Lodge
 
-**Status:** 🟡 Family review
+<div class="trip-navigator" data-active-park="ak"><div class="trip-navigator-collapsed"><div class="trip-next-summary"><span class="trip-next-label">Next activity</span><div class="trip-next-title-line"><span data-nav="next-icon">📍</span><span class="trip-next-title" data-nav="next-title">Loading…</span><span class="trip-next-time" data-nav="next-time"></span></div></div><button class="trip-nav-icon-button" data-nav="toggle">▼</button><a class="trip-nav-icon-button" data-nav="jump" href="#">➜</a></div><div class="trip-navigator-expanded"><div class="trip-nav-progress"><div class="trip-nav-progress-fill"></div></div><div class="trip-navigator-grid"><div class="trip-nav-stat"><span class="trip-nav-stat-label">Progress</span><span class="trip-nav-stat-value" data-nav="progress">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Next timed commitment</span><span class="trip-nav-stat-value" data-nav="commitment">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Leave by</span><span class="trip-nav-stat-value" data-nav="leave">Loading…</span></div><div class="trip-nav-stat"><span class="trip-nav-stat-label">Updated</span><span class="trip-nav-stat-value" data-nav="updated">—</span></div></div><div class="trip-nav-actions"><a class="trip-nav-action" data-nav="jump" href="#">➜ Jump to next</a><button class="trip-nav-action" data-nav="toggle">▲ Collapse</button></div></div></div>
 
-## Daily mission
+## Route summary
+<div class="mini-map"><div class="mini-map-header"><div class="mini-map-title">Route and timing</div><a class="mini-map-full" href="https://www.google.com/maps" target="_blank">🗺️ Full map</a></div><div class="mini-map-route"><a class="mini-map-stop" href="#activity-akl-precheck" data-target-item="activity-akl-precheck"><span class="mini-map-dot">1</span><span class="mini-map-label"><span class="summary-type-icon">🏨</span>Animal Kingdom Lodge pre-check-in <span class="route-time">(≈8:30)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-typhoon" data-target-item="activity-typhoon"><span class="mini-map-dot">2</span><span class="mini-map-label"><span class="summary-type-icon">🌊</span>Typhoon Lagoon <span class="route-time">(opening–3:45)</span></span></a><div class="mini-map-connector"></div><a class="mini-map-stop" href="#activity-jiko" data-target-item="activity-jiko"><span class="mini-map-dot">3</span><span class="mini-map-label"><span class="summary-type-icon">🍽️</span>Jiko <span class="route-time">(6:15)</span></span></a></div></div>
 
-Start the Orlando portion of the trip with a full but low-stress water-park day, then settle into Animal Kingdom Lodge, enjoy Jiko, and explore the resort.
-
-## Day-of checklist
-
-
-<div class="trip-checklist" data-day-id="2026-08-09">
-  <div class="trip-checklist-toolbar">
-    <div class="trip-checklist-summary">Loading checklist…</div>
-    <button class="trip-checklist-button" type="button" data-action="toggle-finished">Show unfinished only</button>
-    <button class="trip-checklist-button" type="button" data-action="reset-day">Reset this day</button>
-  </div>
-  <div class="trip-checklist-items">
-
-  <div class="trip-item" data-item-id="akl-precheck" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥇 Pre-check in at Animal Kingdom Lodge</div>
-        <div class="trip-item-note">Leave luggage and confirm tickets.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="crush-gusher" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥇 Crush ’n’ Gusher</div>
-        <div class="trip-item-note">First water-park priority.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="miss-adventure" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥇 Miss Adventure Falls</div>
-        <div class="trip-item-note">Family raft attraction.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="gangplank" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥈 Gangplank Falls</div>
-        <div class="trip-item-note">Group raft ride.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="surf-pool" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥈 Surf Pool</div>
-        <div class="trip-item-note">Choose a comfortable depth.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="castaway" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥈 Castaway Creek</div>
-        <div class="trip-item-note">Recovery time.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="leave-waterpark" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥇 Leave by about 3:45 p.m.</div>
-        <div class="trip-item-note">Protect shower and dinner time.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="jiko" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥇 Jiko at 6:15 p.m.</div>
-        <div class="trip-item-note">Fixed reservation.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  <div class="trip-item" data-item-id="akl-evening" data-state="pending">
-    <div class="trip-item-main">
-      <div>
-        <div class="trip-item-title">🥈 Explore lodge / optional pool</div>
-        <div class="trip-item-note">After dinner if energy remains.</div>
-      </div>
-      <button class="trip-item-state" type="button">⬜ Not decided</button>
-    </div>
-  </div>
-  </div>
+<div class="trip-checklist" data-day-id="2026-08-09" data-trip-date="2026-08-09">
+<div class="trip-item park-tl" id="activity-akl-precheck" data-item-id="akl-precheck" data-state="pending" data-kind="hotel" data-park="tl" data-park-name="Typhoon Lagoon / Resort" data-commitment="false" data-window-label="≈8:30 a.m." data-leave-label="Leave Gaylord around 8:00" data-locate-url="https://www.google.com/maps/search/?api=1&query=Disney+Animal+Kingdom+Lodge" data-navigate-url="https://www.google.com/maps/dir/?api=1&destination=Disney+Animal+Kingdom+Lodge&travelmode=walking">
+<div class="trip-item-route"><span class="trip-item-number">1</span><span>Animal Kingdom Lodge</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥈 Animal Kingdom Lodge pre-check-in</div><div class="trip-item-badges"><span class="trip-badge hotel">🏨 Hotel</span><span class="trip-badge confirmed">◆ Required stop</span></div><div class="trip-item-travel"><strong>From previous:</strong> Gaylord Palms, 20–30 min drive</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Time</span><span class="trip-time-value">≈8:30 a.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Leave Gaylord around 8:00</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">25–40 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Disney+Animal+Kingdom+Lodge" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Disney+Animal+Kingdom+Lodge&travelmode=walking" target="_blank">➜ Navigate</a></div><details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Leave luggage, confirm tickets and room/shower plan, then drive to Typhoon Lagoon.</div><div class="trip-detail-label">Next</div><div>Typhoon Lagoon opening</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="#" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Animal+Kingdom+Lodge+pre-check-in" target="_blank">▶️ Video</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button><button class="trip-rating-clear" type="button" hidden>Clear rating</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-tl" id="activity-typhoon" data-item-id="typhoon" data-state="pending" data-kind="planned" data-park="tl" data-park-name="Typhoon Lagoon" data-commitment="false" data-window-label="Opening–≈3:45 p.m." data-leave-label="Arrive before opening" data-locate-url="https://www.google.com/maps/search/?api=1&query=Disney+Typhoon+Lagoon" data-navigate-url="https://www.google.com/maps/dir/?api=1&destination=Disney+Typhoon+Lagoon&travelmode=walking">
+<div class="trip-item-route"><span class="trip-item-number">2</span><span>Water park</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥈 Typhoon Lagoon priorities</div><div class="trip-item-badges"><span class="trip-badge planned">🌊 Water park</span></div><div class="trip-item-travel"><strong>From previous:</strong> Animal Kingdom Lodge, 15–25 min drive</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Time</span><span class="trip-time-value">Opening–≈3:45 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Arrive before opening</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">5–6 hr</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Disney+Typhoon+Lagoon" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Disney+Typhoon+Lagoon&travelmode=walking" target="_blank">➜ Navigate</a></div><details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Prioritize Crush ’n’ Gusher, Miss Adventure Falls, Gangplank Falls, Surf Pool and Castaway Creek. Lunch around 11:30 nearby.</div><div class="trip-detail-label">Next</div><div>Return to lodge</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="#" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Typhoon+Lagoon+priorities" target="_blank">▶️ Video</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button><button class="trip-rating-clear" type="button" hidden>Clear rating</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div><div class="trip-item park-resort" id="activity-jiko" data-item-id="jiko" data-state="pending" data-kind="meal" data-park="resort" data-park-name="Animal Kingdom Lodge" data-commitment="false" data-window-label="6:15 p.m." data-leave-label="Be showered and ready by 5:55" data-locate-url="https://www.google.com/maps/search/?api=1&query=Jiko+The+Cooking+Place+Disney" data-navigate-url="https://www.google.com/maps/dir/?api=1&destination=Jiko+The+Cooking+Place+Disney&travelmode=walking">
+<div class="trip-item-route"><span class="trip-item-number">3</span><span>Animal Kingdom Lodge</span></div><div class="trip-item-main"><div><div class="trip-item-title">🥈 Jiko dinner</div><div class="trip-item-badges"><span class="trip-badge meal">🍽️ Dining</span><span class="trip-badge confirmed">◆ Reserved</span></div><div class="trip-item-travel"><strong>From previous:</strong> Room / pool area</div><div class="trip-time-panel"><div class="trip-time-cell"><span class="trip-time-label">Time</span><span class="trip-time-value">6:15 p.m.</span></div><div class="trip-time-cell"><span class="trip-time-label">Leave by</span><span class="trip-time-value">Be showered and ready by 5:55</span></div><div class="trip-time-cell"><span class="trip-time-label">Allow</span><span class="trip-time-value">75–90 min</span></div></div></div><button class="trip-item-state">⬜ Not decided</button></div>
+<div class="trip-item-actions"><a class="trip-action-link primary" href="https://www.google.com/maps/search/?api=1&query=Jiko+The+Cooking+Place+Disney" target="_blank">📍 Locate</a><a class="trip-action-link primary" href="https://www.google.com/maps/dir/?api=1&destination=Jiko+The+Cooking+Place+Disney&travelmode=walking" target="_blank">➜ Navigate</a></div><details><summary>More details and links</summary><div class="trip-detail-grid"><div class="trip-detail-label">Why / planning</div><div>Fixed reservation.</div><div class="trip-detail-label">Next</div><div>Lodge exploration / optional pool</div></div><div class="trip-detail-actions"><a class="trip-action-link" href="#" target="_blank">📷 Official</a><a class="trip-action-link" href="https://www.youtube.com/results?search_query=Jiko+dinner" target="_blank">▶️ Video</a></div><div class="trip-rating"><div class="trip-rating-title">Family rating after the experience</div><div class="trip-rating-controls"><button class="trip-rating-star" type="button" data-rating-value="1" aria-label="1 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="2" aria-label="2 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="3" aria-label="3 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="4" aria-label="4 stars">★</button><button class="trip-rating-star" type="button" data-rating-value="5" aria-label="5 stars">★</button><button class="trip-rating-clear" type="button" hidden>Clear rating</button><button class="trip-revisit-toggle" type="button">🔁 Revisit?</button></div><div class="trip-rating-summary">Not rated yet.</div></div></details></div>
 </div>
 
-
-## At a glance
-
-| Approximate time | Plan |
-|---:|---|
-| 8:00 a.m. | Check out of Gaylord Palms |
-| 8:25–8:45 | Arrive Animal Kingdom Lodge |
-| 8:45–9:10 | Pre-check-in and leave luggage |
-| 9:10–9:35 | Drive to Typhoon Lagoon |
-| Before 10:00 | Park and queue for opening |
-| 10:00–3:45 | Water park |
-| 3:45–4:15 | Drive to lodge |
-| 4:15–5:45 | Room, showers, and change |
-| 6:15 | Jiko |
-| After dinner | Lodge exploration and optional pool |
-
-## Food plan
-
-### Breakfast
-
-🥇 Eat at Gaylord Palms before checkout.  
-🥈 Portable breakfast during the drive and hotel pre-check-in period.  
-🥉 Packaged snack already in the room.
-
-### Lunch
-
-🥇 Eat around **11:30 a.m.** at the closest practical Typhoon Lagoon quick-service location.  
-🥈 Split a lighter meal and add an afternoon snack.  
-🥉 Choose the shortest nearby line rather than crossing the park.
-
-### Dinner
-
-[Jiko — The Cooking Place](https://disneyworld.disney.go.com/dining/animal-kingdom-lodge/jiko-the-cooking-place/) at **6:15 p.m.**
-
-## Route
-
-```text
-Gaylord Palms
-   │ 20–30 min drive
-   ▼
-Animal Kingdom Lodge
-   │ 15–25 min including parking
-   ▼
-Typhoon Lagoon
-   │ 15–25 min including exit and parking
-   ▼
-Animal Kingdom Lodge → Jiko → savanna/pool
-```
-
-## Priority experiences
-
-- [Crush ’n’ Gusher](https://disneyworld.disney.go.com/attractions/typhoon-lagoon/crush-n-gusher/)
-- [Miss Adventure Falls](https://disneyworld.disney.go.com/attractions/typhoon-lagoon/miss-adventure-falls/)
-- [Gangplank Falls](https://disneyworld.disney.go.com/attractions/typhoon-lagoon/gang-plank-falls/)
-- [Typhoon Lagoon Surf Pool](https://disneyworld.disney.go.com/attractions/typhoon-lagoon/surf-pool/)
-- [Castaway Creek](https://disneyworld.disney.go.com/attractions/typhoon-lagoon/castaway-creek/)
+## Food options
+**Breakfast:** Gaylord Palms before checkout; portable breakfast as backup.  
+**Lunch:** nearest practical Typhoon Lagoon quick service around 11:30.  
+**Dinner:** Jiko at 6:15 p.m.
