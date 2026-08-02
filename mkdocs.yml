@@ -47,10 +47,12 @@ extra_css:
   - assets/checklist.css
   - assets/activity-card.css
   - assets/display-mode.css
+  - assets/day-dashboard.css
 
 extra_javascript:
   - assets/checklist.js
   - assets/display-mode.js
+  - assets/day-dashboard.js
 
 nav:
   - Home: index.md
