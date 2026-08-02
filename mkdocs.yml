@@ -27,12 +27,14 @@ extra_css:
   - assets/release-candidate.css
   - assets/theme-route-maps.css
   - assets/route-maps.css
+  - assets/pretrip-polish.css
 extra_javascript:
   - assets/vacation-api-config.js
   - assets/checklist.js
   - assets/display-mode.js
   - assets/trip-app.js
   - assets/production-day.js
+  - assets/pretrip-polish.js
   - assets/live-park-data.js
 nav:
   - Home: index.md
