@@ -31,58 +31,7 @@
 
 <div class="day-timeline"><div class="day-timeline-header">Today at a glance</div><div class="day-timeline-track"><a class="day-timeline-entry" href="#activity-early"><span class="day-timeline-time">Early</span><span class="day-timeline-dot" data-number="1">1</span><span class="day-timeline-label">🧭 Early Park Admission</span></a><a class="day-timeline-entry" href="#activity-nintendo"><span class="day-timeline-time">Morning</span><span class="day-timeline-dot" data-number="2">2</span><span class="day-timeline-label">🎮 Super Nintendo World</span></a><a class="day-timeline-entry" href="#activity-ministry"><span class="day-timeline-time">Late AM</span><span class="day-timeline-dot" data-number="3">3</span><span class="day-timeline-label">🪄 Ministry of Magic</span></a><a class="day-timeline-entry" href="#activity-berk"><span class="day-timeline-time">Showtime</span><span class="day-timeline-dot" data-number="4">4</span><span class="day-timeline-label">🎭 Untrainable Dragon</span></a><a class="day-timeline-entry" href="#activity-monsters"><span class="day-timeline-time">Afternoon</span><span class="day-timeline-dot" data-number="5">5</span><span class="day-timeline-label">⚡ Monsters Unchained</span></a><a class="day-timeline-entry" href="#activity-blue"><span class="day-timeline-time">5:15</span><span class="day-timeline-dot" data-number="6">6</span><span class="day-timeline-label">🍽️ Blue Dragon</span></a></div></div>
 
-<div class="park-route-map">
-  <div class="park-route-map-header">
-    <span class="park-route-map-title">🗺️ Epic Universe route</span>
-    <span class="park-route-map-note">Schematic · not to scale · tap a stop</span>
-  </div>
-  <svg viewBox="0 0 760 360" role="img" aria-label="Epic Universe route numbered route map">
-    <path class="route-line" d="M 90.0 70.0 L 283.3 70.0 L 476.7 70.0 L 670.0 70.0 L 476.7 285.0 L 283.3 285.0 L 90.0 285.0"/>
-    
-<a class="route-stop" href="#activity-early">
-  <circle cx="90.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="90.0" y="70.0">1</text>
-  <text class="stop-label" x="90.0" y="117.0">Early Park Admission</text>
-  <text class="stop-time" x="90.0" y="137.0">60 min before</text>
-</a>
-<a class="route-stop" href="#activity-nintendo">
-  <circle cx="283.3" cy="70.0" r="25"/>
-  <text class="stop-number" x="283.3" y="70.0">2</text>
-  <text class="stop-label" x="283.3" y="117.0">Super Nintendo World</text>
-  <text class="stop-time" x="283.3" y="137.0">morning</text>
-</a>
-<a class="route-stop" href="#activity-ministry">
-  <circle cx="476.7" cy="70.0" r="25"/>
-  <text class="stop-number" x="476.7" y="70.0">3</text>
-  <text class="stop-label" x="476.7" y="117.0">Ministry of Magic</text>
-  <text class="stop-time" x="476.7" y="137.0">late morning</text>
-</a>
-<a class="route-stop" href="#activity-berk">
-  <circle cx="670.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="670.0" y="70.0">4</text>
-  <text class="stop-label" x="670.0" y="117.0">Untrainable Dragon</text>
-  <text class="stop-time" x="670.0" y="137.0">showtime</text>
-</a>
-<a class="route-stop" href="#activity-monsters">
-  <circle cx="476.7" cy="285.0" r="25"/>
-  <text class="stop-number" x="476.7" y="285.0">5</text>
-  <text class="stop-label" x="476.7" y="332.0">Monsters Unchained</text>
-  <text class="stop-time" x="476.7" y="352.0">afternoon</text>
-</a>
-<a class="route-stop" href="#activity-blue">
-  <circle cx="283.3" cy="285.0" r="25"/>
-  <text class="stop-number" x="283.3" y="285.0">6</text>
-  <text class="stop-label" x="283.3" y="332.0">Blue Dragon</text>
-  <text class="stop-time" x="283.3" y="352.0">5:15</text>
-</a>
-<a class="route-stop" href="#activity-goodnight">
-  <circle cx="90.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="90.0" y="285.0">7</text>
-  <text class="stop-label" x="90.0" y="332.0">Celestial Goodnight</text>
-  <text class="stop-time" x="90.0" y="352.0">optional</text>
-</a>
-  </svg>
-</div>
+
 
 
 <div class="trip-checklist theme-epic" data-day-id="2026-08-12" data-trip-date="2026-08-12">

@@ -29,40 +29,7 @@
 
 <div class="day-timeline"><div class="day-timeline-header">Today at a glance</div><div class="day-timeline-track"><a class="day-timeline-entry" href="#activity-checkout"><span class="day-timeline-time">Early</span><span class="day-timeline-dot" data-number="1">1</span><span class="day-timeline-label">🏨 Bell Services</span></a><a class="day-timeline-entry" href="#activity-favorites"><span class="day-timeline-time">Morning</span><span class="day-timeline-dot" data-number="2">2</span><span class="day-timeline-label">🔁 Favorites</span></a><a class="day-timeline-entry" href="#activity-pickup"><span class="day-timeline-time">2:15</span><span class="day-timeline-dot" data-number="3">3</span><span class="day-timeline-label">🚌 Retrieve luggage</span></a><a class="day-timeline-entry" href="#activity-airport"><span class="day-timeline-time">4:00</span><span class="day-timeline-dot" data-number="4">4</span><span class="day-timeline-label">✈️ MCO</span></a></div></div>
 
-<div class="park-route-map">
-  <div class="park-route-map-header">
-    <span class="park-route-map-title">🗺️ Departure-day route</span>
-    <span class="park-route-map-note">Schematic · not to scale · tap a stop</span>
-  </div>
-  <svg viewBox="0 0 760 360" role="img" aria-label="Departure-day route numbered route map">
-    <path class="route-line" d="M 90.0 70.0 L 670.0 70.0 L 670.0 285.0 L 90.0 285.0"/>
-    
-<a class="route-stop" href="#activity-checkout">
-  <circle cx="90.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="90.0" y="70.0">1</text>
-  <text class="stop-label" x="90.0" y="117.0">Bell Services</text><text class="stop-label" x="90.0" y="135.0">checkout</text>
-  <text class="stop-time" x="90.0" y="155.0">early</text>
-</a>
-<a class="route-stop" href="#activity-favorites">
-  <circle cx="670.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="670.0" y="70.0">2</text>
-  <text class="stop-label" x="670.0" y="117.0">Favorite attractions</text>
-  <text class="stop-time" x="670.0" y="137.0">morning–2:15</text>
-</a>
-<a class="route-stop" href="#activity-pickup">
-  <circle cx="670.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="670.0" y="285.0">3</text>
-  <text class="stop-label" x="670.0" y="332.0">Retrieve luggage</text><text class="stop-label" x="670.0" y="350.0">car</text>
-  <text class="stop-time" x="670.0" y="370.0">2:15–2:45</text>
-</a>
-<a class="route-stop" href="#activity-airport">
-  <circle cx="90.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="90.0" y="285.0">4</text>
-  <text class="stop-label" x="90.0" y="332.0">MCO</text><text class="stop-label" x="90.0" y="350.0">rental return</text>
-  <text class="stop-time" x="90.0" y="370.0">≈4:00</text>
-</a>
-  </svg>
-</div>
+
 
 
 <div class="trip-checklist theme-departure" data-day-id="2026-08-15" data-trip-date="2026-08-15">

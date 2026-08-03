@@ -29,64 +29,7 @@
 
 <div class="day-timeline"><div class="day-timeline-header">Today at a glance</div><div class="day-timeline-track"><a class="day-timeline-entry" href="#activity-seven"><span class="day-timeline-time">Early</span><span class="day-timeline-dot" data-number="1">1</span><span class="day-timeline-label">🧭 Seven Dwarfs</span></a><a class="day-timeline-entry" href="#activity-space"><span class="day-timeline-time">Next</span><span class="day-timeline-dot" data-number="2">2</span><span class="day-timeline-label">🧭 Space Mountain</span></a><a class="day-timeline-entry" href="#activity-breakfast"><span class="day-timeline-time">8:45</span><span class="day-timeline-dot" data-number="3">3</span><span class="day-timeline-label">🍽️ Friar’s Nook</span></a><a class="day-timeline-entry" href="#activity-tiana"><span class="day-timeline-time">9:20</span><span class="day-timeline-dot" data-number="4">4</span><span class="day-timeline-label">⚡ Tiana</span></a><a class="day-timeline-entry" href="#activity-haunted"><span class="day-timeline-time">10:45</span><span class="day-timeline-dot" data-number="5">5</span><span class="day-timeline-label">⚡ Haunted Mansion</span></a><a class="day-timeline-entry" href="#activity-pirates"><span class="day-timeline-time">11:25</span><span class="day-timeline-dot" data-number="6">6</span><span class="day-timeline-label">⚡ Pirates</span></a><a class="day-timeline-entry" href="#activity-leave"><span class="day-timeline-time">4:00</span><span class="day-timeline-dot" data-number="7">7</span><span class="day-timeline-label">🚌 Return to AKL</span></a></div></div>
 
-<div class="park-route-map">
-  <div class="park-route-map-header">
-    <span class="park-route-map-title">🗺️ Magic Kingdom route</span>
-    <span class="park-route-map-note">Schematic · not to scale · tap a stop</span>
-  </div>
-  <svg viewBox="0 0 760 360" role="img" aria-label="Magic Kingdom route numbered route map">
-    <path class="route-line" d="M 90.0 70.0 L 283.3 70.0 L 476.7 70.0 L 670.0 70.0 L 670.0 285.0 L 476.7 285.0 L 283.3 285.0 L 90.0 285.0"/>
-    
-<a class="route-stop" href="#activity-seven">
-  <circle cx="90.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="90.0" y="70.0">1</text>
-  <text class="stop-label" x="90.0" y="117.0">Seven Dwarfs</text>
-  <text class="stop-time" x="90.0" y="137.0">Early Entry</text>
-</a>
-<a class="route-stop" href="#activity-space">
-  <circle cx="283.3" cy="70.0" r="25"/>
-  <text class="stop-number" x="283.3" y="70.0">2</text>
-  <text class="stop-label" x="283.3" y="117.0">Space Mountain</text>
-  <text class="stop-time" x="283.3" y="137.0">after Seven Dwarfs</text>
-</a>
-<a class="route-stop" href="#activity-breakfast">
-  <circle cx="476.7" cy="70.0" r="25"/>
-  <text class="stop-number" x="476.7" y="70.0">3</text>
-  <text class="stop-label" x="476.7" y="117.0">Friar’s Nook</text>
-  <text class="stop-time" x="476.7" y="137.0">≈8:45</text>
-</a>
-<a class="route-stop" href="#activity-tiana">
-  <circle cx="670.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="670.0" y="70.0">4</text>
-  <text class="stop-label" x="670.0" y="117.0">Tiana</text>
-  <text class="stop-time" x="670.0" y="137.0">9:20–10:20</text>
-</a>
-<a class="route-stop" href="#activity-haunted">
-  <circle cx="670.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="670.0" y="285.0">5</text>
-  <text class="stop-label" x="670.0" y="332.0">Haunted Mansion</text>
-  <text class="stop-time" x="670.0" y="352.0">10:45–11:45</text>
-</a>
-<a class="route-stop" href="#activity-pirates">
-  <circle cx="476.7" cy="285.0" r="25"/>
-  <text class="stop-number" x="476.7" y="285.0">6</text>
-  <text class="stop-label" x="476.7" y="332.0">Pirates</text>
-  <text class="stop-time" x="476.7" y="352.0">11:25–12:45</text>
-</a>
-<a class="route-stop" href="#activity-leave">
-  <circle cx="283.3" cy="285.0" r="25"/>
-  <text class="stop-number" x="283.3" y="285.0">7</text>
-  <text class="stop-label" x="283.3" y="332.0">Return to AKL</text>
-  <text class="stop-time" x="283.3" y="352.0">4:00–4:30</text>
-</a>
-<a class="route-stop" href="#activity-hardrock">
-  <circle cx="90.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="90.0" y="285.0">8</text>
-  <text class="stop-label" x="90.0" y="332.0">Hard Rock</text><text class="stop-label" x="90.0" y="350.0">pool</text>
-  <text class="stop-time" x="90.0" y="370.0">evening</text>
-</a>
-  </svg>
-</div>
+
 
 
 <div class="trip-checklist theme-mk" data-day-id="2026-08-11" data-trip-date="2026-08-11">

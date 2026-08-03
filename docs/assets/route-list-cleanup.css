@@ -1,0 +1,20 @@
+/* v1.6.1: route list is intentionally non-geographic */
+.day-timeline::after {
+  content: "Ordered itinerary · use Locate or Navigate for actual attraction position";
+  display: block;
+  padding: .45rem .7rem .6rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--trip-muted);
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.day-timeline-entry {
+  padding: .12rem 0;
+}
+
+.day-timeline-entry:hover,
+.day-timeline-entry:focus {
+  background: color-mix(in srgb, var(--day-bg) 60%, transparent);
+  border-radius: .45rem;
+}

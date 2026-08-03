@@ -29,52 +29,7 @@
 
 <div class="day-timeline"><div class="day-timeline-header">Today at a glance</div><div class="day-timeline-track"><a class="day-timeline-entry" href="#activity-leaky"><span class="day-timeline-time">9:00</span><span class="day-timeline-dot" data-number="1">1</span><span class="day-timeline-label">🍽️ Leaky Cauldron</span></a><a class="day-timeline-entry" href="#activity-shutter"><span class="day-timeline-time">10:00</span><span class="day-timeline-dot" data-number="2">2</span><span class="day-timeline-label">📸 Shutterbutton’s</span></a><a class="day-timeline-entry" href="#activity-gringotts"><span class="day-timeline-time">Late AM</span><span class="day-timeline-dot" data-number="3">3</span><span class="day-timeline-label">⚡ Gringotts</span></a><a class="day-timeline-entry" href="#activity-minion"><span class="day-timeline-time">Midday</span><span class="day-timeline-dot" data-number="4">4</span><span class="day-timeline-label">⚡ Minion Mayhem</span></a><a class="day-timeline-entry" href="#activity-icecream"><span class="day-timeline-time">Afternoon</span><span class="day-timeline-dot" data-number="5">5</span><span class="day-timeline-label">🍨 Ice cream + cooler</span></a><a class="day-timeline-entry" href="#activity-bourne"><span class="day-timeline-time">Hot PM</span><span class="day-timeline-dot" data-number="6">6</span><span class="day-timeline-label">🎭 Bourne</span></a></div></div>
 
-<div class="park-route-map">
-  <div class="park-route-map-header">
-    <span class="park-route-map-title">🗺️ Universal Studios Florida route</span>
-    <span class="park-route-map-note">Schematic · not to scale · tap a stop</span>
-  </div>
-  <svg viewBox="0 0 760 360" role="img" aria-label="Universal Studios Florida route numbered route map">
-    <path class="route-line" d="M 90.0 70.0 L 380.0 70.0 L 670.0 70.0 L 670.0 285.0 L 380.0 285.0 L 90.0 285.0"/>
-    
-<a class="route-stop" href="#activity-leaky">
-  <circle cx="90.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="90.0" y="70.0">1</text>
-  <text class="stop-label" x="90.0" y="117.0">Leaky Cauldron</text>
-  <text class="stop-time" x="90.0" y="137.0">9:00</text>
-</a>
-<a class="route-stop" href="#activity-shutter">
-  <circle cx="380.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="380.0" y="70.0">2</text>
-  <text class="stop-label" x="380.0" y="117.0">Shutterbutton’s</text>
-  <text class="stop-time" x="380.0" y="137.0">10:00</text>
-</a>
-<a class="route-stop" href="#activity-gringotts">
-  <circle cx="670.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="670.0" y="70.0">3</text>
-  <text class="stop-label" x="670.0" y="117.0">Gringotts</text>
-  <text class="stop-time" x="670.0" y="137.0">late morning</text>
-</a>
-<a class="route-stop" href="#activity-minion">
-  <circle cx="670.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="670.0" y="285.0">4</text>
-  <text class="stop-label" x="670.0" y="332.0">Minion Mayhem</text>
-  <text class="stop-time" x="670.0" y="352.0">midday</text>
-</a>
-<a class="route-stop" href="#activity-icecream">
-  <circle cx="380.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="380.0" y="285.0">5</text>
-  <text class="stop-label" x="380.0" y="332.0">Ice cream + cooler</text>
-  <text class="stop-time" x="380.0" y="352.0">afternoon</text>
-</a>
-<a class="route-stop" href="#activity-bourne">
-  <circle cx="90.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="90.0" y="285.0">6</text>
-  <text class="stop-label" x="90.0" y="332.0">Bourne Stuntacular</text>
-  <text class="stop-time" x="90.0" y="352.0">hot afternoon</text>
-</a>
-  </svg>
-</div>
+
 
 
 <div class="trip-checklist theme-usf" data-day-id="2026-08-14" data-trip-date="2026-08-14">

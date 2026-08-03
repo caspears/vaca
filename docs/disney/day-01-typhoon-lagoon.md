@@ -32,34 +32,7 @@
 
 <div class="day-timeline"><div class="day-timeline-header">Today at a glance</div><div class="day-timeline-track"><a class="day-timeline-entry" href="#activity-akl-precheck"><span class="day-timeline-time">8:30</span><span class="day-timeline-dot" data-number="1">1</span><span class="day-timeline-label">🏨 AKL pre-check-in</span></a><a class="day-timeline-entry" href="#activity-typhoon"><span class="day-timeline-time">Opening</span><span class="day-timeline-dot" data-number="2">2</span><span class="day-timeline-label">🌊 Typhoon Lagoon</span></a><a class="day-timeline-entry" href="#activity-jiko"><span class="day-timeline-time">6:15</span><span class="day-timeline-dot" data-number="3">3</span><span class="day-timeline-label">🍽️ Jiko</span></a></div></div>
 
-<div class="park-route-map">
-  <div class="park-route-map-header">
-    <span class="park-route-map-title">🗺️ Typhoon Lagoon day route</span>
-    <span class="park-route-map-note">Schematic · not to scale · tap a stop</span>
-  </div>
-  <svg viewBox="0 0 760 360" role="img" aria-label="Typhoon Lagoon day route numbered route map">
-    <path class="route-line" d="M 90.0 70.0 L 670.0 70.0 L 90.0 285.0"/>
-    
-<a class="route-stop" href="#activity-akl-precheck">
-  <circle cx="90.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="90.0" y="70.0">1</text>
-  <text class="stop-label" x="90.0" y="117.0">AKL pre-check-in</text>
-  <text class="stop-time" x="90.0" y="137.0">≈8:30</text>
-</a>
-<a class="route-stop" href="#activity-typhoon">
-  <circle cx="670.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="670.0" y="70.0">2</text>
-  <text class="stop-label" x="670.0" y="117.0">Typhoon Lagoon</text>
-  <text class="stop-time" x="670.0" y="137.0">opening–3:45</text>
-</a>
-<a class="route-stop" href="#activity-jiko">
-  <circle cx="90.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="90.0" y="285.0">3</text>
-  <text class="stop-label" x="90.0" y="332.0">Jiko</text>
-  <text class="stop-time" x="90.0" y="352.0">6:15</text>
-</a>
-  </svg>
-</div>
+
 
 
 <div class="trip-checklist theme-tl" data-day-id="2026-08-09" data-trip-date="2026-08-09">

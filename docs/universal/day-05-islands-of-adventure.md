@@ -29,58 +29,7 @@
 
 <div class="day-timeline"><div class="day-timeline-header">Today at a glance</div><div class="day-timeline-track"><a class="day-timeline-entry" href="#activity-hagrid"><span class="day-timeline-time">Early</span><span class="day-timeline-dot" data-number="1">1</span><span class="day-timeline-label">🪄 Hagrid’s</span></a><a class="day-timeline-entry" href="#activity-forbidden"><span class="day-timeline-time">Morning</span><span class="day-timeline-dot" data-number="2">2</span><span class="day-timeline-label">⚡ Forbidden Journey</span></a><a class="day-timeline-entry" href="#activity-breakfast"><span class="day-timeline-time">Before 10</span><span class="day-timeline-dot" data-number="3">3</span><span class="day-timeline-label">🍽️ Three Broomsticks</span></a><a class="day-timeline-entry" href="#activity-ollivanders"><span class="day-timeline-time">Late AM</span><span class="day-timeline-dot" data-number="4">4</span><span class="day-timeline-label">🎭 Ollivanders</span></a><a class="day-timeline-entry" href="#activity-express"><span class="day-timeline-time">Before lunch</span><span class="day-timeline-dot" data-number="5">5</span><span class="day-timeline-label">🚂 Hogwarts Express</span></a><a class="day-timeline-entry" href="#activity-mythos"><span class="day-timeline-time">2:00</span><span class="day-timeline-dot" data-number="6">6</span><span class="day-timeline-label">🍽️ Mythos</span></a></div></div>
 
-<div class="park-route-map">
-  <div class="park-route-map-header">
-    <span class="park-route-map-title">🗺️ Islands of Adventure route</span>
-    <span class="park-route-map-note">Schematic · not to scale · tap a stop</span>
-  </div>
-  <svg viewBox="0 0 760 360" role="img" aria-label="Islands of Adventure route numbered route map">
-    <path class="route-line" d="M 90.0 70.0 L 283.3 70.0 L 476.7 70.0 L 670.0 70.0 L 476.7 285.0 L 283.3 285.0 L 90.0 285.0"/>
-    
-<a class="route-stop" href="#activity-hagrid">
-  <circle cx="90.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="90.0" y="70.0">1</text>
-  <text class="stop-label" x="90.0" y="117.0">Hagrid’s</text>
-  <text class="stop-time" x="90.0" y="137.0">Early Entry</text>
-</a>
-<a class="route-stop" href="#activity-forbidden">
-  <circle cx="283.3" cy="70.0" r="25"/>
-  <text class="stop-number" x="283.3" y="70.0">2</text>
-  <text class="stop-label" x="283.3" y="117.0">Forbidden Journey</text>
-  <text class="stop-time" x="283.3" y="137.0">morning</text>
-</a>
-<a class="route-stop" href="#activity-breakfast">
-  <circle cx="476.7" cy="70.0" r="25"/>
-  <text class="stop-number" x="476.7" y="70.0">3</text>
-  <text class="stop-label" x="476.7" y="117.0">Three Broomsticks</text>
-  <text class="stop-time" x="476.7" y="137.0">before 10</text>
-</a>
-<a class="route-stop" href="#activity-ollivanders">
-  <circle cx="670.0" cy="70.0" r="25"/>
-  <text class="stop-number" x="670.0" y="70.0">4</text>
-  <text class="stop-label" x="670.0" y="117.0">Ollivanders</text><text class="stop-label" x="670.0" y="135.0">wand</text>
-  <text class="stop-time" x="670.0" y="155.0">late morning</text>
-</a>
-<a class="route-stop" href="#activity-express">
-  <circle cx="476.7" cy="285.0" r="25"/>
-  <text class="stop-number" x="476.7" y="285.0">5</text>
-  <text class="stop-label" x="476.7" y="332.0">Hogwarts Express</text>
-  <text class="stop-time" x="476.7" y="352.0">before lunch</text>
-</a>
-<a class="route-stop" href="#activity-mythos">
-  <circle cx="283.3" cy="285.0" r="25"/>
-  <text class="stop-number" x="283.3" y="285.0">6</text>
-  <text class="stop-label" x="283.3" y="332.0">Mythos</text>
-  <text class="stop-time" x="283.3" y="352.0">2:00</text>
-</a>
-<a class="route-stop" href="#activity-water">
-  <circle cx="90.0" cy="285.0" r="25"/>
-  <text class="stop-number" x="90.0" y="285.0">7</text>
-  <text class="stop-label" x="90.0" y="332.0">Water rides</text><text class="stop-label" x="90.0" y="350.0">extras</text>
-  <text class="stop-time" x="90.0" y="370.0">afternoon</text>
-</a>
-  </svg>
-</div>
+
 
 
 <div class="trip-checklist theme-ioa" data-day-id="2026-08-13" data-trip-date="2026-08-13">
