@@ -1,24 +1,180 @@
-(function(){
-const K="vaca-park-advisor-collapsed";
-const state=i=>i.dataset.state||"pending";
-const title=i=>i?.querySelector(".trip-item-title")?.textContent?.replace(/^[^\w]+/,"").trim()||"";
-function detail(i,label){const g=i?.querySelector(".trip-detail-grid");if(!g)return"";const c=[...g.children];for(let x=0;x<c.length;x+=2)if((c[x]?.textContent||"").trim().toLowerCase()===label.toLowerCase())return c[x+1]?.textContent?.trim()||"";return""}
-function render(a,r){
- const items=[...r.querySelectorAll(".trip-item")],next=items.find(i=>state(i)==="pending");
- a.querySelector("[data-advisor-next-title]").textContent=next?title(next):"Day complete";
- a.querySelector("[data-advisor-next-meta]").textContent=next?[next.dataset.windowLabel||"",next.dataset.leaveLabel||""].filter(Boolean).join(" · "):"";
- a.querySelector("[data-advisor-collapsed-text]").textContent=next?`Next: ${title(next)}${next.dataset.windowLabel?` (${next.dataset.windowLabel})`:""}`:"Day complete";
- const cs=items.filter(i=>i.dataset.commitment==="true"&&state(i)==="pending").slice(0,6);
- a.querySelector("[data-advisor-commitments]").innerHTML=cs.map(i=>`<div class="park-advisor-item"><span>${i.dataset.kind==="meal"?"🍽️":i.dataset.kind==="show"?"🎭":"⚡"}</span><span>${title(i)}</span><span class="park-advisor-time">${i.dataset.windowLabel||""}</span></div>`).join("")||"<div>No remaining timed commitments.</div>";
- let advice=next?detail(next,"Day-of guidance"):"All planned activities are complete.";
- if(!advice&&next)advice=next.dataset.kind==="lightning"?"Protect the confirmed return window and use the reserved lane.":next.dataset.kind==="meal"?"Protect this dining commitment and start moving with the planned buffer.":"Continue with the ordered itinerary unless live conditions suggest a nearby better option.";
- a.querySelector("[data-advisor-advice]").textContent=advice;
- const waits=items.filter(i=>state(i)==="pending").map(i=>({i,w:detail(i,"Current wait")})).filter(x=>x.w).slice(0,3);
- a.querySelector("[data-advisor-watch]").innerHTML=waits.map(x=>`<div class="park-advisor-item"><span>⏱</span><span>${title(x.i)}</span><span class="park-advisor-time">${x.w.replace("· Queue-Times details","").trim()}</span></div>`).join("")||"<div>Live ride waits will appear after data loads.</div>";
- const src=document.querySelector("[data-live-weather]"),wt=a.querySelector("[data-advisor-weather]");
- if(src&&wt){const lines=[...src.querySelectorAll(".live-weather-windows>div")];const main=src.querySelector(".live-weather-main")?.textContent?.trim();wt.innerHTML=(main?`<div><strong>${main}</strong></div>`:"")+(lines.length?lines.slice(0,3).map(l=>`<div>${l.innerHTML}</div>`).join(""):`<div>${src.textContent.replace(/\s+/g," ").trim()||"Forecast loading…"}</div>`);}
- const u=document.querySelector("[data-live-updated]")?.textContent?.trim();a.querySelector("[data-advisor-status]").textContent=u&&u!=="—"?`Live data updated ${u}. Official park apps remain authoritative.`:"Live data is loading. Official park apps remain authoritative.";
-}
-function init(){const a=document.querySelector(".park-advisor"),r=document.querySelector(".trip-checklist");if(!a||!r||a.dataset.init)return;a.dataset.init="1";a.classList.toggle("is-collapsed",localStorage.getItem(K)==="true");a.querySelector(".park-advisor-toggle")?.addEventListener("click",()=>{const v=!a.classList.contains("is-collapsed");a.classList.toggle("is-collapsed",v);localStorage.setItem(K,String(v))});const up=()=>render(a,r);up();r.addEventListener("click",()=>setTimeout(up,100));new MutationObserver(up).observe(document.body,{childList:true,subtree:true,characterData:true});setInterval(up,60000)}
-if(typeof document$!=="undefined")document$.subscribe(init);else document.addEventListener("DOMContentLoaded",init);
+(function () {
+  const COLLAPSED_KEY = "vaca-park-advisor-collapsed";
+  const REFRESH_MS = 60000;
+
+  function stateOf(item) {
+    return item.dataset.state || "pending";
+  }
+
+  function cleanTitle(item) {
+    return item?.querySelector(".trip-item-title")
+      ?.textContent?.replace(/^[^\w]+/, "").trim() || "";
+  }
+
+  function detail(item, label) {
+    const grid = item?.querySelector(".trip-detail-grid");
+    if (!grid) return "";
+    const children = [...grid.children];
+
+    for (let index = 0; index < children.length; index += 2) {
+      const heading = (children[index]?.textContent || "").trim().toLowerCase();
+      if (heading === label.toLowerCase()) {
+        return children[index + 1]?.textContent?.trim() || "";
+      }
+    }
+    return "";
+  }
+
+  function nextItem(root) {
+    return [...root.querySelectorAll(".trip-item")]
+      .find(item => stateOf(item) === "pending") || null;
+  }
+
+  function remainingCommitments(root) {
+    return [...root.querySelectorAll('.trip-item[data-commitment="true"]')]
+      .filter(item => stateOf(item) === "pending")
+      .slice(0, 6);
+  }
+
+  function renderWeather(advisor) {
+    const source = document.querySelector("[data-live-weather]");
+    const target = advisor.querySelector("[data-advisor-weather]");
+    if (!target) return;
+
+    if (!source) {
+      target.textContent = "Forecast loading…";
+      return;
+    }
+
+    const main = source.querySelector(".live-weather-main")?.textContent?.trim();
+    const windows = [...source.querySelectorAll(".live-weather-windows > div")];
+
+    if (main || windows.length) {
+      target.innerHTML =
+        (main ? `<div><strong>${main}</strong></div>` : "") +
+        windows.slice(0, 3).map(row => `<div>${row.innerHTML}</div>`).join("");
+      return;
+    }
+
+    const text = source.textContent.replace(/\s+/g, " ").trim();
+    target.textContent = text || "Forecast loading…";
+  }
+
+  function chooseAdvice(next) {
+    if (!next) return "All planned activities are complete.";
+
+    const liveGuidance = detail(next, "Day-of guidance");
+    if (liveGuidance) return liveGuidance;
+
+    if (next.dataset.kind === "lightning") {
+      return "Protect the confirmed return window and use the reserved lane.";
+    }
+
+    if (next.dataset.kind === "meal") {
+      return "Protect this dining commitment and start moving with the planned buffer.";
+    }
+
+    return "Continue with the ordered itinerary unless live conditions suggest a nearby better option.";
+  }
+
+  function render(advisor, root) {
+    const next = nextItem(root);
+
+    advisor.querySelector("[data-advisor-next-title]").textContent =
+      next ? cleanTitle(next) : "Day complete";
+
+    advisor.querySelector("[data-advisor-next-meta]").textContent =
+      next
+        ? [next.dataset.windowLabel || "", next.dataset.leaveLabel || ""]
+            .filter(Boolean)
+            .join(" · ")
+        : "";
+
+    advisor.querySelector("[data-advisor-collapsed-text]").textContent =
+      next
+        ? `Next: ${cleanTitle(next)}${next.dataset.windowLabel ? ` (${next.dataset.windowLabel})` : ""}`
+        : "Day complete";
+
+    const commitments = remainingCommitments(root);
+    advisor.querySelector("[data-advisor-commitments]").innerHTML =
+      commitments.map(item => `
+        <div class="park-advisor-item">
+          <span>${item.dataset.kind === "meal" ? "🍽️" : item.dataset.kind === "show" ? "🎭" : "⚡"}</span>
+          <span>${cleanTitle(item)}</span>
+          <span class="park-advisor-time">${item.dataset.windowLabel || ""}</span>
+        </div>
+      `).join("") || "<div>No remaining timed commitments.</div>";
+
+    advisor.querySelector("[data-advisor-advice]").textContent =
+      chooseAdvice(next);
+
+    const waits = [...root.querySelectorAll(".trip-item")]
+      .filter(item => stateOf(item) === "pending")
+      .map(item => ({ item, wait: detail(item, "Current wait") }))
+      .filter(entry => entry.wait)
+      .slice(0, 3);
+
+    advisor.querySelector("[data-advisor-watch]").innerHTML =
+      waits.map(entry => `
+        <div class="park-advisor-item">
+          <span>⏱</span>
+          <span>${cleanTitle(entry.item)}</span>
+          <span class="park-advisor-time">${entry.wait.replace("· Queue-Times details", "").trim()}</span>
+        </div>
+      `).join("") || "<div>Live ride waits will appear after data loads.</div>";
+
+    renderWeather(advisor);
+
+    const updated = document.querySelector("[data-live-updated]")?.textContent?.trim();
+    advisor.querySelector("[data-advisor-status]").textContent =
+      updated && updated !== "—"
+        ? `Live data updated ${updated}. Official park apps remain authoritative.`
+        : "Live data is loading. Official park apps remain authoritative.";
+  }
+
+  function initialize() {
+    const advisor = document.querySelector(".park-advisor");
+    const root = document.querySelector(".trip-checklist");
+
+    if (!advisor || !root || advisor.dataset.initialized === "true") return;
+    advisor.dataset.initialized = "true";
+
+    advisor.classList.toggle(
+      "is-collapsed",
+      localStorage.getItem(COLLAPSED_KEY) === "true"
+    );
+
+    advisor.querySelector(".park-advisor-toggle")?.addEventListener("click", () => {
+      const collapse = !advisor.classList.contains("is-collapsed");
+      advisor.classList.toggle("is-collapsed", collapse);
+      localStorage.setItem(COLLAPSED_KEY, String(collapse));
+    });
+
+    const update = () => render(advisor, root);
+
+    // Initial render after the rest of the page scripts have had a chance to run.
+    window.setTimeout(update, 150);
+
+    // Update only on user interactions likely to change state.
+    root.addEventListener("click", () => window.setTimeout(update, 120));
+    root.addEventListener("trip-state-change", () => window.setTimeout(update, 50));
+
+    // Live-data script refreshes every five minutes; this lightweight refresh keeps
+    // the planner synchronized without observing or rewriting the whole DOM.
+    window.setInterval(update, REFRESH_MS);
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible") {
+        window.setTimeout(update, 100);
+      }
+    });
+  }
+
+  if (typeof document$ !== "undefined") {
+    document$.subscribe(initialize);
+  } else if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initialize);
+  } else {
+    initialize();
+  }
 })();
