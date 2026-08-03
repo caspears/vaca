@@ -15,9 +15,9 @@
 
 ## Immediate actions
 
-- [ ] Move Café L’air de la Sirène breakfast to Aug 12.
-- [ ] Confirm Three Broomsticks breakfast for Aug 13.
-- [ ] Move Leaky Cauldron breakfast to Aug 14.
+- [ ] Café L’air de la Sirène breakfast confirmed for Aug 12.
+- [ ] Three Broomsticks breakfast confirmed for Aug 13.
+- [ ] Leaky Cauldron breakfast confirmed for Aug 14.
 - [ ] Confirm Hard Rock after-checkout parking for Aug 15.
 
 ## Live park conditions
