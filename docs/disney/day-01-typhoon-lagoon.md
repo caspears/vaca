@@ -36,6 +36,7 @@
 
 
 
+<noscript><div class="admonition warning"><p class="admonition-title">Planner unavailable</p><p>The itinerary below remains fully usable. Enable JavaScript for live weather, waits, and Park Advisor features.</p></div></noscript>
 <div class="park-advisor">
   <div class="park-advisor-header"><span class="park-advisor-title">🧠 Park Advisor</span><button class="park-advisor-toggle" type="button">Expand / collapse</button></div>
   <div class="park-advisor-collapsed"><span>🎯</span><span data-advisor-collapsed-text>Loading next activity…</span></div>

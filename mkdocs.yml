@@ -28,7 +28,7 @@ extra_css:
   - assets/theme-route-maps.css
   - assets/pretrip-polish.css
   - assets/route-list-cleanup.css
-  - assets/planner-card.css
+  - assets/planner-card-v2.0.2.css
 extra_javascript:
   - assets/vacation-api-config.js
   - assets/checklist.js
@@ -36,7 +36,7 @@ extra_javascript:
   - assets/trip-app.js
   - assets/production-day.js
   - assets/pretrip-polish.js
-  - assets/planner-card.js
+  - assets/planner-card-v2.0.2.js
   - assets/live-park-data.js
 nav:
   - Home: index.md
