@@ -1,0 +1,1533 @@
+[
+  {
+    "itinerary": {
+      "itinerary_id": "typhoon",
+      "activity_anchor": "typhoon",
+      "name": "Typhoon Lagoon priorities",
+      "kind": "planned",
+      "park_name": "Typhoon Lagoon",
+      "area": "Water park",
+      "source_page": "docs/disney/day-01-typhoon-lagoon.md",
+      "window_label": "Opening–≈3:45 p.m.",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Typhoon Lagoon",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "jiko",
+      "activity_anchor": "jiko",
+      "name": "Jiko dinner",
+      "kind": "meal",
+      "park_name": "Animal Kingdom Lodge",
+      "area": "Animal Kingdom Lodge",
+      "source_page": "docs/disney/day-01-typhoon-lagoon.md",
+      "window_label": "6:15 p.m.",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom Lodge",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "navi",
+      "activity_anchor": "navi",
+      "name": "Na’vi River Journey",
+      "kind": "planned",
+      "park_name": "Animal Kingdom",
+      "area": "Pandora · Early Entry",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "≈7:30 a.m.",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 4438,
+        "name": "Na'vi River Journey",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Pandora - The World of Avatar"
+      },
+      {
+        "score": 0.5994,
+        "id": 112,
+        "name": "Kali River Rapids",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Asia"
+      },
+      {
+        "score": 0.414,
+        "id": 12451,
+        "name": "Meet Moana at Character Landing",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Discovery Island"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "fop",
+      "activity_anchor": "fop",
+      "name": "Avatar Flight of Passage",
+      "kind": "lightning",
+      "park_name": "Animal Kingdom",
+      "area": "Pandora",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "9:00–10:00 a.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 4439,
+        "name": "Avatar Flight of Passage",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Pandora - The World of Avatar"
+      },
+      {
+        "score": 0.4911,
+        "id": 13751,
+        "name": "Tree of Life",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Discovery Island"
+      },
+      {
+        "score": 0.4849,
+        "id": 10921,
+        "name": "Feathered Friends in Flight!",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Asia"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "safari",
+      "activity_anchor": "safari",
+      "name": "Kilimanjaro Safaris",
+      "kind": "planned",
+      "park_name": "Animal Kingdom",
+      "area": "Africa",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "≈9:40–9:50 a.m.",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 113,
+        "name": "Kilimanjaro Safaris",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Africa"
+      },
+      {
+        "score": 0.4328,
+        "id": 112,
+        "name": "Kali River Rapids",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Asia"
+      },
+      {
+        "score": 0.4207,
+        "id": 13806,
+        "name": "Animal Care at Conservation Station",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Conservation Station"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "gorilla",
+      "activity_anchor": "gorilla",
+      "name": "Gorilla Falls Exploration Trail",
+      "kind": "planned",
+      "park_name": "Animal Kingdom",
+      "area": "Africa",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "≈10:20–10:35 a.m.",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 651,
+        "name": "Gorilla Falls Exploration Trail",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Africa"
+      },
+      {
+        "score": 0.5234,
+        "id": 655,
+        "name": "Wildlife Express Train",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Africa"
+      },
+      {
+        "score": 0.4827,
+        "id": 16545,
+        "name": "Bluey's Wild World at Conservation Station",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Conservation Station"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "lion",
+      "activity_anchor": "lion",
+      "name": "Festival of the Lion King",
+      "kind": "show",
+      "park_name": "Animal Kingdom",
+      "area": "Africa",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "11:00 a.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "everest",
+      "activity_anchor": "everest",
+      "name": "Expedition Everest",
+      "kind": "planned",
+      "park_name": "Animal Kingdom",
+      "area": "Asia",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "≈12:15 p.m.",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 110,
+        "name": "Expedition Everest - Legend of the Forbidden Mountain",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Asia"
+      },
+      {
+        "score": 1.0,
+        "id": 14533,
+        "name": "Expedition Everest - Legend of the Forbidden Mountain Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Asia"
+      },
+      {
+        "score": 0.4337,
+        "id": 13811,
+        "name": "Discovery Island Trails",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Discovery Island"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "maharajah",
+      "activity_anchor": "maharajah",
+      "name": "Maharajah Jungle Trek",
+      "kind": "planned",
+      "park_name": "Animal Kingdom",
+      "area": "Asia · optional",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "Only if ahead",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 0.4075,
+        "id": 113,
+        "name": "Kilimanjaro Safaris",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Africa"
+      },
+      {
+        "score": 0.4075,
+        "id": 4438,
+        "name": "Na'vi River Journey",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Pandora - The World of Avatar"
+      },
+      {
+        "score": 0.405,
+        "id": 12451,
+        "name": "Meet Moana at Character Landing",
+        "entityType": "ATTRACTION",
+        "parkName": "Animal Kingdom",
+        "scopeName": "Animal Kingdom",
+        "parkId": 8,
+        "land": "Discovery Island"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "zootopia",
+      "activity_anchor": "zootopia",
+      "name": "Zootopia: Better Zoogether!",
+      "kind": "show",
+      "park_name": "Animal Kingdom",
+      "area": "Discovery Island",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "Target ≈12:25–12:35",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "tiffins",
+      "activity_anchor": "tiffins",
+      "name": "Tiffins lunch",
+      "kind": "meal",
+      "park_name": "Animal Kingdom",
+      "area": "Discovery Island",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "1:00 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Animal Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "runaway",
+      "activity_anchor": "runaway",
+      "name": "Runaway Railway decision point",
+      "kind": "planned",
+      "park_name": "Hollywood Studios",
+      "area": "Hollywood Boulevard · optional",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "Before Star Tours only",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Hollywood Studios",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 0.58,
+        "id": 6361,
+        "name": "Mickey & Minnie's Runaway Railway",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Hollywood Boulevard"
+      },
+      {
+        "score": 0.414,
+        "id": 5145,
+        "name": "Walt Disney Presents",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Animation Courtyard"
+      },
+      {
+        "score": 0.4034,
+        "id": 12430,
+        "name": "Meet Ariel at Walt Disney Presents",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Animation Courtyard"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "star",
+      "activity_anchor": "star",
+      "name": "Star Tours",
+      "kind": "lightning",
+      "park_name": "Hollywood Studios",
+      "area": "Echo Lake",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "3:05–4:05 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Hollywood Studios",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 120,
+        "name": "Star Tours – The Adventures Continue",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Echo Lake"
+      },
+      {
+        "score": 0.4778,
+        "id": 6369,
+        "name": "Star Wars: Rise of the Resistance",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Star Wars: Galaxy's Edge"
+      },
+      {
+        "score": 0.4022,
+        "id": 14531,
+        "name": "Star Wars: Rise of the Resistance Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Star Wars: Galaxy's Edge"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "rise",
+      "activity_anchor": "rise",
+      "name": "Rise of the Resistance",
+      "kind": "lightning",
+      "park_name": "Hollywood Studios",
+      "area": "Galaxy’s Edge",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "4:05–5:05 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Hollywood Studios",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 6369,
+        "name": "Star Wars: Rise of the Resistance",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Star Wars: Galaxy's Edge"
+      },
+      {
+        "score": 1.0,
+        "id": 14531,
+        "name": "Star Wars: Rise of the Resistance Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Star Wars: Galaxy's Edge"
+      },
+      {
+        "score": 0.4537,
+        "id": 5145,
+        "name": "Walt Disney Presents",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Animation Courtyard"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "alien",
+      "activity_anchor": "alien",
+      "name": "Alien Swirling Saucers",
+      "kind": "lightning",
+      "park_name": "Hollywood Studios",
+      "area": "Toy Story Land",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "4:40–5:40 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Hollywood Studios",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 5477,
+        "name": "Alien Swirling Saucers",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Toy Story Land"
+      },
+      {
+        "score": 0.4276,
+        "id": 14531,
+        "name": "Star Wars: Rise of the Resistance Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Star Wars: Galaxy's Edge"
+      },
+      {
+        "score": 0.4259,
+        "id": 5476,
+        "name": "Slinky Dog Dash",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Toy Story Land"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "slinky",
+      "activity_anchor": "slinky",
+      "name": "Slinky Dog Dash",
+      "kind": "lightning",
+      "park_name": "Hollywood Studios",
+      "area": "Toy Story Land",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "5:35–6:35 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Hollywood Studios",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 5476,
+        "name": "Slinky Dog Dash",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Toy Story Land"
+      },
+      {
+        "score": 0.4611,
+        "id": 5477,
+        "name": "Alien Swirling Saucers",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Toy Story Land"
+      },
+      {
+        "score": 0.4008,
+        "id": 6704,
+        "name": "Meet Disney Stars at Red Carpet Dreams",
+        "entityType": "ATTRACTION",
+        "parkName": "Hollywood Studios",
+        "scopeName": "Hollywood Studios",
+        "parkId": 7,
+        "land": "Commissary Lane"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "boma",
+      "activity_anchor": "boma",
+      "name": "Boma dinner",
+      "kind": "meal",
+      "park_name": "Resort / Transportation",
+      "area": "Animal Kingdom Lodge",
+      "source_page": "docs/disney/day-02-animal-kingdom-hollywood.md",
+      "window_label": "7:00 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Resort / Transportation",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "seven",
+      "activity_anchor": "seven",
+      "name": "Seven Dwarfs Mine Train",
+      "kind": "planned",
+      "park_name": "Magic Kingdom",
+      "area": "Fantasyland",
+      "source_page": "docs/disney/day-03-magic-kingdom.md",
+      "window_label": "Early Entry",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Magic Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 129,
+        "name": "Seven Dwarfs Mine Train",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Fantasyland"
+      },
+      {
+        "score": 0.4962,
+        "id": 138,
+        "name": "Space Mountain",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Tomorrowland"
+      },
+      {
+        "score": 0.44,
+        "id": 355,
+        "name": "Swiss Family Treehouse",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Adventureland"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "space",
+      "activity_anchor": "space",
+      "name": "Space Mountain",
+      "kind": "planned",
+      "park_name": "Magic Kingdom",
+      "area": "Tomorrowland",
+      "source_page": "docs/disney/day-03-magic-kingdom.md",
+      "window_label": "After Seven Dwarfs",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Magic Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 138,
+        "name": "Space Mountain",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Tomorrowland"
+      },
+      {
+        "score": 0.5523,
+        "id": 130,
+        "name": "Big Thunder Mountain Railroad",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Frontierland"
+      },
+      {
+        "score": 0.4938,
+        "id": 140,
+        "name": "Haunted Mansion",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Liberty Square"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "breakfast",
+      "activity_anchor": "breakfast",
+      "name": "Friar’s Nook breakfast",
+      "kind": "meal",
+      "park_name": "Magic Kingdom",
+      "area": "Fantasyland",
+      "source_page": "docs/disney/day-03-magic-kingdom.md",
+      "window_label": "≈8:45–9:05",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Magic Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "tiana",
+      "activity_anchor": "tiana",
+      "name": "Tiana’s Bayou Adventure",
+      "kind": "lightning",
+      "park_name": "Magic Kingdom",
+      "area": "Frontierland",
+      "source_page": "docs/disney/day-03-magic-kingdom.md",
+      "window_label": "9:20–10:20 a.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Magic Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 13630,
+        "name": "Tiana's Bayou Adventure",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Frontierland"
+      },
+      {
+        "score": 0.4989,
+        "id": 142,
+        "name": "The Many Adventures of Winnie the Pooh",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Fantasyland"
+      },
+      {
+        "score": 0.476,
+        "id": 1184,
+        "name": "A Pirate's Adventure ~ Treasures of the Seven Seas",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Adventureland"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "haunted",
+      "activity_anchor": "haunted",
+      "name": "Haunted Mansion",
+      "kind": "lightning",
+      "park_name": "Magic Kingdom",
+      "area": "Liberty Square",
+      "source_page": "docs/disney/day-03-magic-kingdom.md",
+      "window_label": "10:45–11:45 a.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Magic Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 140,
+        "name": "Haunted Mansion",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Liberty Square"
+      },
+      {
+        "score": 0.4971,
+        "id": 128,
+        "name": "Enchanted Tales with Belle",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Fantasyland"
+      },
+      {
+        "score": 0.4558,
+        "id": 136,
+        "name": "Peter Pan's Flight",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Fantasyland"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "pirates",
+      "activity_anchor": "pirates",
+      "name": "Pirates of the Caribbean",
+      "kind": "lightning",
+      "park_name": "Magic Kingdom",
+      "area": "Adventureland",
+      "source_page": "docs/disney/day-03-magic-kingdom.md",
+      "window_label": "11:25 a.m.–12:45 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Magic Kingdom",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 137,
+        "name": "Pirates of the Caribbean",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Adventureland"
+      },
+      {
+        "score": 0.5579,
+        "id": 356,
+        "name": "The Hall of Presidents",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Liberty Square"
+      },
+      {
+        "score": 0.5338,
+        "id": 141,
+        "name": "The Magic Carpets of Aladdin",
+        "entityType": "ATTRACTION",
+        "parkName": "Magic Kingdom",
+        "scopeName": "Magic Kingdom",
+        "parkId": 6,
+        "land": "Adventureland"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "nintendo",
+      "activity_anchor": "nintendo",
+      "name": "Super Nintendo World priorities",
+      "kind": "planned",
+      "park_name": "Epic Universe",
+      "area": "Super Nintendo World",
+      "source_page": "docs/universal/day-04-epic-universe.md",
+      "window_label": "Morning",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Epic Universe",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 0.4144,
+        "id": 14698,
+        "name": "Curse of the Werewolf Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "Dark Universe"
+      },
+      {
+        "score": 0.388,
+        "id": 14684,
+        "name": "Mario Kart™: Bowser's Challenge Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "SUPER NINTENDO WORLD"
+      },
+      {
+        "score": 0.3765,
+        "id": 16644,
+        "name": "Monsters Unchained: The Frankenstein Experiment Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "Dark Universe"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "ministry",
+      "activity_anchor": "ministry",
+      "name": "Ministry of Magic",
+      "kind": "planned",
+      "park_name": "Epic Universe",
+      "area": "Wizarding Paris / Ministry",
+      "source_page": "docs/universal/day-04-epic-universe.md",
+      "window_label": "Late morning / early afternoon",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Epic Universe",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 0.4412,
+        "id": 14692,
+        "name": "Curse of the Werewolf",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "Dark Universe"
+      },
+      {
+        "score": 0.4328,
+        "id": 14686,
+        "name": "Mine-Cart Madness™",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "SUPER NINTENDO WORLD"
+      },
+      {
+        "score": 0.4238,
+        "id": 14690,
+        "name": "Stardust Racers",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "Celestial Park"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "berk",
+      "activity_anchor": "berk",
+      "name": "The Untrainable Dragon",
+      "kind": "show",
+      "park_name": "Epic Universe",
+      "area": "Isle of Berk",
+      "source_page": "docs/universal/day-04-epic-universe.md",
+      "window_label": "Day-of showtime",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Epic Universe",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "monsters",
+      "activity_anchor": "monsters",
+      "name": "Monsters Unchained",
+      "kind": "planned",
+      "park_name": "Epic Universe",
+      "area": "Dark Universe",
+      "source_page": "docs/universal/day-04-epic-universe.md",
+      "window_label": "Afternoon",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Epic Universe",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 14694,
+        "name": "Monsters Unchained: The Frankenstein Experiment",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "Dark Universe"
+      },
+      {
+        "score": 1.0,
+        "id": 16644,
+        "name": "Monsters Unchained: The Frankenstein Experiment Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "Dark Universe"
+      },
+      {
+        "score": 0.5314,
+        "id": 14682,
+        "name": "Bowser Jr. Challenge",
+        "entityType": "ATTRACTION",
+        "parkName": "Epic Universe",
+        "scopeName": "Epic Universe",
+        "parkId": 334,
+        "land": "SUPER NINTENDO WORLD"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "blue",
+      "activity_anchor": "blue",
+      "name": "Blue Dragon dinner",
+      "kind": "meal",
+      "park_name": "Epic Universe",
+      "area": "Celestial Park",
+      "source_page": "docs/universal/day-04-epic-universe.md",
+      "window_label": "5:15 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Epic Universe",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "goodnight",
+      "activity_anchor": "goodnight",
+      "name": "Celestial Goodnight",
+      "kind": "show",
+      "park_name": "Epic Universe",
+      "area": "Celestial Park",
+      "source_page": "docs/universal/day-04-epic-universe.md",
+      "window_label": "Optional",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Epic Universe",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "hagrid",
+      "activity_anchor": "hagrid",
+      "name": "Hagrid’s Magical Creatures Motorbike Adventure",
+      "kind": "planned",
+      "park_name": "Islands of Adventure",
+      "area": "Hogsmeade",
+      "source_page": "docs/universal/day-05-islands-of-adventure.md",
+      "window_label": "Early Park Admission",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Islands of Adventure",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 6682,
+        "name": "Hagrid's Magical Creatures Motorbike Adventure™",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "The Wizarding World of Harry Potter - Hogsmeade"
+      },
+      {
+        "score": 0.4664,
+        "id": 5994,
+        "name": "Jurassic Park River Adventure",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "Jurassic Park"
+      },
+      {
+        "score": 0.4276,
+        "id": 6015,
+        "name": "Hogwarts Express™ - Hogsmeade™ Station",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "The Wizarding World of Harry Potter - Hogsmeade"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "forbidden",
+      "activity_anchor": "forbidden",
+      "name": "Harry Potter and the Forbidden Journey",
+      "kind": "lightning",
+      "park_name": "Islands of Adventure",
+      "area": "Hogsmeade",
+      "source_page": "docs/universal/day-05-islands-of-adventure.md",
+      "window_label": "Morning",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Islands of Adventure",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 5992,
+        "name": "Harry Potter and the Forbidden Journey™",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "The Wizarding World of Harry Potter - Hogsmeade"
+      },
+      {
+        "score": 1.0,
+        "id": 13113,
+        "name": "Harry Potter and the Forbidden Journey™ Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "The Wizarding World of Harry Potter - Hogsmeade"
+      },
+      {
+        "score": 0.4976,
+        "id": 5998,
+        "name": "Popeye & Bluto's Bilge-Rat Barges®",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "Toon Lagoon"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "breakfast",
+      "activity_anchor": "breakfast",
+      "name": "Three Broomsticks breakfast",
+      "kind": "meal",
+      "park_name": "Islands of Adventure",
+      "area": "Hogsmeade",
+      "source_page": "docs/universal/day-05-islands-of-adventure.md",
+      "window_label": "Before 10:00 a.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Islands of Adventure",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "ollivanders",
+      "activity_anchor": "ollivanders",
+      "name": "Ollivanders and wand purchase",
+      "kind": "show",
+      "park_name": "Islands of Adventure",
+      "area": "Hogsmeade",
+      "source_page": "docs/universal/day-05-islands-of-adventure.md",
+      "window_label": "Late morning",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Islands of Adventure",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "express",
+      "activity_anchor": "express",
+      "name": "Optional Hogwarts Express evening extension",
+      "kind": "planned",
+      "park_name": "Islands of Adventure",
+      "area": "Hogsmeade ↔ Diagon Alley",
+      "source_page": "docs/universal/day-05-islands-of-adventure.md",
+      "window_label": "Late morning",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Islands of Adventure",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 0.6089,
+        "id": 6015,
+        "name": "Hogwarts Express™ - Hogsmeade™ Station",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "The Wizarding World of Harry Potter - Hogsmeade"
+      },
+      {
+        "score": 0.4178,
+        "id": 6001,
+        "name": "The High in the Sky Seuss Trolley Train Ride!™",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "Seuss Landing"
+      },
+      {
+        "score": 0.4104,
+        "id": 15384,
+        "name": "The Incredible Hulk Coaster® Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "Marvel Super Hero Island"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "mythos",
+      "activity_anchor": "mythos",
+      "name": "Mythos lunch",
+      "kind": "meal",
+      "park_name": "Islands of Adventure",
+      "area": "The Lost Continent",
+      "source_page": "docs/universal/day-05-islands-of-adventure.md",
+      "window_label": "2:00 p.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Islands of Adventure",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "water",
+      "activity_anchor": "water",
+      "name": "Water rides or remaining priorities",
+      "kind": "planned",
+      "park_name": "Islands of Adventure",
+      "area": "Toon Lagoon / Jurassic Park",
+      "source_page": "docs/universal/day-05-islands-of-adventure.md",
+      "window_label": "After lunch",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Islands of Adventure",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 0.4363,
+        "id": 5992,
+        "name": "Harry Potter and the Forbidden Journey™",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "The Wizarding World of Harry Potter - Hogsmeade"
+      },
+      {
+        "score": 0.4128,
+        "id": 5985,
+        "name": "The Amazing Adventures of Spider-Man®",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "Marvel Super Hero Island"
+      },
+      {
+        "score": 0.3937,
+        "id": 6015,
+        "name": "Hogwarts Express™ - Hogsmeade™ Station",
+        "entityType": "ATTRACTION",
+        "parkName": "Islands of Adventure",
+        "scopeName": "Islands of Adventure",
+        "parkId": 64,
+        "land": "The Wizarding World of Harry Potter - Hogsmeade"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "leaky",
+      "activity_anchor": "leaky",
+      "name": "Leaky Cauldron breakfast",
+      "kind": "meal",
+      "park_name": "Universal Studios Florida",
+      "area": "Diagon Alley",
+      "source_page": "docs/universal/day-06-universal-studios.md",
+      "window_label": "9:00–≈9:40 a.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Universal Studios Florida",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "shutter",
+      "activity_anchor": "shutter",
+      "name": "Shutterbutton’s Photography Studio",
+      "kind": "extra",
+      "park_name": "Universal Studios Florida",
+      "area": "Diagon Alley",
+      "source_page": "docs/universal/day-06-universal-studios.md",
+      "window_label": "10:00 a.m.",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Universal Studios Florida",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "gringotts",
+      "activity_anchor": "gringotts",
+      "name": "Escape from Gringotts",
+      "kind": "lightning",
+      "park_name": "Universal Studios Florida",
+      "area": "Diagon Alley",
+      "source_page": "docs/universal/day-06-universal-studios.md",
+      "window_label": "Late morning",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Universal Studios Florida",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 6014,
+        "name": "Harry Potter and the Escape from Gringotts™",
+        "entityType": "ATTRACTION",
+        "parkName": "Universal Studios Florida",
+        "scopeName": "Universal Studios Florida",
+        "parkId": 65,
+        "land": "The Wizarding World of Harry Potter - Diagon Alley"
+      },
+      {
+        "score": 1.0,
+        "id": 15416,
+        "name": "Harry Potter and the Escape from Gringotts™ Single Rider",
+        "entityType": "ATTRACTION",
+        "parkName": "Universal Studios Florida",
+        "scopeName": "Universal Studios Florida",
+        "parkId": 65,
+        "land": "The Wizarding World of Harry Potter - Diagon Alley"
+      },
+      {
+        "score": 0.492,
+        "id": 5984,
+        "name": "Despicable Me Minion Mayhem™",
+        "entityType": "ATTRACTION",
+        "parkName": "Universal Studios Florida",
+        "scopeName": "Universal Studios Florida",
+        "parkId": 65,
+        "land": "Illumination's Minion Land"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "minion",
+      "activity_anchor": "minion",
+      "name": "Despicable Me Minion Mayhem",
+      "kind": "lightning",
+      "park_name": "Universal Studios Florida",
+      "area": "Minion Land",
+      "source_page": "docs/universal/day-06-universal-studios.md",
+      "window_label": "Late morning / early afternoon",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Universal Studios Florida",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": [
+      {
+        "score": 1.0,
+        "id": 5984,
+        "name": "Despicable Me Minion Mayhem™",
+        "entityType": "ATTRACTION",
+        "parkName": "Universal Studios Florida",
+        "scopeName": "Universal Studios Florida",
+        "parkId": 65,
+        "land": "Illumination's Minion Land"
+      },
+      {
+        "score": 0.4626,
+        "id": 13100,
+        "name": "Ollivanders™ Experience in Diagon Alley™",
+        "entityType": "ATTRACTION",
+        "parkName": "Universal Studios Florida",
+        "scopeName": "Universal Studios Florida",
+        "parkId": 65,
+        "land": "The Wizarding World of Harry Potter - Diagon Alley"
+      },
+      {
+        "score": 0.4601,
+        "id": 12107,
+        "name": "Illumination's Villain-Con Minion Blast",
+        "entityType": "ATTRACTION",
+        "parkName": "Universal Studios Florida",
+        "scopeName": "Universal Studios Florida",
+        "parkId": 65,
+        "land": "Illumination's Minion Land"
+      }
+    ]
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "icecream",
+      "activity_anchor": "icecream",
+      "name": "Florean ice-cream flight + Honeydukes cooler bag",
+      "kind": "extra",
+      "park_name": "Universal Studios Florida",
+      "area": "Diagon Alley",
+      "source_page": "docs/universal/day-06-universal-studios.md",
+      "window_label": "Afternoon / final Diagon Alley pass",
+      "commitment": "true",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Universal Studios Florida",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  },
+  {
+    "itinerary": {
+      "itinerary_id": "bourne",
+      "activity_anchor": "bourne",
+      "name": "The Bourne Stuntacular",
+      "kind": "show",
+      "park_name": "Universal Studios Florida",
+      "area": "Hollywood",
+      "source_page": "docs/universal/day-06-universal-studios.md",
+      "window_label": "Warmest part of afternoon",
+      "commitment": "false",
+      "include_in_catalog": "YES",
+      "notes": ""
+    },
+    "scope": "Universal Studios Florida",
+    "themeParksWikiCandidates": [],
+    "queueTimesCandidates": []
+  }
+]

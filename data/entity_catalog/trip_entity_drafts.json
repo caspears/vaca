@@ -1,0 +1,972 @@
+{
+  "schemaVersion": 2,
+  "status": "DRAFT_REQUIRES_COORDINATE_VERIFICATION",
+  "entities": {
+    "navi": {
+      "catalogId": "navi",
+      "itineraryId": "navi",
+      "name": "Na’vi River Journey",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "fop": {
+      "catalogId": "fop",
+      "itineraryId": "fop",
+      "name": "Avatar Flight of Passage",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "safari": {
+      "catalogId": "safari",
+      "itineraryId": "safari",
+      "name": "Kilimanjaro Safaris",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "gorilla": {
+      "catalogId": "gorilla",
+      "itineraryId": "gorilla",
+      "name": "Gorilla Falls Exploration Trail",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "lion": {
+      "catalogId": "lion",
+      "itineraryId": "lion",
+      "name": "Festival of the Lion King",
+      "kind": "show",
+      "entityClass": "SHOW",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.3585,
+        "longitude": -81.5905,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.3585° N, 81.5905° W"
+    },
+    "everest": {
+      "catalogId": "everest",
+      "itineraryId": "everest",
+      "name": "Expedition Everest",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "maharajah": {
+      "catalogId": "maharajah",
+      "itineraryId": "maharajah",
+      "name": "Maharajah Jungle Trek",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.36,
+        "longitude": -81.5892,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.3600° N, 81.5892° W"
+    },
+    "zootopia": {
+      "catalogId": "zootopia",
+      "itineraryId": "zootopia",
+      "name": "Zootopia: Better Zoogether!",
+      "kind": "show",
+      "entityClass": "SHOW",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "UNRESOLVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "tiffins": {
+      "catalogId": "tiffins",
+      "itineraryId": "tiffins",
+      "name": "Tiffins lunch",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Animal Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.3556,
+        "longitude": -81.5901,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.3556° N, 81.5901° W"
+    },
+    "jiko": {
+      "catalogId": "jiko",
+      "itineraryId": "jiko",
+      "name": "Jiko dinner",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Animal Kingdom Lodge",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.3529,
+        "longitude": -81.6027,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.3529° N, 81.6027° W"
+    },
+    "nintendo": {
+      "catalogId": "nintendo",
+      "itineraryId": "nintendo",
+      "name": "Super Nintendo World priorities",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Epic Universe",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.43,
+        "longitude": -81.45,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.43° N, 81.45° W"
+    },
+    "ministry": {
+      "catalogId": "ministry",
+      "itineraryId": "ministry",
+      "name": "Ministry of Magic",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Epic Universe",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.435,
+        "longitude": -81.445,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.435° N, 81.445° W"
+    },
+    "berk": {
+      "catalogId": "berk",
+      "itineraryId": "berk",
+      "name": "The Untrainable Dragon",
+      "kind": "show",
+      "entityClass": "SHOW",
+      "parkName": "Epic Universe",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.4397222,
+        "longitude": -81.4497222,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": "Converted degrees/minutes/seconds to decimal degrees."
+      },
+      "reviewNoteOriginal": "28°26'23\"N, 81°26'59\"W"
+    },
+    "monsters": {
+      "catalogId": "monsters",
+      "itineraryId": "monsters",
+      "name": "Monsters Unchained",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Epic Universe",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "blue": {
+      "catalogId": "blue",
+      "itineraryId": "blue",
+      "name": "Blue Dragon dinner",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Epic Universe",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.349,
+        "longitude": -81.442,
+        "status": "PROVISIONAL_OUT_OF_RANGE",
+        "warning": "Coordinate is outside broad expected bounds for Epic Universe.",
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.349, -81.442"
+    },
+    "goodnight": {
+      "catalogId": "goodnight",
+      "itineraryId": "goodnight",
+      "name": "Celestial Goodnight",
+      "kind": "show",
+      "entityClass": "SHOW",
+      "parkName": "Epic Universe",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "NOT_APPLICABLE",
+        "recommendedStatus": "NOT_APPLICABLE"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "runaway": {
+      "catalogId": "runaway",
+      "itineraryId": "runaway",
+      "name": "Runaway Railway decision point",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Hollywood Studios",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "star": {
+      "catalogId": "star",
+      "itineraryId": "star",
+      "name": "Star Tours",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Hollywood Studios",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "rise": {
+      "catalogId": "rise",
+      "itineraryId": "rise",
+      "name": "Rise of the Resistance",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Hollywood Studios",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "alien": {
+      "catalogId": "alien",
+      "itineraryId": "alien",
+      "name": "Alien Swirling Saucers",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Hollywood Studios",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "slinky": {
+      "catalogId": "slinky",
+      "itineraryId": "slinky",
+      "name": "Slinky Dog Dash",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Hollywood Studios",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "hagrid": {
+      "catalogId": "hagrid",
+      "itineraryId": "hagrid",
+      "name": "Hagrid’s Magical Creatures Motorbike Adventure",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Islands of Adventure",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "forbidden": {
+      "catalogId": "forbidden",
+      "itineraryId": "forbidden",
+      "name": "Harry Potter and the Forbidden Journey",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Islands of Adventure",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "islands-of-adventure--breakfast": {
+      "catalogId": "islands-of-adventure--breakfast",
+      "itineraryId": "breakfast",
+      "name": "Three Broomsticks breakfast",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Islands of Adventure",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.4194,
+        "longitude": -81.5812,
+        "status": "PROVISIONAL_OUT_OF_RANGE",
+        "warning": "Coordinate is outside broad expected bounds for Islands of Adventure.",
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": "Inferred west longitude from Orlando context."
+      },
+      "reviewNoteOriginal": "28.4194° N, 81.5812°"
+    },
+    "ollivanders": {
+      "catalogId": "ollivanders",
+      "itineraryId": "ollivanders",
+      "name": "Ollivanders and wand purchase",
+      "kind": "show",
+      "entityClass": "SHOW",
+      "parkName": "Islands of Adventure",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.4745,
+        "longitude": -81.4678,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.4745° N, 81.4678° W"
+    },
+    "express": {
+      "catalogId": "express",
+      "itineraryId": "express",
+      "name": "Optional Hogwarts Express evening extension",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Islands of Adventure",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "mythos": {
+      "catalogId": "mythos",
+      "itineraryId": "mythos",
+      "name": "Mythos lunch",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Islands of Adventure",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.4725437,
+        "longitude": -81.4714508,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.4725437, -81.4714508"
+    },
+    "water": {
+      "catalogId": "water",
+      "itineraryId": "water",
+      "name": "Water rides or remaining priorities",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Islands of Adventure",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "NOT_APPLICABLE",
+        "recommendedStatus": "NOT_APPLICABLE"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "seven": {
+      "catalogId": "seven",
+      "itineraryId": "seven",
+      "name": "Seven Dwarfs Mine Train",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Magic Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "space": {
+      "catalogId": "space",
+      "itineraryId": "space",
+      "name": "Space Mountain",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Magic Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "magic-kingdom--breakfast": {
+      "catalogId": "magic-kingdom--breakfast",
+      "itineraryId": "breakfast",
+      "name": "Friar’s Nook breakfast",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Magic Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.4194,
+        "longitude": -81.5812,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": "Inferred west longitude from Orlando context."
+      },
+      "reviewNoteOriginal": "28.4194° N, 81.5812°"
+    },
+    "tiana": {
+      "catalogId": "tiana",
+      "itineraryId": "tiana",
+      "name": "Tiana’s Bayou Adventure",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Magic Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "haunted": {
+      "catalogId": "haunted",
+      "itineraryId": "haunted",
+      "name": "Haunted Mansion",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Magic Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "pirates": {
+      "catalogId": "pirates",
+      "itineraryId": "pirates",
+      "name": "Pirates of the Caribbean",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Magic Kingdom",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "boma": {
+      "catalogId": "boma",
+      "itineraryId": "boma",
+      "name": "Boma dinner",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Resort / Transportation",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.3533,
+        "longitude": -81.6025,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.3533° N, 81.6025° W"
+    },
+    "typhoon": {
+      "catalogId": "typhoon",
+      "itineraryId": "typhoon",
+      "name": "Typhoon Lagoon priorities",
+      "kind": "planned",
+      "entityClass": "ATTRACTION_OR_AREA",
+      "parkName": "Typhoon Lagoon",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "NOT_APPLICABLE",
+        "recommendedStatus": "NOT_APPLICABLE"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "leaky": {
+      "catalogId": "leaky",
+      "itineraryId": "leaky",
+      "name": "Leaky Cauldron breakfast",
+      "kind": "meal",
+      "entityClass": "RESTAURANT",
+      "parkName": "Universal Studios Florida",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.4794619,
+        "longitude": -81.4695657,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.4794619, -81.4695657"
+    },
+    "shutter": {
+      "catalogId": "shutter",
+      "itineraryId": "shutter",
+      "name": "Shutterbutton’s Photography Studio",
+      "kind": "extra",
+      "entityClass": "WAYPOINT",
+      "parkName": "Universal Studios Florida",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.474386,
+        "longitude": -81.468193,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.474386, -81.468193"
+    },
+    "gringotts": {
+      "catalogId": "gringotts",
+      "itineraryId": "gringotts",
+      "name": "Escape from Gringotts",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Universal Studios Florida",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "minion": {
+      "catalogId": "minion",
+      "itineraryId": "minion",
+      "name": "Despicable Me Minion Mayhem",
+      "kind": "lightning",
+      "entityClass": "ATTRACTION",
+      "parkName": "Universal Studios Florida",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": "1",
+        "originalStatus": "APPROVED",
+        "recommendedStatus": "APPROVED"
+      },
+      "location": {
+        "latitude": null,
+        "longitude": null,
+        "status": "MISSING",
+        "warning": null,
+        "source": null,
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": null
+    },
+    "icecream": {
+      "catalogId": "icecream",
+      "itineraryId": "icecream",
+      "name": "Florean ice-cream flight + Honeydukes cooler bag",
+      "kind": "extra",
+      "entityClass": "WAYPOINT",
+      "parkName": "Universal Studios Florida",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.4712,
+        "longitude": -81.4688,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.4712° N, 81.4688° W"
+    },
+    "bourne": {
+      "catalogId": "bourne",
+      "itineraryId": "bourne",
+      "name": "The Bourne Stuntacular",
+      "kind": "show",
+      "entityClass": "SHOW",
+      "parkName": "Universal Studios Florida",
+      "providerReview": {
+        "selectedThemeParksWikiCandidate": null,
+        "selectedQueueTimesCandidate": null,
+        "originalStatus": "UNRESOLVED",
+        "recommendedStatus": "MANUAL"
+      },
+      "location": {
+        "latitude": 28.47596,
+        "longitude": -81.46692,
+        "status": "PROVISIONAL_IN_RANGE",
+        "warning": null,
+        "source": "USER_REVIEW_NOTE",
+        "normalizationNote": null
+      },
+      "reviewNoteOriginal": "28.47596° N, -81.46692° W"
+    }
+  }
+}

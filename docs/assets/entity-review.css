@@ -1,0 +1,130 @@
+.entity-review-toolbar {
+  position: sticky;
+  top: 4.2rem;
+  z-index: 8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .55rem;
+  margin: .75rem 0 1rem;
+  padding: .65rem;
+  border: 2px solid var(--md-primary-fg-color);
+  border-radius: .75rem;
+  background: var(--md-default-bg-color);
+}
+
+.entity-review-item {
+  margin: 1rem 0;
+  padding: .8rem;
+  border: 2px solid var(--md-default-fg-color--lighter);
+  border-radius: .85rem;
+  background: var(--md-default-bg-color);
+}
+
+.entity-review-item.is-reviewed {
+  border-color: #23733a;
+}
+
+.entity-review-context {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-bottom: .7rem;
+}
+
+.entity-review-context span {
+  padding: .2rem .45rem;
+  border-radius: 999px;
+  background: var(--md-code-bg-color);
+  font-size: .76rem;
+  font-weight: 800;
+}
+
+.entity-provider-group {
+  margin: .7rem 0;
+}
+
+.entity-provider-group h4 {
+  margin-bottom: .4rem;
+}
+
+.entity-candidate {
+  display: grid;
+  grid-template-columns: auto minmax(0,1fr);
+  gap: .55rem;
+  align-items: start;
+  margin: .45rem 0;
+  padding: .55rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .65rem;
+  cursor: pointer;
+}
+
+.entity-candidate:has(input:checked) {
+  border-color: var(--md-primary-fg-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 8%, transparent);
+}
+
+.entity-candidate input {
+  margin-top: .3rem;
+}
+
+.entity-candidate-body {
+  display: grid;
+  gap: .18rem;
+}
+
+.entity-candidate-name {
+  font-weight: 900;
+}
+
+.entity-candidate-meta,
+.entity-candidate-location {
+  color: var(--md-default-fg-color--light);
+  font-size: .78rem;
+}
+
+.entity-candidate-link {
+  width: fit-content;
+  font-size: .8rem;
+  font-weight: 800;
+}
+
+.entity-review-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  align-items: center;
+  margin-top: .8rem;
+  padding-top: .7rem;
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+}
+
+.entity-review-status label {
+  font-weight: 800;
+}
+
+.entity-review-note {
+  flex: 1 1 220px;
+  min-height: 38px;
+  padding: .35rem .5rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .45rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.entity-review-empty {
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}
+
+@media (max-width: 650px) {
+  .entity-review-toolbar {
+    top: 3.8rem;
+  }
+
+  .entity-review-item {
+    padding: .6rem;
+  }
+}

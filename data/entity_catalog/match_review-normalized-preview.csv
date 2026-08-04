@@ -1,0 +1,43 @@
+﻿itinerary_id,itinerary_name,kind,park_scope,selected_tpw_candidate,selected_queue_candidate,match_status,review_note,manual_latitude,manual_longitude,coordinate_parse_status,coordinate_status,coordinate_warning,coordinate_normalization_note,recommended_next_status
+navi,Na’vi River Journey,planned,Animal Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+fop,Avatar Flight of Passage,lightning,Animal Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+safari,Kilimanjaro Safaris,planned,Animal Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+gorilla,Gorilla Falls Exploration Trail,planned,Animal Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+lion,Festival of the Lion King,show,Animal Kingdom,,,UNRESOLVED,"28.3585° N, 81.5905° W",28.3585,-81.5905,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+everest,Expedition Everest,planned,Animal Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+maharajah,Maharajah Jungle Trek,planned,Animal Kingdom,,,UNRESOLVED,"28.3600° N, 81.5892° W",28.36,-81.5892,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+zootopia,Zootopia: Better Zoogether!,show,Animal Kingdom,,,UNRESOLVED,,,,NO_COORDINATE,MISSING,,,UNRESOLVED
+tiffins,Tiffins lunch,meal,Animal Kingdom,,,UNRESOLVED,"28.3556° N, 81.5901° W",28.3556,-81.5901,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+jiko,Jiko dinner,meal,Animal Kingdom Lodge,,,UNRESOLVED,"28.3529° N, 81.6027° W",28.3529,-81.6027,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+nintendo,Super Nintendo World priorities,planned,Epic Universe,,,UNRESOLVED,"28.43° N, 81.45° W",28.43,-81.45,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+ministry,Ministry of Magic,planned,Epic Universe,,,UNRESOLVED,"28.435° N, 81.445° W",28.435,-81.445,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+berk,The Untrainable Dragon,show,Epic Universe,,,UNRESOLVED,"28°26'23""N, 81°26'59""W",28.4397222,-81.4497222,PARSED_DMS,PROVISIONAL_IN_RANGE,,Converted degrees/minutes/seconds to decimal degrees.,MANUAL
+monsters,Monsters Unchained,planned,Epic Universe,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+blue,Blue Dragon dinner,meal,Epic Universe,,,UNRESOLVED,"28.349, -81.442",28.349,-81.442,PARSED_DECIMAL,PROVISIONAL_OUT_OF_RANGE,Coordinate falls outside the broad expected bounds for Epic Universe; verify before runtime use.,,MANUAL
+goodnight,Celestial Goodnight,show,Epic Universe,,,NOT_APPLICABLE,,,,NO_COORDINATE,MISSING,,,NOT_APPLICABLE
+runaway,Runaway Railway decision point,planned,Hollywood Studios,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+star,Star Tours,lightning,Hollywood Studios,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+rise,Rise of the Resistance,lightning,Hollywood Studios,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+alien,Alien Swirling Saucers,lightning,Hollywood Studios,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+slinky,Slinky Dog Dash,lightning,Hollywood Studios,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+hagrid,Hagrid’s Magical Creatures Motorbike Adventure,planned,Islands of Adventure,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+forbidden,Harry Potter and the Forbidden Journey,lightning,Islands of Adventure,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+breakfast,Three Broomsticks breakfast,meal,Islands of Adventure,,,UNRESOLVED,"28.4194° N, 81.5812°",28.4194,-81.5812,PARSED_DECIMAL,PROVISIONAL_OUT_OF_RANGE,Coordinate falls outside the broad expected bounds for Islands of Adventure; verify before runtime use.,Inferred west longitude from Orlando context.,MANUAL
+ollivanders,Ollivanders and wand purchase,show,Islands of Adventure,,,UNRESOLVED,"28.4745° N, 81.4678° W",28.4745,-81.4678,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+express,Optional Hogwarts Express evening extension,planned,Islands of Adventure,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+mythos,Mythos lunch,meal,Islands of Adventure,,,UNRESOLVED,"28.4725437, -81.4714508",28.4725437,-81.4714508,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+water,Water rides or remaining priorities,planned,Islands of Adventure,,,NOT_APPLICABLE,,,,NO_COORDINATE,MISSING,,,NOT_APPLICABLE
+seven,Seven Dwarfs Mine Train,planned,Magic Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+space,Space Mountain,planned,Magic Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+breakfast,Friar’s Nook breakfast,meal,Magic Kingdom,,,UNRESOLVED,"28.4194° N, 81.5812°",28.4194,-81.5812,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,Inferred west longitude from Orlando context.,MANUAL
+tiana,Tiana’s Bayou Adventure,lightning,Magic Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+haunted,Haunted Mansion,lightning,Magic Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+pirates,Pirates of the Caribbean,lightning,Magic Kingdom,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+boma,Boma dinner,meal,Resort / Transportation,,,UNRESOLVED,"28.3533° N, 81.6025° W",28.3533,-81.6025,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+typhoon,Typhoon Lagoon priorities,planned,Typhoon Lagoon,,,NOT_APPLICABLE,,,,NO_COORDINATE,MISSING,,,NOT_APPLICABLE
+leaky,Leaky Cauldron breakfast,meal,Universal Studios Florida,,,UNRESOLVED,"28.4794619, -81.4695657",28.4794619,-81.4695657,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+shutter,Shutterbutton’s Photography Studio,extra,Universal Studios Florida,,,UNRESOLVED,"28.474386, -81.468193",28.474386,-81.468193,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+gringotts,Escape from Gringotts,lightning,Universal Studios Florida,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+minion,Despicable Me Minion Mayhem,lightning,Universal Studios Florida,,1,APPROVED,,,,NO_COORDINATE,MISSING,,,APPROVED
+icecream,Florean ice-cream flight + Honeydukes cooler bag,extra,Universal Studios Florida,,,UNRESOLVED,"28.4712° N, 81.4688° W",28.4712,-81.4688,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL
+bourne,The Bourne Stuntacular,show,Universal Studios Florida,,,UNRESOLVED,"28.47596° N, -81.46692° W",28.47596,-81.46692,PARSED_DECIMAL,PROVISIONAL_IN_RANGE,,,MANUAL

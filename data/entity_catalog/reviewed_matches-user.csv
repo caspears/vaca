@@ -1,0 +1,43 @@
+itinerary_id,itinerary_name,kind,park_scope,selected_tpw_candidate,selected_queue_candidate,match_status,review_note
+navi,Na’vi River Journey,planned,Animal Kingdom,,1,APPROVED,
+fop,Avatar Flight of Passage,lightning,Animal Kingdom,,1,APPROVED,
+safari,Kilimanjaro Safaris,planned,Animal Kingdom,,1,APPROVED,
+gorilla,Gorilla Falls Exploration Trail,planned,Animal Kingdom,,1,APPROVED,
+lion,Festival of the Lion King,show,Animal Kingdom,,,UNRESOLVED,"28.3585° N, 81.5905° W"
+everest,Expedition Everest,planned,Animal Kingdom,,1,APPROVED,
+maharajah,Maharajah Jungle Trek,planned,Animal Kingdom,,,UNRESOLVED,"28.3600° N, 81.5892° W"
+zootopia,Zootopia: Better Zoogether!,show,Animal Kingdom,,,UNRESOLVED,
+tiffins,Tiffins lunch,meal,Animal Kingdom,,,UNRESOLVED,"28.3556° N, 81.5901° W"
+jiko,Jiko dinner,meal,Animal Kingdom Lodge,,,UNRESOLVED,"28.3529° N, 81.6027° W"
+nintendo,Super Nintendo World priorities,planned,Epic Universe,,,UNRESOLVED,"28.43° N, 81.45° W"
+ministry,Ministry of Magic,planned,Epic Universe,,,UNRESOLVED,"28.435° N, 81.445° W"
+berk,The Untrainable Dragon,show,Epic Universe,,,UNRESOLVED,"28°26'23""N, 81°26'59""W"
+monsters,Monsters Unchained,planned,Epic Universe,,1,APPROVED,
+blue,Blue Dragon dinner,meal,Epic Universe,,,UNRESOLVED,"28.349, -81.442"
+goodnight,Celestial Goodnight,show,Epic Universe,,,NOT_APPLICABLE,
+runaway,Runaway Railway decision point,planned,Hollywood Studios,,1,APPROVED,
+star,Star Tours,lightning,Hollywood Studios,,1,APPROVED,
+rise,Rise of the Resistance,lightning,Hollywood Studios,,1,APPROVED,
+alien,Alien Swirling Saucers,lightning,Hollywood Studios,,1,APPROVED,
+slinky,Slinky Dog Dash,lightning,Hollywood Studios,,1,APPROVED,
+hagrid,Hagrid’s Magical Creatures Motorbike Adventure,planned,Islands of Adventure,,1,APPROVED,
+forbidden,Harry Potter and the Forbidden Journey,lightning,Islands of Adventure,,1,APPROVED,
+breakfast,Three Broomsticks breakfast,meal,Islands of Adventure,,,UNRESOLVED,"28.4194° N, 81.5812°"
+ollivanders,Ollivanders and wand purchase,show,Islands of Adventure,,,UNRESOLVED,"28.4745° N, 81.4678° W"
+express,Optional Hogwarts Express evening extension,planned,Islands of Adventure,,1,APPROVED,
+mythos,Mythos lunch,meal,Islands of Adventure,,,UNRESOLVED,"28.4725437, -81.4714508"
+water,Water rides or remaining priorities,planned,Islands of Adventure,,,NOT_APPLICABLE,
+seven,Seven Dwarfs Mine Train,planned,Magic Kingdom,,1,APPROVED,
+space,Space Mountain,planned,Magic Kingdom,,1,APPROVED,
+breakfast,Friar’s Nook breakfast,meal,Magic Kingdom,,,UNRESOLVED,"28.4194° N, 81.5812°"
+tiana,Tiana’s Bayou Adventure,lightning,Magic Kingdom,,1,APPROVED,
+haunted,Haunted Mansion,lightning,Magic Kingdom,,1,APPROVED,
+pirates,Pirates of the Caribbean,lightning,Magic Kingdom,,1,APPROVED,
+boma,Boma dinner,meal,Resort / Transportation,,,UNRESOLVED,"28.3533° N, 81.6025° W"
+typhoon,Typhoon Lagoon priorities,planned,Typhoon Lagoon,,,NOT_APPLICABLE,
+leaky,Leaky Cauldron breakfast,meal,Universal Studios Florida,,,UNRESOLVED,"28.4794619, -81.4695657"
+shutter,Shutterbutton’s Photography Studio,extra,Universal Studios Florida,,,UNRESOLVED,"28.474386, -81.468193"
+gringotts,Escape from Gringotts,lightning,Universal Studios Florida,,1,APPROVED,
+minion,Despicable Me Minion Mayhem,lightning,Universal Studios Florida,,1,APPROVED,
+icecream,Florean ice-cream flight + Honeydukes cooler bag,extra,Universal Studios Florida,,,UNRESOLVED,"28.4712° N, 81.4688° W"
+bourne,The Bourne Stuntacular,show,Universal Studios Florida,,,UNRESOLVED,"28.47596° N, -81.46692° W"

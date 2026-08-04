@@ -1,0 +1,31 @@
+.trip-item-travel[data-coordinate-estimate="true"] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .25rem .45rem;
+}
+
+.coordinate-travel-primary {
+  font-weight: 900;
+}
+
+.coordinate-travel-note {
+  color: var(--trip-muted, var(--md-default-fg-color--light));
+  font-size: .74rem;
+}
+
+.coordinate-travel-original {
+  flex-basis: 100%;
+  color: var(--trip-muted, var(--md-default-fg-color--light));
+  font-size: .78rem;
+}
+
+.trip-action-link[data-coordinate-backed="true"]::after {
+  content: " •";
+  font-size: .7em;
+  opacity: .75;
+}
+
+.trip-item[data-location-status="missing"] .trip-item-travel::after {
+  content: "";
+}

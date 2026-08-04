@@ -6,3 +6,5 @@ Thumbs.db
 .vscode/
 exports/
 scratch/
+data/entity_catalog/cache/
+*.pyc
