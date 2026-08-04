@@ -22,9 +22,7 @@
   min-height: 44px;
   color: var(--md-primary-fg-color);
   font-weight: 900;
-  text-decoration: underline;
-  text-decoration-thickness: .08em;
-  text-underline-offset: .16em;
+  text-decoration: none;
 }
 
 .priority-wait-jump:hover,
@@ -73,4 +71,9 @@
 .current-wait-value[data-live-wait-matched="true"],
 .catalog-current-wait .trip-detail-value {
   font-weight: 900;
+}
+
+/* v2.5.4: visible without traditional link underline */
+.priority-wait-jump-label {
+  text-decoration: none;
 }
