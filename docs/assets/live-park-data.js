@@ -151,21 +151,89 @@ if(typeof document$!=="undefined")document$.subscribe(init);else document.addEve
 
   function setCardWait(match,text) {
     if (!text) return;
-    const details=match.card.querySelector('details, .trip-more-details');
+
+    const details =
+      match.card.querySelector('details.trip-item-more') ||
+      match.card.querySelector('details') ||
+      match.card.querySelector('.trip-more-details');
+
     if (!details) return;
-    const labels=[...details.querySelectorAll('dt,strong,b')];
-    const label=labels.find(n => /^current wait$/i.test((n.textContent||'').trim()));
-    if (label) {
-      const value=label.nextElementSibling;
-      if (value) { value.textContent=text; value.dataset.liveWaitMatched='true'; }
+
+    const candidateRows=[...details.querySelectorAll(
+      '.trip-detail-row, .trip-more-row, .detail-row, [data-detail-key]'
+    )];
+
+    const existingRow=candidateRows.find(row => {
+      const key=(row.dataset.detailKey||'').toLowerCase();
+      const label=row.querySelector(
+        '.trip-detail-label, .trip-more-label, .detail-label, dt, strong, b'
+      );
+      return key==='current-wait' ||
+        /^current wait$/i.test((label?.textContent||'').trim());
+    });
+
+    if (existingRow) {
+      let value=existingRow.querySelector(
+        '.trip-detail-value, .trip-more-value, .detail-value, dd, .current-wait-value'
+      );
+      if (!value) {
+        value=document.createElement('span');
+        value.className='trip-detail-value current-wait-value';
+        existingRow.appendChild(value);
+      }
+      value.textContent=text;
+      value.dataset.liveWaitMatched='true';
+      existingRow.dataset.liveWaitMatched='true';
       return;
     }
-    const target=labels.find(n => /^(day-of guidance|next)$/i.test((n.textContent||'').trim()));
+
+    const labels=[...details.querySelectorAll(
+      'dt, .trip-detail-label, .trip-more-label, .detail-label, strong, b'
+    )];
+    const label=labels.find(n =>
+      /^current wait$/i.test((n.textContent||'').trim())
+    );
+
+    if (label) {
+      let value =
+        (label.tagName==='DT' ? label.nextElementSibling : null) ||
+        label.parentElement?.querySelector(
+          '.trip-detail-value, .trip-more-value, .detail-value, dd, .current-wait-value'
+        ) ||
+        label.nextElementSibling;
+
+      if (!value || /^(STRONG|B|DT)$/.test(value.tagName||'')) {
+        value=document.createElement('span');
+        value.className='current-wait-value';
+        label.insertAdjacentElement('afterend',value);
+      }
+
+      value.textContent=text;
+      value.dataset.liveWaitMatched='true';
+      return;
+    }
+
+    const target=labels.find(n =>
+      /^(day-of guidance|next)$/i.test((n.textContent||'').trim())
+    );
+
     const row=document.createElement('div');
-    row.className='catalog-current-wait';
-    row.innerHTML=`<strong>Current wait</strong><span>${text}</span>`;
-    if (target?.parentElement) target.parentElement.insertBefore(row,target);
-    else details.appendChild(row);
+    row.className='catalog-current-wait trip-detail-row';
+    row.dataset.detailKey='current-wait';
+    row.dataset.liveWaitMatched='true';
+    row.innerHTML=
+      `<strong class="trip-detail-label">Current wait</strong>`+
+      `<span class="trip-detail-value current-wait-value">${text}</span>`;
+
+    const targetRow=target?.closest(
+      '.trip-detail-row, .trip-more-row, .detail-row, div, p'
+    );
+
+    if (targetRow?.parentElement) {
+      targetRow.parentElement.insertBefore(row,targetRow);
+    } else {
+      details.appendChild(row);
+    }
   }
 
   async function sync() {

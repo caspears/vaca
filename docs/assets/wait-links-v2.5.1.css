@@ -60,3 +60,17 @@
 .catalog-current-wait span {
   font-weight: 800;
 }
+
+
+.catalog-current-wait.trip-detail-row {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, auto) minmax(0, 1fr);
+  gap: .35rem .8rem;
+  align-items: baseline;
+  margin: .55rem 0;
+}
+
+.current-wait-value[data-live-wait-matched="true"],
+.catalog-current-wait .trip-detail-value {
+  font-weight: 900;
+}
