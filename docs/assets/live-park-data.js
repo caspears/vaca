@@ -149,6 +149,27 @@ if(typeof document$!=="undefined")document$.subscribe(init);else document.addEve
     });
   }
 
+  function cardWaitClass(text) {
+    if (/closed/i.test(text)) return 'closed';
+    const minutes = Number((String(text).match(/(\d+)/) || [])[1]);
+    if (!Number.isFinite(minutes)) return 'closed';
+    return minutes <= 25 ? 'open-short' : minutes <= 55 ? 'open-medium' : 'open-long';
+  }
+
+  function cardWaitMarkup(match,text) {
+    const parkId = match.entity?.queueTimes?.parkId;
+    const rideId = match.entity?.queueTimes?.rideId;
+    const cssClass = cardWaitClass(text);
+    const label = `${text} · Queue-Times details`;
+
+    if (parkId && rideId) {
+      const url = `https://queue-times.com/en-US/parks/${encodeURIComponent(parkId)}/rides/${encodeURIComponent(rideId)}`;
+      return `<a class="card-live-wait ${cssClass}" href="${url}" target="_blank" rel="noopener">${label}</a>`;
+    }
+
+    return `<span class="card-live-wait ${cssClass}">${text}</span>`;
+  }
+
   function setCardWait(match,text) {
     if (!text) return;
 
@@ -181,7 +202,7 @@ if(typeof document$!=="undefined")document$.subscribe(init);else document.addEve
         value.className='trip-detail-value current-wait-value';
         existingRow.appendChild(value);
       }
-      value.textContent=text;
+      value.innerHTML=cardWaitMarkup(match,text);
       value.dataset.liveWaitMatched='true';
       existingRow.dataset.liveWaitMatched='true';
       return;
@@ -208,7 +229,7 @@ if(typeof document$!=="undefined")document$.subscribe(init);else document.addEve
         label.insertAdjacentElement('afterend',value);
       }
 
-      value.textContent=text;
+      value.innerHTML=cardWaitMarkup(match,text);
       value.dataset.liveWaitMatched='true';
       return;
     }
@@ -223,7 +244,7 @@ if(typeof document$!=="undefined")document$.subscribe(init);else document.addEve
     row.dataset.liveWaitMatched='true';
     row.innerHTML=
       `<strong class="trip-detail-label">Current wait</strong>`+
-      `<span class="trip-detail-value current-wait-value">${text}</span>`;
+      `<span class="trip-detail-value current-wait-value">${cardWaitMarkup(match,text)}</span>`;
 
     const targetRow=target?.closest(
       '.trip-detail-row, .trip-more-row, .detail-row, div, p'
