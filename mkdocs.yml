@@ -16,6 +16,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 extra_css:
+  - assets/park-companion-v2.5.css
   - assets/location-context-v2.4.css
   - assets/entity-review.css
   - assets/checklist.css
@@ -32,6 +33,7 @@ extra_css:
   - assets/route-list-cleanup.css
   - assets/planner-card-v2.0.2.css
 extra_javascript:
+  - assets/park-companion-v2.5.js
   - assets/location-context-v2.4.js
   - assets/entity-review.js
   - assets/vacation-api-config.js

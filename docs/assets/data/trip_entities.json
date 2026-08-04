@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-08-04T00:30:36.127815+00:00",
+  "generatedAt": "2026-08-04T00:20:24.409367+00:00",
   "temporaryTripDataset": true,
   "entities": {
     "alien": {
@@ -27,7 +27,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Toy Story Land"
     },
     "berk": {
       "catalogId": "berk",
@@ -53,7 +54,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "How to Train Your Dragon – Isle of Berk"
     },
     "blue": {
       "catalogId": "blue",
@@ -79,7 +81,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Celestial Park"
     },
     "boma": {
       "catalogId": "boma",
@@ -105,7 +108,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Animal Kingdom Lodge"
     },
     "bourne": {
       "catalogId": "bourne",
@@ -131,7 +135,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Hollywood"
     },
     "magic-kingdom--breakfast": {
       "catalogId": "magic-kingdom--breakfast",
@@ -157,7 +162,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Fantasyland"
     },
     "islands-of-adventure--breakfast": {
       "catalogId": "islands-of-adventure--breakfast",
@@ -183,7 +189,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Hogsmeade"
     },
     "everest": {
       "catalogId": "everest",
@@ -209,7 +216,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Asia"
     },
     "express": {
       "catalogId": "express",
@@ -235,7 +243,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Hogsmeade"
     },
     "fop": {
       "catalogId": "fop",
@@ -261,7 +270,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Pandora"
     },
     "forbidden": {
       "catalogId": "forbidden",
@@ -287,7 +297,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Hogsmeade"
     },
     "goodnight": {
       "catalogId": "goodnight",
@@ -313,7 +324,8 @@
         "status": "MISSING",
         "source": null
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Celestial Park"
     },
     "gorilla": {
       "catalogId": "gorilla",
@@ -339,7 +351,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Africa"
     },
     "gringotts": {
       "catalogId": "gringotts",
@@ -365,7 +378,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Diagon Alley"
     },
     "hagrid": {
       "catalogId": "hagrid",
@@ -391,7 +405,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Hogsmeade"
     },
     "haunted": {
       "catalogId": "haunted",
@@ -417,7 +432,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Liberty Square"
     },
     "icecream": {
       "catalogId": "icecream",
@@ -443,7 +459,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Diagon Alley"
     },
     "jiko": {
       "catalogId": "jiko",
@@ -469,7 +486,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Animal Kingdom Lodge"
     },
     "leaky": {
       "catalogId": "leaky",
@@ -495,7 +513,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Diagon Alley"
     },
     "lion": {
       "catalogId": "lion",
@@ -521,7 +540,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Africa"
     },
     "maharajah": {
       "catalogId": "maharajah",
@@ -547,7 +567,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Asia"
     },
     "minion": {
       "catalogId": "minion",
@@ -573,7 +594,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Production Central"
     },
     "ministry": {
       "catalogId": "ministry",
@@ -599,7 +621,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "The Wizarding World of Harry Potter – Ministry of Magic"
     },
     "monsters": {
       "catalogId": "monsters",
@@ -625,7 +648,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Dark Universe"
     },
     "mythos": {
       "catalogId": "mythos",
@@ -651,7 +675,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "The Lost Continent"
     },
     "navi": {
       "catalogId": "navi",
@@ -677,7 +702,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Pandora"
     },
     "nintendo": {
       "catalogId": "nintendo",
@@ -703,7 +729,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "SUPER NINTENDO WORLD"
     },
     "ollivanders": {
       "catalogId": "ollivanders",
@@ -729,7 +756,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Hogsmeade"
     },
     "pirates": {
       "catalogId": "pirates",
@@ -755,7 +783,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Adventureland"
     },
     "rise": {
       "catalogId": "rise",
@@ -781,7 +810,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Star Wars: Galaxy’s Edge"
     },
     "runaway": {
       "catalogId": "runaway",
@@ -807,7 +837,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Hollywood Boulevard"
     },
     "safari": {
       "catalogId": "safari",
@@ -833,7 +864,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Africa"
     },
     "seven": {
       "catalogId": "seven",
@@ -859,7 +891,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Fantasyland"
     },
     "shutter": {
       "catalogId": "shutter",
@@ -885,7 +918,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Diagon Alley"
     },
     "slinky": {
       "catalogId": "slinky",
@@ -911,7 +945,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Toy Story Land"
     },
     "space": {
       "catalogId": "space",
@@ -937,7 +972,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Tomorrowland"
     },
     "star": {
       "catalogId": "star",
@@ -963,7 +999,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Echo Lake"
     },
     "tiana": {
       "catalogId": "tiana",
@@ -989,7 +1026,8 @@
         "status": "VERIFIED",
         "source": "THEMEPARKS_WIKI"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Frontierland"
     },
     "tiffins": {
       "catalogId": "tiffins",
@@ -1015,7 +1053,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Discovery Island"
     },
     "typhoon": {
       "catalogId": "typhoon",
@@ -1041,7 +1080,8 @@
         "status": "MISSING",
         "source": null
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Typhoon Lagoon"
     },
     "water": {
       "catalogId": "water",
@@ -1067,7 +1107,8 @@
         "status": "MISSING",
         "source": null
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Islands of Adventure"
     },
     "zootopia": {
       "catalogId": "zootopia",
@@ -1093,7 +1134,8 @@
         "status": "VERIFIED",
         "source": "MANUAL_VERIFIED"
       },
-      "reviewNote": ""
+      "reviewNote": "",
+      "area": "Discovery Island"
     }
   }
 }
