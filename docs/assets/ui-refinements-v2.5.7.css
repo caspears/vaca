@@ -1,0 +1,198 @@
+/* v2.5.7: final badge, walking-icon, and dark-mode cleanup */
+
+/* The time-label pseudo-element supplies the only walking glyph. */
+.trip-time-cell:nth-child(2) .trip-time-label {
+  position: relative;
+}
+
+.trip-time-cell:nth-child(2) .trip-time-label::before {
+  content: "🚶" !important;
+}
+
+.timing-context {
+  display: none !important;
+}
+
+/* Night can be selected through either Material or the custom display toggle. */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) {
+  --trip-night-page: #0d1c15;
+  --trip-night-card: #173326;
+  --trip-night-card-alt: #1d3c2e;
+  --trip-night-panel: #29483a;
+  --trip-night-panel-alt: #315343;
+  --trip-night-border: #759783;
+  --trip-night-text: #f5f8f6;
+  --trip-night-muted: #cbd8d0;
+  --trip-night-link: #c8dcff;
+  --trip-night-button: #ecf0ee;
+  --trip-night-button-text: #101713;
+}
+
+/* Page and overview surfaces */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) body,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-main,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-main__inner,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-content,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-content__inner,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-page,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-checklist {
+  background: var(--trip-night-page) !important;
+  color: var(--trip-night-text) !important;
+}
+
+/* Main activity cards */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-card,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .day-timeline,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .planner-card {
+  background: var(--trip-night-card) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item:nth-of-type(even) {
+  background: var(--trip-night-card-alt) !important;
+}
+
+/* Timing block: dark, but visibly distinct from its parent card. */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-time-panel {
+  background: var(--trip-night-panel) !important;
+  color: var(--trip-night-text) !important;
+  border: 1px solid var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-time-label,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-time-value,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-time-cell {
+  color: var(--trip-night-text) !important;
+  opacity: 1 !important;
+}
+
+/* Details and guidance */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item details,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-detail-grid,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-rating {
+  background: var(--trip-night-card) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item details > summary {
+  background: var(--trip-night-panel-alt) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .card-guidance {
+  background: var(--trip-night-panel) !important;
+  color: var(--trip-night-text) !important;
+  border-left-color: #8aa8ff !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .card-guidance *,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-detail-grid *,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-rating-title,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-rating-summary {
+  color: var(--trip-night-text) !important;
+}
+
+/* Rating and revisit controls */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-rating-star,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-revisit-toggle {
+  background: var(--trip-night-panel-alt) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-rating-star.is-selected,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-revisit-toggle.is-active {
+  background: #4f6e91 !important;
+  color: #fff !important;
+}
+
+/* Park Companion / overview */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-advisor {
+  background: var(--trip-night-card) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-advisor-header {
+  background: #294f38 !important;
+  color: var(--trip-night-text) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-advisor-section,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-companion-nearby-item {
+  background: var(--trip-night-panel) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-advisor-next-meta,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-advisor-status,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-companion-location-status,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-companion-nearby-item small {
+  color: var(--trip-night-muted) !important;
+}
+
+/* Live summary panel */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-park-panel {
+  background: var(--trip-night-card) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-park-panel-header {
+  background: #294f38 !important;
+  color: var(--trip-night-text) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-park-grid,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-card {
+  background: var(--trip-night-panel) !important;
+  color: var(--trip-night-text) !important;
+  border-color: var(--trip-night-border) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-card h3,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-weather-main,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-ride,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-source {
+  color: var(--trip-night-text) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-muted {
+  color: var(--trip-night-muted) !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .priority-wait-jump {
+  color: var(--trip-night-link) !important;
+}
+
+/* General typography within dark cards */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item-title,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item-route,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item-travel,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-detail-label,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-detail-value,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .same-area-cue {
+  color: var(--trip-night-text) !important;
+}
+
+/* Keep deliberately light control buttons readable. */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-state-button:not([aria-pressed="true"]),
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-action-link,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-companion-location-button,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .park-companion-restroom-link {
+  background: var(--trip-night-button) !important;
+  color: var(--trip-night-button-text) !important;
+  border-color: #b9c3bd !important;
+}
+
+/* Preserve blue primary Locate/Walk buttons. */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-item-actions .trip-action-link {
+  background: #075ac8 !important;
+  color: #fff !important;
+  border-color: #075ac8 !important;
+}

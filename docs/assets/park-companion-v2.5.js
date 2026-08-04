@@ -206,13 +206,12 @@
 
     root.querySelectorAll(".trip-time-label").forEach(label => {
       if (/Approach\s*\/\s*depart/i.test(label.textContent)) {
-        label.textContent = "🚶 Start walking";
+        label.textContent = "Start walking";
       }
     });
 
     root.querySelectorAll(".timing-context").forEach(context => {
-      context.textContent =
-        "Start walking is the movement cue from the previous stop.";
+      context.remove();
     });
 
     root.querySelectorAll(".trip-item-actions a").forEach(link => {

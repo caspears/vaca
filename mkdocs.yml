@@ -34,6 +34,7 @@ extra_css:
   - assets/pretrip-polish.css
   - assets/route-list-cleanup.css
   - assets/planner-card-v2.0.2.css
+  - assets/ui-refinements-v2.5.7.css
 extra_javascript:
   - assets/ui-refinements-v2.5.6.js
   - assets/park-companion-v2.5.js
