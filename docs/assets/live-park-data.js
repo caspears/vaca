@@ -87,7 +87,7 @@ if(typeof document$!=="undefined")document$.subscribe(init);else document.addEve
 
   function waitRows(panel) {
     if (!panel) return [];
-    let rows = [...panel.querySelectorAll('[data-ride-id], [data-queue-id], .live-wait-row, .priority-wait-row, li, tr')];
+    let rows = [...panel.querySelectorAll('[data-ride-id], [data-queue-id], .live-ride, .live-wait-row, .priority-wait-row, li, tr')];
     return rows.filter(row => {
       const text=(row.textContent||'').trim();
       return text && !/priority attraction waits/i.test(text);
@@ -131,13 +131,22 @@ if(typeof document$!=="undefined")document$.subscribe(init);else document.addEve
   function addJumpLink(row,match) {
     const node=nameNode(row);
     if (!node || node.closest('a[data-wait-jump]')) return;
+
     const link=document.createElement('a');
     link.href=`#${ensureAnchor(match.card)}`;
     link.dataset.waitJump='true';
     link.className='priority-wait-jump';
-    link.textContent=node.textContent;
+    link.setAttribute('aria-label',`Jump to ${match.entity.name} itinerary card`);
     link.title=`Jump to ${match.entity.name}`;
+    link.innerHTML=`<span class="priority-wait-jump-label">${node.textContent}</span><span class="priority-wait-jump-icon" aria-hidden="true">›</span>`;
+
     node.replaceWith(link);
+    row.classList.add('has-wait-jump');
+
+    row.addEventListener('click',event => {
+      if (event.target.closest('a')) return;
+      link.click();
+    });
   }
 
   function setCardWait(match,text) {
