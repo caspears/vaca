@@ -18,3 +18,169 @@ function annotate(root,w,parks){root.querySelectorAll(".trip-item").forEach(item
 async function refresh(panel){const base=String(window.VACA_API_BASE||"").replace(/\/$/,""),b=panel.querySelector(".live-refresh"),root=document.querySelector(".trip-checklist");if(!base||base.includes("REPLACE-WITH")){panel.querySelector("[data-live-weather]").innerHTML='<div class="live-error"><strong>Worker URL not configured.</strong></div>';panel.querySelector("[data-live-waits]").innerHTML='<div class="live-muted">Run cloudflare-worker/deploy.ps1.</div>';return}if(b){b.disabled=true;b.textContent="Refreshing…"}try{const date=panel.dataset.tripDate,pc=JSON.parse(panel.dataset.queueParks||"[]"),pr=JSON.parse(panel.dataset.priorityRides||"[]"),ids=pc.map(p=>p.id).join(","),res=await fetch(`${base}/api/day?date=${encodeURIComponent(date)}&parks=${encodeURIComponent(ids)}`);if(!res.ok)throw Error(`HTTP ${res.status}`);const d=await res.json();renderWeather(panel,d.weather);renderWaits(panel,d.parks||{},pr);if(root)annotate(root,d.weather,d.parks||{});panel.querySelector("[data-live-updated]").textContent=new Date(d.generatedAt||Date.now()).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}catch(err){panel.querySelector("[data-live-weather]").innerHTML='<div class="live-error"><strong>Live data unavailable.</strong></div>';panel.querySelector("[data-live-waits]").innerHTML=`<div class="live-muted">${e(err.message)} · use official apps.</div>`}finally{if(b){b.disabled=false;b.textContent="↻ Refresh"}}}
 function init(){document.querySelectorAll(".live-park-panel").forEach(p=>{if(p.dataset.workerInitialized)return;p.dataset.workerInitialized="1";p.querySelector(".live-refresh")?.addEventListener("click",()=>refresh(p));refresh(p);setInterval(()=>{if(document.visibilityState==="visible")refresh(p)},R);document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")refresh(p)})})}
 if(typeof document$!=="undefined")document$.subscribe(init);else document.addEventListener("DOMContentLoaded",init)})();
+
+/* v2.5.1: catalog-backed wait matching and priority-wait jump links */
+(function () {
+  const CATALOG_FILE = "data/trip_entities.json";
+
+  function assetBaseUrl() {
+    const script = [...document.scripts].find(node =>
+      (node.src || "").includes("live-park-data.js")
+    );
+    return script?.src ? new URL(".", script.src) : new URL("assets/", document.baseURI);
+  }
+
+  function normalizeName(value) {
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[™®]/g, "")
+      .replace(/[’‘]/g, "'")
+      .toLowerCase()
+      .replace(/\bdecision point\b/g, "")
+      .replace(/\bevening extension\b/g, "")
+      .replace(/\boptional\b/g, "")
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  }
+
+  async function loadCatalog() {
+    const response = await fetch(new URL(CATALOG_FILE, assetBaseUrl()), { cache: "no-cache" });
+    if (!response.ok) throw new Error(`Catalog HTTP ${response.status}`);
+    return response.json();
+  }
+
+  function resolveEntity(card, entities) {
+    const itemId = card.dataset.itemId;
+    const park = card.dataset.parkName || "";
+    const exact = entities[itemId];
+    if (exact && (!park || exact.parkName === park)) return exact;
+    return Object.values(entities).find(entity =>
+      entity.itineraryId === itemId && (!park || entity.parkName === park)
+    ) || exact || null;
+  }
+
+  function buildIndex(catalog) {
+    const byRideId = new Map();
+    const byName = new Map();
+    document.querySelectorAll('.trip-item').forEach(card => {
+      const entity = resolveEntity(card, catalog.entities || {});
+      if (!entity) return;
+      const rideId = entity.queueTimes?.rideId;
+      if (rideId !== null && rideId !== undefined && rideId !== "") {
+        byRideId.set(String(rideId), {card, entity});
+        card.dataset.queueRideId = String(rideId);
+      }
+      [entity.name, entity.queueTimes?.name, entity.themeParksWiki?.name,
+       card.querySelector('.trip-item-title')?.textContent]
+        .filter(Boolean)
+        .forEach(name => byName.set(normalizeName(name), {card, entity}));
+    });
+    return {byRideId, byName};
+  }
+
+  function waitPanel() {
+    const heading = [...document.querySelectorAll('h1,h2,h3,h4,strong')]
+      .find(node => /priority attraction waits/i.test(node.textContent || ''));
+    return heading?.closest('.live-panel, .admonition, section, article, div') || null;
+  }
+
+  function waitRows(panel) {
+    if (!panel) return [];
+    let rows = [...panel.querySelectorAll('[data-ride-id], [data-queue-id], .live-wait-row, .priority-wait-row, li, tr')];
+    return rows.filter(row => {
+      const text=(row.textContent||'').trim();
+      return text && !/priority attraction waits/i.test(text);
+    });
+  }
+
+  function nameNode(row) {
+    return row.querySelector('.live-wait-name, .priority-wait-name, td:first-child, strong, span:first-child');
+  }
+
+  function rideIdOf(row) {
+    return row.dataset.rideId || row.dataset.queueId ||
+      row.querySelector('[data-ride-id]')?.dataset.rideId || '';
+  }
+
+  function waitText(row) {
+    const node = row.querySelector('.live-wait-value, .wait-value, .wait-time, td:last-child');
+    if (node) return node.textContent.trim();
+    const match=(row.textContent||'').match(/(Closed|\d+\s*min)/i);
+    return match ? match[1] : '';
+  }
+
+  function resolveRow(row,index) {
+    const rideId=rideIdOf(row);
+    if (rideId && index.byRideId.has(String(rideId))) return index.byRideId.get(String(rideId));
+    const node=nameNode(row);
+    const normalized=normalizeName(node?.textContent || '');
+    if (index.byName.has(normalized)) return index.byName.get(normalized);
+    for (const [name,match] of index.byName.entries()) {
+      if (name && normalized && (name.includes(normalized) || normalized.includes(name))) return match;
+    }
+    return null;
+  }
+
+  function ensureAnchor(card) {
+    if (card.id) return card.id;
+    card.id=`activity-${card.dataset.itemId || 'item'}`;
+    return card.id;
+  }
+
+  function addJumpLink(row,match) {
+    const node=nameNode(row);
+    if (!node || node.closest('a[data-wait-jump]')) return;
+    const link=document.createElement('a');
+    link.href=`#${ensureAnchor(match.card)}`;
+    link.dataset.waitJump='true';
+    link.className='priority-wait-jump';
+    link.textContent=node.textContent;
+    link.title=`Jump to ${match.entity.name}`;
+    node.replaceWith(link);
+  }
+
+  function setCardWait(match,text) {
+    if (!text) return;
+    const details=match.card.querySelector('details, .trip-more-details');
+    if (!details) return;
+    const labels=[...details.querySelectorAll('dt,strong,b')];
+    const label=labels.find(n => /^current wait$/i.test((n.textContent||'').trim()));
+    if (label) {
+      const value=label.nextElementSibling;
+      if (value) { value.textContent=text; value.dataset.liveWaitMatched='true'; }
+      return;
+    }
+    const target=labels.find(n => /^(day-of guidance|next)$/i.test((n.textContent||'').trim()));
+    const row=document.createElement('div');
+    row.className='catalog-current-wait';
+    row.innerHTML=`<strong>Current wait</strong><span>${text}</span>`;
+    if (target?.parentElement) target.parentElement.insertBefore(row,target);
+    else details.appendChild(row);
+  }
+
+  async function sync() {
+    if (!document.querySelector('.trip-checklist')) return;
+    try {
+      const catalog=await loadCatalog();
+      const index=buildIndex(catalog);
+      waitRows(waitPanel()).forEach(row => {
+        const match=resolveRow(row,index);
+        if (!match) return;
+        addJumpLink(row,match);
+        setCardWait(match,waitText(row));
+      });
+    } catch (error) {
+      console.warn('Catalog-backed wait synchronization failed:',error);
+    }
+  }
+
+  function init() {
+    setTimeout(sync,500);
+    setTimeout(sync,1800);
+    setInterval(sync,60000);
+  }
+  if (typeof document$ !== 'undefined') document$.subscribe(init);
+  else if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',init);
+  else init();
+})();

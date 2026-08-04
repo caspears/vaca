@@ -1,0 +1,4 @@
+.priority-wait-jump { color: inherit; font-weight: inherit; text-decoration: underline; text-decoration-thickness: .08em; text-underline-offset: .14em; }
+.priority-wait-jump:hover, .priority-wait-jump:focus-visible { color: var(--md-primary-fg-color); }
+.catalog-current-wait { display: grid; grid-template-columns: minmax(7rem, auto) minmax(0,1fr); gap: .35rem .8rem; align-items: baseline; margin: .45rem 0; }
+.catalog-current-wait span { font-weight: 800; }
