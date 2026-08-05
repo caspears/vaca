@@ -16,6 +16,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 extra_css:
+  - assets/family-rating-badges-v2.7.0.css
   - assets/rating-aware-waits-v2.6.0.css
   - assets/ui-refinements-v2.5.8.css
   - assets/ui-refinements-v2.5.6.css
@@ -39,6 +40,7 @@ extra_css:
   - assets/ui-refinements-v2.5.7.css
   - assets/ui-refinements-v2.5.9.css
 extra_javascript:
+  - assets/family-rating-badges-v2.7.0.js
   - assets/rating-aware-waits-v2.6.0.js
   - assets/ui-refinements-v2.5.6.js
   - assets/park-companion-v2.5.js
