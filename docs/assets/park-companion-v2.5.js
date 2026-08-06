@@ -276,44 +276,78 @@
     }
 
     const button = advisor.querySelector("[data-companion-location-button]");
+    const locationStatus = advisor.querySelector("[data-companion-location-status]");
+
+    function locationErrorMessage(error) {
+      if (!error) return "Location could not be determined.";
+      if (error.code === 1) return "Location permission was denied.";
+      if (error.code === 2) return "The phone could not determine its location. Check that Android Location is on and try again outdoors.";
+      if (error.code === 3) return "The location request timed out. Try again outdoors or near a window.";
+      return error.message || "Location could not be determined.";
+    }
+
+    function saveSharedLocation(position) {
+      const value = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+        accuracy: position.coords.accuracy,
+        timestamp: Date.now()
+      };
+      sessionStorage.setItem("vaca-current-location", JSON.stringify(value));
+      return value;
+    }
+
+    function requestBrowserLocation(success, failure) {
+      const attempt = (options, allowRetry) => {
+        navigator.geolocation.getCurrentPosition(
+          success,
+          error => {
+            console.warn("Browser location attempt failed:", error);
+            if (allowRetry && error.code !== 1) {
+              if (locationStatus) locationStatus.textContent = "High-accuracy location failed; trying standard location…";
+              attempt({ enableHighAccuracy: false, timeout: 20000, maximumAge: 0 }, false);
+              return;
+            }
+            failure(error);
+          },
+          options
+        );
+      };
+      attempt({ enableHighAccuracy: true, timeout: 20000, maximumAge: 0 }, true);
+    }
+
     button?.addEventListener("click", () => {
       if (!navigator.geolocation) {
-        alert("Location is not available in this browser.");
+        if (locationStatus) locationStatus.textContent = "Location is unavailable in this browser.";
         return;
       }
 
       button.disabled = true;
       button.textContent = "Locating…";
+      if (locationStatus) locationStatus.textContent = "Requesting a fresh phone location…";
 
-      navigator.geolocation.getCurrentPosition(
+      requestBrowserLocation(
         position => {
-          const current = {
-            latitude: position.coords.latitude,
-            longitude: position.coords.longitude
-          };
+          const current = saveSharedLocation(position);
           const next = getReferenceLocation(root, entities);
-          const parkName = next.entity?.parkName || next.item?.dataset.parkName || "";
           renderNearby(
             advisor,
             root,
             entities,
             { ...next, location: current },
-            "Using your current browser location"
+            `Using current location · accuracy about ${Math.round(position.coords.accuracy)} m`
           );
           localStorage.setItem(LOCATION_STORAGE_KEY, "true");
+          if (locationStatus) locationStatus.textContent = `Location updated just now · accuracy about ${Math.round(position.coords.accuracy)} m.`;
           button.textContent = "📍 Refresh my location";
           button.disabled = false;
         },
         error => {
+          const message = locationErrorMessage(error);
           console.warn("Browser location unavailable:", error);
-          button.textContent = "📍 Use my location";
+          if (locationStatus) locationStatus.textContent = `${message} The itinerary is still using the next mapped stop.`;
+          button.textContent = "📍 Try my location again";
           button.disabled = false;
-          alert("Location permission was not granted. The itinerary still uses the next stop as its reference.");
-        },
-        {
-          enableHighAccuracy: true,
-          timeout: 12000,
-          maximumAge: 60000
         }
       );
     });
