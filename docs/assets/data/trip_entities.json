@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "generatedAt": "2026-08-04T00:20:24.409367+00:00",
+  "generatedAt": "2026-08-07T04:58:29.019307+00:00",
   "temporaryTripDataset": true,
   "entities": {
     "alien": {
@@ -1136,6 +1136,1248 @@
       },
       "reviewNote": "",
       "area": "Discovery Island"
+    },
+    "live-epic-universe-bowser-jr-challenge": {
+      "catalogId": "live-epic-universe-bowser-jr-challenge",
+      "itineraryId": "live-epic-universe-bowser-jr-challenge",
+      "name": "Bowser Jr. Challenge",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "0c6a9af8-c006-4849-8475-1a6925e8f7d4",
+        "name": "Bowser Jr. Challenge",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14682,
+        "name": "Bowser Jr. Challenge"
+      },
+      "location": {
+        "latitude": 28.439046,
+        "longitude": -81.447956,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-constellation-carousel": {
+      "catalogId": "live-epic-universe-constellation-carousel",
+      "itineraryId": "live-epic-universe-constellation-carousel",
+      "name": "Constellation Carousel",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "07143999-bacd-475f-a00b-8cc476204aff",
+        "name": "Constellation Carousel",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14688,
+        "name": "Constellation Carousel"
+      },
+      "location": {
+        "latitude": 28.44033,
+        "longitude": -81.44805,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-curse-of-werewolf": {
+      "catalogId": "live-epic-universe-curse-of-werewolf",
+      "itineraryId": "live-epic-universe-curse-of-werewolf",
+      "name": "Curse of the Werewolf",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "eaca831d-bcbb-4a1e-9bf0-6ea97ccc88e0",
+        "name": "Curse of the Werewolf",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14692,
+        "name": "Curse of the Werewolf"
+      },
+      "location": {
+        "latitude": 28.43995,
+        "longitude": -81.45002,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-dragon-racer-s-rally": {
+      "catalogId": "live-epic-universe-dragon-racer-s-rally",
+      "itineraryId": "live-epic-universe-dragon-racer-s-rally",
+      "name": "Dragon Racer's Rally",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "76caa8d0-f54b-4601-9d57-a7f1ddc02af4",
+        "name": "Dragon Racer's Rally",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14693,
+        "name": "Dragon Racer's Rally"
+      },
+      "location": {
+        "latitude": 28.44122,
+        "longitude": -81.44549,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-fyre-drill": {
+      "catalogId": "live-epic-universe-fyre-drill",
+      "itineraryId": "live-epic-universe-fyre-drill",
+      "name": "Fyre Drill",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "281bc9e6-b208-4a70-85d2-0fb749c7658b",
+        "name": "Fyre Drill",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14691,
+        "name": "Fyre Drill"
+      },
+      "location": {
+        "latitude": 28.44061,
+        "longitude": -81.44545,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-harry-potter-and-battle-ministry": {
+      "catalogId": "live-epic-universe-harry-potter-and-battle-ministry",
+      "itineraryId": "live-epic-universe-harry-potter-and-battle-ministry",
+      "name": "Harry Potter and the Battle at the Ministry",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "dbc4f0d8-fdef-4dfc-a1c2-33917f742f40",
+        "name": "Harry Potter and the Battle at the Ministry™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": null,
+        "name": "Harry Potter and the Battle at the Ministry"
+      },
+      "location": {
+        "latitude": 28.4429,
+        "longitude": -81.44809,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-hiccup-s-wing-gliders": {
+      "catalogId": "live-epic-universe-hiccup-s-wing-gliders",
+      "itineraryId": "live-epic-universe-hiccup-s-wing-gliders",
+      "name": "Hiccup's Wing Gliders",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "c6b1b8cf-55ef-416c-b00d-e469993617b0",
+        "name": "Hiccup's Wing Gliders",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14695,
+        "name": "Hiccup's Wing Gliders"
+      },
+      "location": {
+        "latitude": 28.44114,
+        "longitude": -81.44518,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-mario-kart-bowser-s-challenge": {
+      "catalogId": "live-epic-universe-mario-kart-bowser-s-challenge",
+      "itineraryId": "live-epic-universe-mario-kart-bowser-s-challenge",
+      "name": "Mario Kart: Bowser's Challenge",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "43df71bf-aa7c-46c0-925c-46f69d8bf23f",
+        "name": "Mario Kart™: Bowser's Challenge",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": null,
+        "name": "Mario Kart: Bowser's Challenge"
+      },
+      "location": {
+        "latitude": 28.43875,
+        "longitude": -81.44783,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-meet-toothless-and-friends": {
+      "catalogId": "live-epic-universe-meet-toothless-and-friends",
+      "itineraryId": "live-epic-universe-meet-toothless-and-friends",
+      "name": "Meet Toothless and Friends",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "9d47d7fe-ff0d-4a52-bf9d-1e07436aa22c",
+        "name": "Meet Toothless and Friends",
+        "entityType": "SHOW",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14685,
+        "name": "Meet Toothless and Friends"
+      },
+      "location": {
+        "latitude": 28.44,
+        "longitude": -81.44511,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-mine-cart-madness": {
+      "catalogId": "live-epic-universe-mine-cart-madness",
+      "itineraryId": "live-epic-universe-mine-cart-madness",
+      "name": "Mine-Cart Madness",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "dd8c015d-511f-47d4-b98b-18ce15735588",
+        "name": "Mine-Cart Madness™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": null,
+        "name": "Mine-Cart Madness"
+      },
+      "location": {
+        "latitude": 28.438084,
+        "longitude": -81.448769,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-stardust-racers": {
+      "catalogId": "live-epic-universe-stardust-racers",
+      "itineraryId": "live-epic-universe-stardust-racers",
+      "name": "Stardust Racers",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "447033ce-ee1f-4cca-bb12-47d22583ac12",
+        "name": "Stardust Racers",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": 14690,
+        "name": "Stardust Racers"
+      },
+      "location": {
+        "latitude": 28.441622,
+        "longitude": -81.447095,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-epic-universe-yoshi-s-adventure": {
+      "catalogId": "live-epic-universe-yoshi-s-adventure",
+      "itineraryId": "live-epic-universe-yoshi-s-adventure",
+      "name": "Yoshi's Adventure",
+      "kind": "live-wait",
+      "parkName": "Epic Universe",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "00feb57b-4fcc-48bc-9490-c9af71f30c1c",
+        "name": "Yoshi's Adventure™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 334,
+        "rideId": null,
+        "name": "Yoshi's Adventure"
+      },
+      "location": {
+        "latitude": 28.43904,
+        "longitude": -81.44817,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-camp-jurassic": {
+      "catalogId": "live-islands-of-adventure-camp-jurassic",
+      "itineraryId": "live-islands-of-adventure-camp-jurassic",
+      "name": "Camp Jurassic",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "f6dba1c6-6f5a-4743-8470-f741ecac555d",
+        "name": "Camp Jurassic™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "Camp Jurassic"
+      },
+      "location": {
+        "latitude": 28.470134,
+        "longitude": -81.4727356,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-caro-seuss-el": {
+      "catalogId": "live-islands-of-adventure-caro-seuss-el",
+      "itineraryId": "live-islands-of-adventure-caro-seuss-el",
+      "name": "Caro-Seuss-el",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "3cb52134-e9d6-4212-83c8-3ce1321dcb05",
+        "name": "Caro-Seuss-el™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "Caro-Seuss-el"
+      },
+      "location": {
+        "latitude": 28.472912845317136,
+        "longitude": -81.46954427,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-doctor-doom-s-fearfall": {
+      "catalogId": "live-islands-of-adventure-doctor-doom-s-fearfall",
+      "itineraryId": "live-islands-of-adventure-doctor-doom-s-fearfall",
+      "name": "Doctor Doom's Fearfall",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "2f95b213-daaa-4370-8349-c2cd57be470e",
+        "name": "Doctor Doom's Fearfall®",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 5988,
+        "name": "Doctor Doom's Fearfall"
+      },
+      "location": {
+        "latitude": 28.470678,
+        "longitude": -81.469502,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-dudley-do-right-s-ripsaw-falls": {
+      "catalogId": "live-islands-of-adventure-dudley-do-right-s-ripsaw-falls",
+      "itineraryId": "live-islands-of-adventure-dudley-do-right-s-ripsaw-falls",
+      "name": "Dudley Do-Right's Ripsaw Falls",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "905d7888-b866-4e74-90d1-07fc6ef6706f",
+        "name": "Dudley Do-Right's Ripsaw Falls®",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 5989,
+        "name": "Dudley Do-Right's Ripsaw Falls"
+      },
+      "location": {
+        "latitude": 28.4695018,
+        "longitude": -81.4714998,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-flight-of-hippogriff": {
+      "catalogId": "live-islands-of-adventure-flight-of-hippogriff",
+      "itineraryId": "live-islands-of-adventure-flight-of-hippogriff",
+      "name": "Flight of the Hippogriff",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "23b613e0-ae83-455b-9163-231bdbd5c427",
+        "name": "Flight of the Hippogriff™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "Flight of the Hippogriff"
+      },
+      "location": {
+        "latitude": 28.472416,
+        "longitude": -81.473636,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-hogwarts-express-hogsmeade-station": {
+      "catalogId": "live-islands-of-adventure-hogwarts-express-hogsmeade-station",
+      "itineraryId": "live-islands-of-adventure-hogwarts-express-hogsmeade-station",
+      "name": "Hogwarts Express - Hogsmeade Station",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "144450b9-4574-46be-abdf-4b1ca8974d9d",
+        "name": "Hogwarts Express™ - Hogsmeade™ Station",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "Hogwarts Express - Hogsmeade Station"
+      },
+      "location": {
+        "latitude": 28.47335422690903,
+        "longitude": -81.47246613,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-if-i-ran-zoo": {
+      "catalogId": "live-islands-of-adventure-if-i-ran-zoo",
+      "itineraryId": "live-islands-of-adventure-if-i-ran-zoo",
+      "name": "If I Ran The Zoo",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "391dea99-303d-42a1-aa86-a846d1c1fa1f",
+        "name": "If I Ran The Zoo™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "If I Ran The Zoo"
+      },
+      "location": {
+        "latitude": 28.472643,
+        "longitude": -81.4696767,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-jurassic-park-discovery-center": {
+      "catalogId": "live-islands-of-adventure-jurassic-park-discovery-center",
+      "itineraryId": "live-islands-of-adventure-jurassic-park-discovery-center",
+      "name": "Jurassic Park Discovery Center",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "22dcd29e-d76a-45cd-b44a-dd6350dc3f8a",
+        "name": "Jurassic Park Discovery Center",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 6012,
+        "name": "Jurassic Park Discovery Center"
+      },
+      "location": {
+        "latitude": 28.47156,
+        "longitude": -81.47265,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-jurassic-park-river-adventure": {
+      "catalogId": "live-islands-of-adventure-jurassic-park-river-adventure",
+      "itineraryId": "live-islands-of-adventure-jurassic-park-river-adventure",
+      "name": "Jurassic Park River Adventure",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "db5b2165-15c2-4e51-8bd1-611e9c351866",
+        "name": "Jurassic Park River Adventure",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 5994,
+        "name": "Jurassic Park River Adventure"
+      },
+      "location": {
+        "latitude": 28.470597,
+        "longitude": -81.473134,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-jurassic-world-velocicoaster": {
+      "catalogId": "live-islands-of-adventure-jurassic-world-velocicoaster",
+      "itineraryId": "live-islands-of-adventure-jurassic-world-velocicoaster",
+      "name": "Jurassic World VelociCoaster",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "61079a31-4165-4fb0-b36f-c01c5971f80a",
+        "name": "Jurassic World VelociCoaster",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 8721,
+        "name": "Jurassic World VelociCoaster"
+      },
+      "location": {
+        "latitude": 28.471429,
+        "longitude": -81.472284,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-me-ship-olive": {
+      "catalogId": "live-islands-of-adventure-me-ship-olive",
+      "itineraryId": "live-islands-of-adventure-me-ship-olive",
+      "name": "Me Ship, The Olive",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "8babd50d-c570-423b-bd53-d040cad3e087",
+        "name": "Me Ship, The Olive®",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 6013,
+        "name": "Me Ship, The Olive"
+      },
+      "location": {
+        "latitude": 28.4709684,
+        "longitude": -81.4712606,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-ollivanders-experience-in-hogsmeade": {
+      "catalogId": "live-islands-of-adventure-ollivanders-experience-in-hogsmeade",
+      "itineraryId": "live-islands-of-adventure-ollivanders-experience-in-hogsmeade",
+      "name": "Ollivanders Experience in Hogsmeade",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "d7310719-f158-4d92-a476-13202c7162cd",
+        "name": "Ollivanders™ Experience in Hogsmeade™",
+        "entityType": "SHOW",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "Ollivanders Experience in Hogsmeade"
+      },
+      "location": {
+        "latitude": 28.472809,
+        "longitude": -81.473077,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-one-fish-two-fish-red-fish-blue-fish": {
+      "catalogId": "live-islands-of-adventure-one-fish-two-fish-red-fish-blue-fish",
+      "itineraryId": "live-islands-of-adventure-one-fish-two-fish-red-fish-blue-fish",
+      "name": "One Fish, Two Fish, Red Fish, Blue Fish",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "b1e94e05-b360-4e3f-be8a-2a3744a97f97",
+        "name": "One Fish, Two Fish, Red Fish, Blue Fish™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "One Fish, Two Fish, Red Fish, Blue Fish"
+      },
+      "location": {
+        "latitude": 28.47319743915079,
+        "longitude": -81.46935129,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-popeye-bluto-s-bilge-rat-barges": {
+      "catalogId": "live-islands-of-adventure-popeye-bluto-s-bilge-rat-barges",
+      "itineraryId": "live-islands-of-adventure-popeye-bluto-s-bilge-rat-barges",
+      "name": "Popeye & Bluto's Bilge-Rat Barges",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "b4445a1c-4d5c-4fca-a04a-f8867f1b6619",
+        "name": "Popeye & Bluto's Bilge-Rat Barges®",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 5998,
+        "name": "Popeye & Bluto's Bilge-Rat Barges"
+      },
+      "location": {
+        "latitude": 28.470448,
+        "longitude": -81.471401,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-pteranodon-flyers": {
+      "catalogId": "live-islands-of-adventure-pteranodon-flyers",
+      "itineraryId": "live-islands-of-adventure-pteranodon-flyers",
+      "name": "Pteranodon Flyers",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "3daca54f-50f0-44e9-a993-d706ce7520a0",
+        "name": "Pteranodon Flyers",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 5999,
+        "name": "Pteranodon Flyers"
+      },
+      "location": {
+        "latitude": 28.470164,
+        "longitude": -81.472939,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-skull-island-reign-of-kong": {
+      "catalogId": "live-islands-of-adventure-skull-island-reign-of-kong",
+      "itineraryId": "live-islands-of-adventure-skull-island-reign-of-kong",
+      "name": "Skull Island: Reign of Kong",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "370ba4d1-f199-4dc2-be6d-6bb09b442891",
+        "name": "Skull Island: Reign of Kong™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "Skull Island: Reign of Kong"
+      },
+      "location": {
+        "latitude": 28.469317,
+        "longitude": -81.473013,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-storm-force-accelatron": {
+      "catalogId": "live-islands-of-adventure-storm-force-accelatron",
+      "itineraryId": "live-islands-of-adventure-storm-force-accelatron",
+      "name": "Storm Force Accelatron",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "b694d5a5-155e-4796-af7e-5dbdcf3deba4",
+        "name": "Storm Force Accelatron®",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 6003,
+        "name": "Storm Force Accelatron"
+      },
+      "location": {
+        "latitude": 28.471007,
+        "longitude": -81.468794,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-amazing-adventures-of-spider-man": {
+      "catalogId": "live-islands-of-adventure-amazing-adventures-of-spider-man",
+      "itineraryId": "live-islands-of-adventure-amazing-adventures-of-spider-man",
+      "name": "The Amazing Adventures of Spider-Man",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "6be23178-7d00-4884-9e88-76787da1df86",
+        "name": "The Amazing Adventures of Spider-Man®",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 5985,
+        "name": "The Amazing Adventures of Spider-Man"
+      },
+      "location": {
+        "latitude": 28.4705456,
+        "longitude": -81.469852,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-cat-in-hat": {
+      "catalogId": "live-islands-of-adventure-cat-in-hat",
+      "itineraryId": "live-islands-of-adventure-cat-in-hat",
+      "name": "The Cat in The Hat",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "2365495a-790b-4a41-831e-65592c8a4359",
+        "name": "The Cat in The Hat™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "The Cat in The Hat"
+      },
+      "location": {
+        "latitude": 28.472969,
+        "longitude": -81.46928,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-high-in-sky-seuss-trolley-train-ride": {
+      "catalogId": "live-islands-of-adventure-high-in-sky-seuss-trolley-train-ride",
+      "itineraryId": "live-islands-of-adventure-high-in-sky-seuss-trolley-train-ride",
+      "name": "The High in the Sky Seuss Trolley Train Ride!",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "b73e3256-9ee0-439e-9a3b-ffed287e10bb",
+        "name": "The High in the Sky Seuss Trolley Train Ride!™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": null,
+        "name": "The High in the Sky Seuss Trolley Train Ride!"
+      },
+      "location": {
+        "latitude": 28.473011,
+        "longitude": -81.470178,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-islands-of-adventure-incredible-hulk-coaster": {
+      "catalogId": "live-islands-of-adventure-incredible-hulk-coaster",
+      "itineraryId": "live-islands-of-adventure-incredible-hulk-coaster",
+      "name": "The Incredible Hulk Coaster",
+      "kind": "live-wait",
+      "parkName": "Islands of Adventure",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "fa743143-281b-4b5b-b87b-d49fcb006772",
+        "name": "The Incredible Hulk Coaster®",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 64,
+        "rideId": 6004,
+        "name": "The Incredible Hulk Coaster"
+      },
+      "location": {
+        "latitude": 28.47119511093205,
+        "longitude": -81.46894554,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-e-t-adventure": {
+      "catalogId": "live-entity-e-t-adventure",
+      "itineraryId": "live-entity-e-t-adventure",
+      "name": "E.T. Adventure",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "1e16afdd-15e3-4e4a-b3af-8aeebd7534f8",
+        "name": "E.T. Adventure™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "E.T. Adventure"
+      },
+      "location": {
+        "latitude": 28.4779505,
+        "longitude": -81.4670917,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-fast-furious-supercharged": {
+      "catalogId": "live-entity-fast-furious-supercharged",
+      "itineraryId": "live-entity-fast-furious-supercharged",
+      "name": "Fast & Furious - Supercharged",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "6a3ffac7-bef4-4a22-8ba6-f2963aac7f70",
+        "name": "Fast & Furious - Supercharged™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "Fast & Furious - Supercharged"
+      },
+      "location": {
+        "latitude": 28.477888,
+        "longitude": -81.469458,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-harry-potter-and-escape-from-gringotts": {
+      "catalogId": "live-entity-harry-potter-and-escape-from-gringotts",
+      "itineraryId": "live-entity-harry-potter-and-escape-from-gringotts",
+      "name": "Harry Potter and the Escape from Gringotts",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "70ac72a3-9675-4c41-a1b1-e4801072927a",
+        "name": "Harry Potter and the Escape from Gringotts™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "Harry Potter and the Escape from Gringotts"
+      },
+      "location": {
+        "latitude": 28.479719,
+        "longitude": -81.469922,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-hogwarts-express-king-s-cross-station": {
+      "catalogId": "live-entity-hogwarts-express-king-s-cross-station",
+      "itineraryId": "live-entity-hogwarts-express-king-s-cross-station",
+      "name": "Hogwarts Express - King's Cross Station",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "f0750e5e-7629-4c53-99d2-e0924a8afeed",
+        "name": "Hogwarts Express™ - King's Cross Station",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "Hogwarts Express - King's Cross Station"
+      },
+      "location": {
+        "latitude": 28.479079,
+        "longitude": -81.46944,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-illumination-s-villain-con-minion-blast": {
+      "catalogId": "live-entity-illumination-s-villain-con-minion-blast",
+      "itineraryId": "live-entity-illumination-s-villain-con-minion-blast",
+      "name": "Illumination's Villain-Con Minion Blast",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "25d47d04-a917-405a-9904-9be2b499b2dd",
+        "name": "Illumination's Villain-Con Minion Blast",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": 12107,
+        "name": "Illumination's Villain-Con Minion Blast"
+      },
+      "location": {
+        "latitude": 28.475647291614678,
+        "longitude": -81.46796681,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-kang-kodos-twirl-n-hurl": {
+      "catalogId": "live-entity-kang-kodos-twirl-n-hurl",
+      "itineraryId": "live-entity-kang-kodos-twirl-n-hurl",
+      "name": "Kang & Kodos' Twirl 'n' Hurl",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "96e71193-49f0-40b2-9bba-644e530d8115",
+        "name": "Kang & Kodos' Twirl 'n' Hurl",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": 5995,
+        "name": "Kang & Kodos' Twirl 'n' Hurl"
+      },
+      "location": {
+        "latitude": 28.479352,
+        "longitude": -81.467877,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-men-in-black-alien-attack": {
+      "catalogId": "live-entity-men-in-black-alien-attack",
+      "itineraryId": "live-entity-men-in-black-alien-attack",
+      "name": "MEN IN BLACK Alien Attack!",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "91cae293-64f8-48b6-88ec-02dcfcdd1f91",
+        "name": "MEN IN BLACK™ Alien Attack!™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "MEN IN BLACK Alien Attack!"
+      },
+      "location": {
+        "latitude": 28.480441,
+        "longitude": -81.468043,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-ollivanders-experience-in-diagon-alley": {
+      "catalogId": "live-entity-ollivanders-experience-in-diagon-alley",
+      "itineraryId": "live-entity-ollivanders-experience-in-diagon-alley",
+      "name": "Ollivanders Experience in Diagon Alley",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "e99b72a6-37d0-46df-ab11-e9ff6603f259",
+        "name": "Ollivanders™ Experience in Diagon Alley™",
+        "entityType": "SHOW",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "Ollivanders Experience in Diagon Alley"
+      },
+      "location": {
+        "latitude": 28.47964,
+        "longitude": -81.46973,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-race-through-new-york-starring-jimmy-fallon": {
+      "catalogId": "live-entity-race-through-new-york-starring-jimmy-fallon",
+      "itineraryId": "live-entity-race-through-new-york-starring-jimmy-fallon",
+      "name": "Race Through New York Starring Jimmy Fallon",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "625a3cc3-7d7e-468b-96fe-1ec00df7b739",
+        "name": "Race Through New York Starring Jimmy Fallon™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "Race Through New York Starring Jimmy Fallon"
+      },
+      "location": {
+        "latitude": 28.475881,
+        "longitude": -81.469363,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-revenge-of-mummy": {
+      "catalogId": "live-entity-revenge-of-mummy",
+      "itineraryId": "live-entity-revenge-of-mummy",
+      "name": "Revenge of the Mummy",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "ec25d9a7-b4d4-4ebf-a6c4-c18389351764",
+        "name": "Revenge of the Mummy™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "Revenge of the Mummy"
+      },
+      "location": {
+        "latitude": 28.4766,
+        "longitude": -81.46954,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-transformers-ride-3d": {
+      "catalogId": "live-entity-transformers-ride-3d",
+      "itineraryId": "live-entity-transformers-ride-3d",
+      "name": "TRANSFORMERS The Ride-3D",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "750939c5-a69e-408a-8d55-66c272fa265e",
+        "name": "TRANSFORMERS™ The Ride-3D",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "TRANSFORMERS The Ride-3D"
+      },
+      "location": {
+        "latitude": 28.47669,
+        "longitude": -81.46856,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-simpsons-ride": {
+      "catalogId": "live-entity-simpsons-ride",
+      "itineraryId": "live-entity-simpsons-ride",
+      "name": "The Simpsons Ride",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "7e70bc9e-7dce-4dd2-8823-57b8d6ec7570",
+        "name": "The Simpsons Ride™",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": null,
+        "name": "The Simpsons Ride"
+      },
+      "location": {
+        "latitude": 28.479604,
+        "longitude": -81.467788,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
+    },
+    "live-entity-trolls-trollercoaster": {
+      "catalogId": "live-entity-trolls-trollercoaster",
+      "itineraryId": "live-entity-trolls-trollercoaster",
+      "name": "Trolls Trollercoaster",
+      "kind": "live-wait",
+      "parkName": "Universal Studios Florida",
+      "matchStatus": "APPROVED",
+      "themeParksWiki": {
+        "id": "37989fb7-5576-4247-bd6e-e981bc70cca2",
+        "name": "Trolls Trollercoaster",
+        "entityType": "ATTRACTION",
+        "matchReason": "REVIEWED"
+      },
+      "queueTimes": {
+        "parkId": 65,
+        "rideId": 13605,
+        "name": "Trolls Trollercoaster"
+      },
+      "location": {
+        "latitude": 28.4785148,
+        "longitude": -81.4663856,
+        "status": "VERIFIED",
+        "source": "THEMEPARKS_WIKI"
+      },
+      "reviewNote": "",
+      "area": ""
     }
   }
 }

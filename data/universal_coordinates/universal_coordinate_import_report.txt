@@ -1,0 +1,50 @@
+Applied: 46
+Skipped: 0
+Errors: 0
+
+APPLIED: Bowser Jr. Challenge -> live-epic-universe-bowser-jr-challenge
+APPLIED: Constellation Carousel -> live-epic-universe-constellation-carousel
+APPLIED: Curse of the Werewolf -> live-epic-universe-curse-of-werewolf
+APPLIED: Dragon Racer's Rally -> live-epic-universe-dragon-racer-s-rally
+APPLIED: Fyre Drill -> live-epic-universe-fyre-drill
+APPLIED: Harry Potter and the Battle at the Ministry -> live-epic-universe-harry-potter-and-battle-ministry
+APPLIED: Hiccup's Wing Gliders -> live-epic-universe-hiccup-s-wing-gliders
+APPLIED: Mario Kart: Bowser's Challenge -> live-epic-universe-mario-kart-bowser-s-challenge
+APPLIED: Meet Toothless and Friends -> live-epic-universe-meet-toothless-and-friends
+APPLIED: Mine-Cart Madness -> live-epic-universe-mine-cart-madness
+APPLIED: Stardust Racers -> live-epic-universe-stardust-racers
+APPLIED: Yoshi's Adventure -> live-epic-universe-yoshi-s-adventure
+APPLIED: Camp Jurassic -> live-islands-of-adventure-camp-jurassic
+APPLIED: Caro-Seuss-el -> live-islands-of-adventure-caro-seuss-el
+APPLIED: Doctor Doom's Fearfall -> live-islands-of-adventure-doctor-doom-s-fearfall
+APPLIED: Dudley Do-Right's Ripsaw Falls -> live-islands-of-adventure-dudley-do-right-s-ripsaw-falls
+APPLIED: Flight of the Hippogriff -> live-islands-of-adventure-flight-of-hippogriff
+APPLIED: Hogwarts Express - Hogsmeade Station -> live-islands-of-adventure-hogwarts-express-hogsmeade-station
+APPLIED: If I Ran The Zoo -> live-islands-of-adventure-if-i-ran-zoo
+APPLIED: Jurassic Park Discovery Center -> live-islands-of-adventure-jurassic-park-discovery-center
+APPLIED: Jurassic Park River Adventure -> live-islands-of-adventure-jurassic-park-river-adventure
+APPLIED: Jurassic World VelociCoaster -> live-islands-of-adventure-jurassic-world-velocicoaster
+APPLIED: Me Ship, The Olive -> live-islands-of-adventure-me-ship-olive
+APPLIED: Ollivanders Experience in Hogsmeade -> live-islands-of-adventure-ollivanders-experience-in-hogsmeade
+APPLIED: One Fish, Two Fish, Red Fish, Blue Fish -> live-islands-of-adventure-one-fish-two-fish-red-fish-blue-fish
+APPLIED: Popeye & Bluto's Bilge-Rat Barges -> live-islands-of-adventure-popeye-bluto-s-bilge-rat-barges
+APPLIED: Pteranodon Flyers -> live-islands-of-adventure-pteranodon-flyers
+APPLIED: Skull Island: Reign of Kong -> live-islands-of-adventure-skull-island-reign-of-kong
+APPLIED: Storm Force Accelatron -> live-islands-of-adventure-storm-force-accelatron
+APPLIED: The Amazing Adventures of Spider-Man -> live-islands-of-adventure-amazing-adventures-of-spider-man
+APPLIED: The Cat in The Hat -> live-islands-of-adventure-cat-in-hat
+APPLIED: The High in the Sky Seuss Trolley Train Ride! -> live-islands-of-adventure-high-in-sky-seuss-trolley-train-ride
+APPLIED: The Incredible Hulk Coaster -> live-islands-of-adventure-incredible-hulk-coaster
+APPLIED: E.T. Adventure -> live-entity-e-t-adventure
+APPLIED: Fast & Furious - Supercharged -> live-entity-fast-furious-supercharged
+APPLIED: Harry Potter and the Escape from Gringotts -> live-entity-harry-potter-and-escape-from-gringotts
+APPLIED: Hogwarts Express - King's Cross Station -> live-entity-hogwarts-express-king-s-cross-station
+APPLIED: Illumination's Villain-Con Minion Blast -> live-entity-illumination-s-villain-con-minion-blast
+APPLIED: Kang & Kodos' Twirl 'n' Hurl -> live-entity-kang-kodos-twirl-n-hurl
+APPLIED: MEN IN BLACK Alien Attack! -> live-entity-men-in-black-alien-attack
+APPLIED: Ollivanders Experience in Diagon Alley -> live-entity-ollivanders-experience-in-diagon-alley
+APPLIED: Race Through New York Starring Jimmy Fallon -> live-entity-race-through-new-york-starring-jimmy-fallon
+APPLIED: Revenge of the Mummy -> live-entity-revenge-of-mummy
+APPLIED: TRANSFORMERS The Ride-3D -> live-entity-transformers-ride-3d
+APPLIED: The Simpsons Ride -> live-entity-simpsons-ride
+APPLIED: Trolls Trollercoaster -> live-entity-trolls-trollercoaster
