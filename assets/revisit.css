@@ -1,0 +1,78 @@
+/* Date-neutral reservation mark */
+.trip-badge.reservation::first-letter {
+  font-variant-emoji: text;
+}
+
+/* Ratings */
+.trip-rating-star {
+  position: relative;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.trip-revisit-toggle {
+  position: relative;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+/* Revisit summary */
+.revisit-empty {
+  padding: 1rem;
+  border: 2px dashed var(--md-default-fg-color--lighter);
+  border-radius: .75rem;
+  background: var(--trip-card-bg);
+  font-weight: 700;
+}
+
+.revisit-park {
+  margin: 1rem 0 1.5rem;
+}
+
+.revisit-grid {
+  display: grid;
+  gap: .75rem;
+}
+
+.revisit-card {
+  border: 2px solid var(--md-default-fg-color--lighter);
+  border-radius: .8rem;
+  padding: .8rem;
+  background: var(--trip-card-bg);
+  color: var(--trip-text);
+}
+
+.revisit-card h3 {
+  margin: 0 0 .35rem;
+}
+
+.revisit-rating {
+  font-weight: 800;
+  color: #a66f00;
+}
+
+.revisit-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: .45rem;
+  margin-top: .7rem;
+}
+
+.revisit-actions a {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .6rem;
+  background: var(--trip-action-bg);
+  color: var(--md-typeset-a-color);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+@media (max-width: 520px) {
+  .revisit-actions {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,67 @@
+/* v2.5.9: force all mobile drawer layers into the custom night palette */
+
+html[data-trip-display="night"] .md-sidebar--primary,
+html[data-trip-display="night"] .md-sidebar--primary .md-sidebar__scrollwrap,
+html[data-trip-display="night"] .md-sidebar--primary .md-sidebar__inner,
+html[data-trip-display="night"] .md-nav--primary,
+html[data-trip-display="night"] .md-nav--primary .md-nav,
+html[data-trip-display="night"] .md-nav--primary .md-nav__list,
+html[data-trip-display="night"] .md-nav--primary .md-nav__item,
+html[data-trip-display="night"] .md-nav--primary .md-nav__title,
+html[data-trip-display="night"] .md-nav--primary [data-md-component="navigation"] {
+  background-color: #13291f !important;
+  color: #f5f8f6 !important;
+}
+
+html[data-trip-display="night"] .md-nav--primary .md-nav__item {
+  border-color: rgba(255,255,255,.13) !important;
+}
+
+html[data-trip-display="night"] .md-nav--primary .md-nav__link,
+html[data-trip-display="night"] .md-nav--primary .md-nav__link:visited,
+html[data-trip-display="night"] .md-nav--primary label,
+html[data-trip-display="night"] .md-nav--primary .md-nav__icon {
+  color: #f5f8f6 !important;
+  opacity: 1 !important;
+}
+
+html[data-trip-display="night"] .md-nav--primary .md-nav__link--active,
+html[data-trip-display="night"] .md-nav--primary .md-nav__item--active > .md-nav__link,
+html[data-trip-display="night"] .md-nav--primary .md-nav__link:hover,
+html[data-trip-display="night"] .md-nav--primary .md-nav__link:focus {
+  background-color: #315343 !important;
+  color: #d8e5ff !important;
+}
+
+html[data-trip-display="night"] .md-nav--primary .md-nav__item:not(.md-nav__item--active) > .md-nav__link {
+  background-color: #173326 !important;
+}
+
+html[data-trip-display="night"] .md-nav--primary .md-nav__item:nth-child(even):not(.md-nav__item--active) > .md-nav__link {
+  background-color: #1d3c2e !important;
+}
+
+/* Material can apply a white sheet through pseudo-elements. */
+html[data-trip-display="night"] .md-sidebar--primary::before,
+html[data-trip-display="night"] .md-nav--primary::before,
+html[data-trip-display="night"] .md-nav--primary .md-nav__list::before {
+  background-color: #13291f !important;
+}
+
+/* Expanded ride list remains readable without becoming visually overwhelming. */
+.live-card:has([data-live-waits]) .live-rides {
+  max-height: 32rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+.live-card:has([data-live-waits]) .live-ride {
+  padding-block: .55rem;
+}
+
+@media (max-width: 600px) {
+  .live-card:has([data-live-waits]) .live-rides {
+    max-height: 28rem;
+  }
+}

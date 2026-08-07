@@ -1,0 +1,20 @@
+/* v2.5.6 UI refinements */
+.trip-item-badges,.trip-badge-row,.trip-pill-row,.trip-tags,.trip-item-tags{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
+.trip-pill--split,.trip-badge,.trip-pill,.trip-item-badge,.trip-tag,.reservation-badge{width:fit-content;max-width:100%}
+.trip-movement-note,.trip-cue-note{display:none!important}
+[data-md-color-scheme="slate"]{--trip-dark-page:#10231a;--trip-dark-card:#183226;--trip-dark-card-2:#1f3b2e;--trip-dark-panel:#223c31;--trip-dark-border:#6e927d;--trip-dark-text:#f3f7f4;--trip-dark-muted:#c8d6cd}
+[data-md-color-scheme="slate"] body,[data-md-color-scheme="slate"] .md-main,[data-md-color-scheme="slate"] .md-content,[data-md-color-scheme="slate"] .md-content__inner{color:var(--trip-dark-text)}
+[data-md-color-scheme="slate"] .trip-checklist,[data-md-color-scheme="slate"] .trip-day,[data-md-color-scheme="slate"] .trip-page{background:var(--trip-dark-page)}
+[data-md-color-scheme="slate"] .trip-item,[data-md-color-scheme="slate"] .trip-card,[data-md-color-scheme="slate"] .planner-card,[data-md-color-scheme="slate"] .park-companion,[data-md-color-scheme="slate"] .live-panel,[data-md-color-scheme="slate"] .live-park-card{background:var(--trip-dark-card);color:var(--trip-dark-text);border-color:var(--trip-dark-border)}
+[data-md-color-scheme="slate"] .trip-item:nth-of-type(even),[data-md-color-scheme="slate"] .trip-card:nth-of-type(even){background:var(--trip-dark-card-2)}
+[data-md-color-scheme="slate"] .trip-item h2,[data-md-color-scheme="slate"] .trip-item h3,[data-md-color-scheme="slate"] .trip-item-title,[data-md-color-scheme="slate"] .trip-item-area,[data-md-color-scheme="slate"] .trip-item-travel,[data-md-color-scheme="slate"] .trip-detail-label,[data-md-color-scheme="slate"] .trip-detail-value,[data-md-color-scheme="slate"] .trip-time-label,[data-md-color-scheme="slate"] .trip-time-value,[data-md-color-scheme="slate"] .trip-timing-label,[data-md-color-scheme="slate"] .trip-timing-value{color:var(--trip-dark-text)}
+[data-md-color-scheme="slate"] .coordinate-travel-note,[data-md-color-scheme="slate"] .coordinate-travel-original,[data-md-color-scheme="slate"] .trip-muted,[data-md-color-scheme="slate"] .trip-subtext{color:var(--trip-dark-muted)}
+[data-md-color-scheme="slate"] .trip-item-timing,[data-md-color-scheme="slate"] .trip-timing-box,[data-md-color-scheme="slate"] .trip-time-box,[data-md-color-scheme="slate"] .trip-detail-grid,[data-md-color-scheme="slate"] .trip-item details,[data-md-color-scheme="slate"] .trip-more-details,[data-md-color-scheme="slate"] .live-weather-card,[data-md-color-scheme="slate"] .live-waits-card{background:var(--trip-dark-panel);color:var(--trip-dark-text);border-color:var(--trip-dark-border)}
+[data-md-color-scheme="slate"] .trip-item details>summary,[data-md-color-scheme="slate"] .trip-more-details>summary{background:#2b493b;color:var(--trip-dark-text);border-color:var(--trip-dark-border)}
+[data-md-color-scheme="slate"] .trip-item details[open]>summary,[data-md-color-scheme="slate"] .trip-more-details[open]>summary{background:#315341}
+[data-md-color-scheme="slate"] .trip-item a:not(.trip-action-link):not(.md-button),[data-md-color-scheme="slate"] .trip-more-details a{color:#b8d8ff}
+[data-md-color-scheme="slate"] .trip-status-button{background:#f2f3f6;color:#111;border-color:#c9ccd2}
+[data-md-color-scheme="slate"] .trip-status-button.is-active,[data-md-color-scheme="slate"] .trip-status-button[data-status="planned"]{background:#506f91;color:#fff}
+[data-md-color-scheme="slate"] .live-ride,[data-md-color-scheme="slate"] .priority-wait-row{border-color:rgba(255,255,255,.16)}
+[data-md-color-scheme="slate"] .priority-wait-jump{color:#c9dcff}
+[data-md-color-scheme="slate"] .theme-toggle,[data-md-color-scheme="slate"] .trip-theme-toggle{background:#f7f7f9;color:#111}

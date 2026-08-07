@@ -1,0 +1,246 @@
+/* v1.6 pre-trip polish */
+
+/* Reclaim horizontal space on mobile. */
+.trip-checklist[class*="theme-"] {
+  padding: .35rem !important;
+  margin-left: -.15rem;
+  margin-right: -.15rem;
+}
+
+.trip-item {
+  margin: .55rem 0 !important;
+  padding: .7rem !important;
+  border-radius: .8rem !important;
+}
+
+.trip-item-route {
+  margin-bottom: .45rem !important;
+}
+
+.trip-item-main {
+  display: block !important;
+}
+
+.trip-item-title {
+  margin-top: .1rem;
+  line-height: 1.12;
+}
+
+.trip-item-badges {
+  margin: .35rem 0 !important;
+  gap: .3rem !important;
+}
+
+.trip-badge {
+  padding: .25rem .55rem !important;
+  min-height: 28px !important;
+}
+
+/* Compact timing rows */
+.trip-time-panel {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: .28rem !important;
+  margin-top: .55rem !important;
+  padding: .55rem !important;
+  border-radius: .65rem;
+  background: color-mix(in srgb, var(--day-bg) 70%, #fff);
+}
+
+.trip-time-cell {
+  display: grid !important;
+  grid-template-columns: 7.2rem minmax(0, 1fr);
+  gap: .4rem !important;
+  align-items: baseline;
+  min-width: 0;
+}
+
+.trip-time-label {
+  margin: 0 !important;
+  font-size: .78rem !important;
+  font-weight: 850 !important;
+  color: var(--trip-muted);
+}
+
+.trip-time-label::before {
+  display: inline-block;
+  width: 1.2rem;
+  margin-right: .2rem;
+}
+
+.trip-time-cell:nth-child(1) .trip-time-label::before { content: "🕘"; }
+.trip-time-cell:nth-child(2) .trip-time-label::before { content: "🚶"; }
+.trip-time-cell:nth-child(3) .trip-time-label::before { content: "⏱"; }
+
+.trip-time-value {
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+/* Replace oversized status pill with compact segmented control */
+.trip-item-state {
+  display: none !important;
+}
+
+.trip-state-control {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .35rem;
+  margin-top: .65rem;
+}
+
+.trip-state-button {
+  min-height: 40px;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .55rem;
+  background: var(--trip-action-bg);
+  color: var(--trip-text);
+  font: inherit;
+  font-size: .76rem;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.trip-state-button[aria-pressed="true"] {
+  color: #fff;
+  border-color: transparent;
+}
+
+.trip-state-button[data-state-choice="pending"][aria-pressed="true"] {
+  background: #496078;
+}
+
+.trip-state-button[data-state-choice="skip"][aria-pressed="true"] {
+  background: #8b5a15;
+}
+
+.trip-state-button[data-state-choice="done"][aria-pressed="true"] {
+  background: #23733a;
+}
+
+/* Timeline */
+.day-timeline {
+  margin: .8rem 0 1.1rem;
+  border: 2px solid var(--day-accent, var(--md-primary-fg-color));
+  border-radius: .85rem;
+  overflow: hidden;
+  background: var(--trip-card-bg);
+}
+
+.day-timeline-header {
+  padding: .6rem .75rem;
+  background: var(--day-accent, var(--md-primary-fg-color));
+  color: #fff;
+  font-weight: 900;
+}
+
+.day-timeline-track {
+  display: grid;
+  gap: 0;
+  padding: .55rem .7rem;
+}
+
+.day-timeline-entry {
+  display: grid;
+  grid-template-columns: 4.6rem 1.5rem minmax(0, 1fr);
+  gap: .45rem;
+  align-items: center;
+  min-height: 40px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.day-timeline-time {
+  font-size: .8rem;
+  font-weight: 900;
+  text-align: right;
+}
+
+.day-timeline-dot {
+  display: grid;
+  place-items: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 999px;
+  background: var(--day-accent, var(--md-primary-fg-color));
+  color: #fff;
+  font-size: .72rem;
+  font-weight: 900;
+}
+
+.day-timeline-label {
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.day-timeline-label small {
+  display: block;
+  margin-top: .1rem;
+  color: var(--trip-muted);
+  font-weight: 650;
+}
+
+/* Land-specific accents for fast visual scanning */
+.trip-item[data-area-theme="pandora"] { border-left: .42rem solid #397f71 !important; }
+.trip-item[data-area-theme="africa"] { border-left: .42rem solid #b77822 !important; }
+.trip-item[data-area-theme="asia"] { border-left: .42rem solid #c65b2b !important; }
+.trip-item[data-area-theme="discovery"] { border-left: .42rem solid #4b739a !important; }
+.trip-item[data-area-theme="galaxy"] { border-left: .42rem solid #505a67 !important; }
+.trip-item[data-area-theme="toy-story"] { border-left: .42rem solid #cf3f39 !important; }
+.trip-item[data-area-theme="fantasyland"] { border-left: .42rem solid #7a5db2 !important; }
+.trip-item[data-area-theme="tomorrowland"] { border-left: .42rem solid #315daa !important; }
+.trip-item[data-area-theme="frontierland"] { border-left: .42rem solid #a65a21 !important; }
+.trip-item[data-area-theme="hogsmeade"] { border-left: .42rem solid #596d7d !important; }
+.trip-item[data-area-theme="diagon"] { border-left: .42rem solid #604f77 !important; }
+.trip-item[data-area-theme="nintendo"] { border-left: .42rem solid #d94b3d !important; }
+.trip-item[data-area-theme="ministry"] { border-left: .42rem solid #475c88 !important; }
+
+/* Stronger live indicators */
+.card-weather {
+  padding: .28rem .48rem;
+  border-radius: .45rem;
+  background: color-mix(in srgb, var(--trip-action-bg) 80%, #fff);
+  font-weight: 750;
+}
+
+.card-live-wait::after {
+  margin-left: .3rem;
+  font-size: .75rem;
+}
+
+.card-live-wait[data-trend="up"]::after { content: "▲"; }
+.card-live-wait[data-trend="down"]::after { content: "▼"; }
+.card-live-wait[data-trend="flat"]::after { content: "→"; }
+
+.park-route-map {
+  margin-bottom: .85rem !important;
+}
+
+@media (max-width: 520px) {
+  .trip-checklist[class*="theme-"] {
+    margin-left: -.45rem;
+    margin-right: -.45rem;
+    border-radius: .6rem;
+  }
+
+  .trip-item {
+    padding: .58rem !important;
+  }
+
+  .trip-time-cell {
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+  }
+
+  .trip-item-actions {
+    gap: .35rem !important;
+  }
+
+  .trip-action-link {
+    min-height: 42px !important;
+    padding: .35rem !important;
+  }
+
+  .day-timeline-entry {
+    grid-template-columns: 4.2rem 1.3rem minmax(0, 1fr);
+  }
+}

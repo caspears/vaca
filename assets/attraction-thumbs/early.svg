@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eee9ff"/>
+      <stop offset="1" stop-color="#dacfff"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="180" rx="18" fill="url(#g)"/>
+  <circle cx="258" cy="45" r="58" fill="#4b3b87" opacity=".13"/>
+  <circle cx="285" cy="145" r="76" fill="#4b3b87" opacity=".10"/>
+  <path d="M0 145 C70 105 115 175 190 130 S275 105 320 132 V180 H0Z" fill="#4b3b87" opacity=".18"/>
+  <text x="242" y="80" text-anchor="middle" font-size="58">🎢</text>
+  <text x="18" y="68" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1d1738">
+    <tspan x="18" dy="0">Early Park Admission</tspan>
+  </text>
+  <rect x="18" y="145" width="92" height="8" rx="4" fill="#4b3b87" opacity=".75"/>
+</svg>

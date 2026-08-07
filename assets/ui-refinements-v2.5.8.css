@@ -1,0 +1,66 @@
+/* v2.5.8 remaining night-mode refinements */
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-typeset h1,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-typeset h2,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-typeset h3,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .route-summary > h2,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .route-timing h2,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .today-glance h2,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .live-card h3 {
+  color: var(--trip-night-text, #f5f8f6) !important;
+  font-weight: 800 !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav--primary,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav--primary .md-nav__title,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-sidebar--primary,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav__source {
+  background: #13291f !important;
+  color: #f5f8f6 !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav--primary .md-nav__link,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav--primary .md-nav__item,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav--primary label {
+  color: #f5f8f6 !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav--primary .md-nav__link--active,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .md-nav--primary .md-nav__link:hover {
+  background: #29483a !important;
+  color: #d8e5ff !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .weather-at-time,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-weather-at-time,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) [data-weather-at-time] {
+  background: #29483a !important;
+  color: #f5f8f6 !important;
+  border-color: #759783 !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .weather-at-time *,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .trip-weather-at-time *,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) [data-weather-at-time] * {
+  color: #f5f8f6 !important;
+}
+
+/* Route/today summaries */
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .route-timing,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .today-glance,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .route-summary-card {
+  background: #12261d !important;
+  color: #f5f8f6 !important;
+  border-color: #759783 !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .route-timing a,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .today-glance a,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .route-summary-card a {
+  color: #bcd4ff !important;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .route-timing .muted,
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .today-glance .muted {
+  color: #cbd8d0 !important;
+}

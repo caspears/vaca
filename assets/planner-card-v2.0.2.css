@@ -1,0 +1,11 @@
+.park-advisor{margin:.75rem 0 1rem;border:2px solid var(--day-accent,var(--md-primary-fg-color));border-radius:.9rem;overflow:hidden;background:var(--trip-card-bg);color:var(--trip-text);box-shadow:0 3px 10px rgba(0,0,0,.1)}
+.park-advisor-header{display:flex;justify-content:space-between;align-items:center;gap:.6rem;padding:.65rem .75rem;background:var(--day-accent,var(--md-primary-fg-color));color:#fff}
+.park-advisor-title{font-weight:950}.park-advisor-toggle{min-height:36px;border:1px solid rgba(255,255,255,.72);border-radius:999px;padding:.25rem .55rem;background:rgba(255,255,255,.15);color:#fff;font:inherit;font-weight:850}
+.park-advisor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;padding:.7rem}.park-advisor-section{border:1px solid var(--md-default-fg-color--lighter);border-radius:.7rem;padding:.65rem;background:var(--trip-action-bg)}.park-advisor-section h3{margin:0 0 .4rem;font-size:.92rem}
+.park-advisor-next,.park-advisor-advice{grid-column:1/-1}.park-advisor-next-title{font-size:1.15rem;font-weight:950}.park-advisor-next-meta{margin-top:.25rem;color:var(--trip-muted);font-size:.84rem}
+.park-advisor-item{display:grid;grid-template-columns:auto 1fr auto;gap:.4rem;align-items:baseline;margin:.25rem 0}.park-advisor-time{font-weight:900;white-space:nowrap}.park-advisor-advice{border-left:.4rem solid var(--day-accent,var(--md-primary-fg-color))}
+.park-advisor-status{padding:.45rem .7rem .65rem;border-top:1px solid var(--md-default-fg-color--lightest);color:var(--trip-muted);font-size:.75rem;font-weight:750}.park-advisor-collapsed{display:none}
+.park-advisor.is-collapsed .park-advisor-grid,.park-advisor.is-collapsed .park-advisor-status{display:none}.park-advisor.is-collapsed .park-advisor-collapsed{display:flex;gap:.45rem;padding:.6rem .7rem;font-weight:850}
+.optional-extension{margin:.75rem 0 1rem;border:2px dashed var(--day-accent,var(--md-primary-fg-color));border-radius:.8rem;padding:.7rem;background:color-mix(in srgb,var(--day-bg) 70%,#fff)}.optional-extension h3{margin-top:0}
+.timing-context{font-size:.78rem;color:var(--trip-muted);margin-top:.25rem}
+@media(max-width:650px){.park-advisor-grid{grid-template-columns:1fr;padding:.55rem}.park-advisor-next,.park-advisor-advice{grid-column:1}}

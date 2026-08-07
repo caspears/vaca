@@ -1,0 +1,21 @@
+.park-day-section{margin:1rem calc(50% - 50vw);padding:1rem max(.8rem,calc((100vw - 61rem)/2));border-top:4px solid;border-bottom:4px solid}
+.park-day-section.park-ak{--p:#285b35;--a:#d4a72c;background:#e8f1e7;border-color:var(--p)}
+.park-day-section.park-hs{--p:#7d1f33;--a:#d2a23a;background:#f4e7e9;border-color:var(--p)}
+.park-day-section.park-resort{--p:#345995;--a:#d2a23a;background:#e8edf6;border-color:var(--p)}
+html[data-trip-display="dark"] .park-day-section.park-ak{background:#132219;border-color:#709b76}
+html[data-trip-display="dark"] .park-day-section.park-hs{background:#27171d;border-color:#b86978}
+html[data-trip-display="dark"] .park-day-section.park-resort{background:#151d2e;border-color:#7188b9}
+.park-day-section .trip-item{background:#fff;color:#0b0d11;border-color:#252a32}
+html[data-trip-display="dark"] .park-day-section.park-ak .trip-item{background:#24372a;color:#f7faf7;border-color:#91b297}
+html[data-trip-display="dark"] .park-day-section.park-hs .trip-item{background:#3a252d;color:#fff8fa;border-color:#c98996}
+html[data-trip-display="dark"] .park-day-section.park-resort .trip-item{background:#26334e;color:#f7f9ff;border-color:#91a4cf}
+html[data-trip-display="dark"] .park-day-section .trip-item-note,html[data-trip-display="dark"] .park-day-section .trip-item-travel{color:#e1e6eb}
+.park-section-heading{display:flex;align-items:center;gap:.65rem}.park-section-icon{display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:.65rem;background:var(--p);color:#fff;font-size:1.35rem}.park-section-heading h2{margin:0;color:var(--p)}html[data-trip-display="dark"] .park-section-heading h2{color:#fff}
+.park-time-summary{margin:.25rem 0 1rem 3.15rem;font-weight:750}
+.mini-map{margin:.8rem 0 1rem;padding:.75rem;border:2px solid var(--p);border-radius:.8rem;background:rgba(255,255,255,.84)}html[data-trip-display="dark"] .mini-map{background:rgba(0,0,0,.18)}
+.mini-map-header{display:flex;justify-content:space-between;gap:.6rem;align-items:center;margin-bottom:.6rem}.mini-map-title{font-weight:900;color:var(--p)}html[data-trip-display="dark"] .mini-map-title{color:#fff}
+.mini-map-full{display:inline-flex;align-items:center;min-height:40px;border:1px solid var(--p);border-radius:.55rem;padding:.4rem .6rem;background:#fff;color:#003e91;font-weight:800;text-decoration:none}
+.mini-map-stop{display:grid;grid-template-columns:2rem 1fr;gap:.55rem;align-items:center;min-height:44px;text-decoration:none;color:inherit}.mini-map-dot{display:grid;place-items:center;width:1.75rem;height:1.75rem;border-radius:999px;background:var(--p);color:#fff;font-weight:900}.mini-map-label{font-weight:800}.mini-map-connector{width:.22rem;height:1rem;margin-left:.765rem;background:var(--a)}
+.decision-card{border:2px dashed var(--a);border-radius:.75rem;padding:.75rem;margin:.75rem 0 1rem;background:rgba(255,255,255,.76)}html[data-trip-display="dark"] .decision-card{background:rgba(0,0,0,.17)}
+.schedule-warning{border-left:.4rem solid #b23a2e;padding:.65rem .75rem;background:#fff2ef;color:#43100a;margin:.8rem 0}html[data-trip-display="dark"] .schedule-warning{background:#3a1d1a;color:#ffe8e3}
+@media(max-width:520px){.park-day-section{padding-left:.7rem;padding-right:.7rem}.park-time-summary{margin-left:0}.mini-map-header{flex-direction:column;align-items:stretch}.mini-map-full{justify-content:center}}

@@ -1,0 +1,37 @@
+.priority-context {
+  flex-basis: 100%;
+  margin-top: .35rem;
+  padding-top: .35rem;
+  border-top: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  font-size: .78rem;
+  line-height: 1.35;
+}
+
+.priority-context-distance {
+  font-weight: 800;
+}
+
+.priority-context-guidance {
+  margin-top: .16rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.priority-configured {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: .45rem;
+}
+
+.priority-context-card {
+  margin-top: 1rem;
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .priority-context {
+  border-top-color: rgba(255,255,255,.18);
+}
+
+:where([data-md-color-scheme="slate"], html[data-trip-display="night"]) .priority-context-guidance {
+  color: #cbd8d0;
+}

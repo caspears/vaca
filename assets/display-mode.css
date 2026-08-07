@@ -1,0 +1,99 @@
+:root {
+  --trip-card-bg: #ffffff;
+  --trip-card-border: #2f3542;
+  --trip-text: #111318;
+  --trip-muted: #4a4f59;
+  --trip-action-bg: #f5f7fb;
+  --trip-action-border: #49505d;
+  --trip-shadow: 0 2px 5px rgba(0, 0, 0, .12);
+}
+
+html[data-trip-display="sunlight"] {
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #0a0c10;
+  --md-default-fg-color--light: #252a33;
+  --md-default-fg-color--lighter: #565d69;
+  --md-default-fg-color--lightest: #d4d8df;
+  --md-typeset-a-color: #003e91;
+
+  --trip-card-bg: #ffffff;
+  --trip-card-border: #111318;
+  --trip-text: #000000;
+  --trip-muted: #252a33;
+  --trip-action-bg: #ffffff;
+  --trip-action-border: #16191f;
+  --trip-shadow: none;
+}
+
+html[data-trip-display="sunlight"] body,
+html[data-trip-display="sunlight"] .md-main,
+html[data-trip-display="sunlight"] .md-content {
+  background: #ffffff;
+  color: #000000;
+}
+
+html[data-trip-display="sunlight"] .md-typeset {
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+html[data-trip-display="sunlight"] .md-typeset h1,
+html[data-trip-display="sunlight"] .md-typeset h2,
+html[data-trip-display="sunlight"] .md-typeset h3 {
+  color: #000000;
+  font-weight: 850;
+}
+
+html[data-trip-display="sunlight"] .trip-item,
+html[data-trip-display="sunlight"] .route-step {
+  border-width: 2px;
+}
+
+html[data-trip-display="sunlight"] .trip-item-note,
+html[data-trip-display="sunlight"] .trip-item-travel,
+html[data-trip-display="sunlight"] .route-step-travel {
+  color: #20242b;
+}
+
+.trip-display-control {
+  position: fixed;
+  right: .8rem;
+  bottom: .8rem;
+  z-index: 20;
+  display: flex;
+  gap: .35rem;
+  padding: .4rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 999px;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 3px 12px rgba(0,0,0,.22);
+}
+
+.trip-display-control button {
+  min-height: 42px;
+  min-width: 44px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.trip-display-control button[aria-pressed="true"] {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+@media (max-width: 520px) {
+  .trip-display-control {
+    right: .55rem;
+    bottom: .55rem;
+  }
+
+  .trip-display-control button {
+    min-width: 46px;
+  }
+}

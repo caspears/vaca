@@ -1,0 +1,134 @@
+{
+  "Islands of Adventure": {
+    "Hagrid's Magical Creatures Motorbike Adventure": {
+      "rating": 5,
+      "group": "favorite",
+      "thrill": 4,
+      "note": "Gold standard for family thrill"
+    },
+    "Harry Potter and the Forbidden Journey": {
+      "rating": 5,
+      "group": "favorite",
+      "thrill": 4,
+      "note": "Robotic arm + simulator"
+    },
+    "The Amazing Adventures of Spider-Man": {
+      "rating": 3.5,
+      "group": "good",
+      "thrill": 3,
+      "note": "Classic simulator"
+    },
+    "Jurassic Park River Adventure": {
+      "rating": 5,
+      "group": "good",
+      "thrill": 4,
+      "note": "Big splash at the end"
+    },
+    "Popeye & Bluto's Bilge-Rat Barges": {
+      "rating": 5,
+      "group": "good",
+      "thrill": 3,
+      "note": "You'll get soaked"
+    },
+    "Dudley Do-Right's Ripsaw Falls": {
+      "rating": 5,
+      "group": "not-recommended",
+      "thrill": 5,
+      "note": "Very steep log flume drop"
+    },
+    "Jurassic World VelociCoaster": {
+      "rating": 3,
+      "group": "not-recommended",
+      "thrill": 5,
+      "note": "Too intense for our family"
+    },
+    "The Incredible Hulk Coaster": {
+      "rating": 1,
+      "group": "not-recommended",
+      "thrill": 5,
+      "note": "Inversions and high G-forces"
+    }
+  },
+  "Universal Studios Florida": {
+    "Harry Potter and the Escape from Gringotts": {
+      "rating": 5,
+      "group": "favorite",
+      "thrill": 4,
+      "note": "Coaster + simulator"
+    },
+    "TRANSFORMERS The Ride-3D": {
+      "rating": 5,
+      "group": "favorite",
+      "thrill": 3,
+      "note": "Similar to Spider-Man"
+    },
+    "Revenge of the Mummy": {
+      "rating": 5,
+      "group": "optional",
+      "thrill": 4.5,
+      "note": "More adventurous next-step coaster"
+    },
+    "MEN IN BLACK Alien Attack!": {
+      "rating": 2,
+      "group": "good",
+      "thrill": 2,
+      "note": "Interactive shooting"
+    },
+    "E.T. Adventure": {
+      "rating": 5,
+      "group": "favorite",
+      "thrill": 1,
+      "note": "Classic and gentle"
+    },
+    "Despicable Me Minion Mayhem": {
+      "rating": 10,
+      "group": "good",
+      "thrill": 2,
+      "note": "Motion simulator"
+    },
+    "The Simpsons Ride": {
+      "rating": 5,
+      "group": "good",
+      "thrill": 3,
+      "note": "Motion simulator"
+    }
+  },
+  "Epic Universe": {
+    "Mario Kart: Bowser's Challenge": {
+      "rating": 4,
+      "group": "favorite",
+      "thrill": 2,
+      "note": "AR dark ride"
+    },
+    "Yoshi's Adventure": {
+      "rating": 3.5,
+      "group": "favorite",
+      "thrill": 1,
+      "note": "Relaxing; good when tired"
+    },
+    "Mine-Cart Madness": {
+      "rating": 5,
+      "group": "good",
+      "thrill": 4,
+      "note": "Family coaster"
+    },
+    "Curse of the Werewolf": {
+      "rating": 3,
+      "group": "optional",
+      "thrill": 4,
+      "note": "Spinning family coaster"
+    },
+    "Monsters Unchained: The Frankenstein Experiment": {
+      "rating": 5,
+      "group": "good",
+      "thrill": 3,
+      "note": "Dark ride"
+    },
+    "Harry Potter and the Battle at the Ministry": {
+      "rating": 5,
+      "group": "favorite",
+      "thrill": 3,
+      "note": "Immersive dark ride"
+    }
+  }
+}

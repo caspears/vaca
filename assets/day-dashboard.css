@@ -1,0 +1,204 @@
+:root {
+  --trip-reservation: #8d2035;
+  --trip-lightning: #0057c8;
+  --trip-show: #6f3aa8;
+  --trip-meal: #9a3f00;
+  --trip-transfer: #345995;
+  --trip-planned: #2f6b3d;
+  --trip-details-bg: #f4f6fa;
+  --trip-details-text: #111318;
+}
+
+html[data-trip-display="dark"] {
+  --trip-details-bg: #1d222b;
+  --trip-details-text: #f4f7fb;
+  --trip-card-bg: #171b22;
+  --trip-card-border: #87909e;
+  --trip-text: #f7f9fc;
+  --trip-muted: #d0d5dd;
+  --trip-action-bg: #232a35;
+  --trip-action-border: #aab2bf;
+}
+
+html[data-trip-display="dark"] .trip-item details,
+html[data-trip-display="dark"] .trip-detail-grid,
+html[data-trip-display="dark"] .trip-item details summary {
+  background: var(--trip-details-bg);
+  color: var(--trip-details-text);
+}
+
+.trip-day-dashboard {
+  position: sticky;
+  top: 3.6rem;
+  z-index: 12;
+  margin: .5rem 0 1rem;
+  border: 2px solid var(--md-primary-fg-color);
+  border-radius: .8rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 3px 10px rgba(0,0,0,.18);
+  overflow: hidden;
+}
+
+.trip-day-dashboard-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  padding: .55rem .7rem;
+  background: linear-gradient(90deg, #2f6b3d, #8d2035);
+  color: #fff;
+  font-weight: 850;
+}
+
+.trip-day-dashboard-body {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .3rem;
+  padding: .55rem;
+}
+
+.trip-stat {
+  min-width: 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .55rem;
+  padding: .45rem;
+  background: var(--trip-card-bg);
+}
+
+.trip-stat-label {
+  display: block;
+  color: var(--trip-muted);
+  font-size: .72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
+
+.trip-stat-value {
+  display: block;
+  margin-top: .1rem;
+  font-weight: 850;
+  line-height: 1.2;
+}
+
+.trip-next-link {
+  display: inline-grid;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border-radius: 999px;
+  background: #fff;
+  color: #111;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.trip-progress-track {
+  height: .45rem;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.trip-progress-fill {
+  width: 0;
+  height: 100%;
+  background: #23a455;
+  transition: width .2s ease;
+}
+
+.trip-item-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: .35rem 0 .15rem;
+}
+
+.trip-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  border-radius: 999px;
+  padding: .25rem .5rem;
+  color: #fff;
+  font-size: .76rem;
+  font-weight: 850;
+}
+
+.trip-badge.reservation { background: var(--trip-reservation); }
+.trip-badge.lightning { background: var(--trip-lightning); }
+.trip-badge.show { background: var(--trip-show); }
+.trip-badge.meal { background: var(--trip-meal); }
+.trip-badge.transfer { background: var(--trip-transfer); }
+.trip-badge.planned { background: var(--trip-planned); }
+
+.trip-time-panel {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: .4rem;
+  margin-top: .55rem;
+}
+
+.trip-time-cell {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .5rem;
+  padding: .4rem;
+  background: var(--trip-action-bg);
+}
+
+.trip-time-cell span {
+  display: block;
+}
+
+.trip-time-label {
+  color: var(--trip-muted);
+  font-size: .72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.trip-time-value {
+  margin-top: .1rem;
+  font-weight: 850;
+}
+
+.trip-countdown {
+  color: #8d2035;
+}
+
+.trip-item details {
+  background: var(--trip-details-bg);
+  color: var(--trip-details-text);
+  border-radius: .55rem;
+  padding: .55rem .65rem .65rem;
+}
+
+.trip-original-plan {
+  margin-top: .65rem;
+  border-left: .3rem solid var(--trip-transfer);
+  padding: .45rem .6rem;
+  background: var(--trip-card-bg);
+  color: var(--trip-text);
+}
+
+@media (max-width: 700px) {
+  .trip-day-dashboard {
+    top: 3rem;
+  }
+
+  .trip-day-dashboard-body {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .trip-stat.next-stat {
+    grid-column: 1 / -1;
+  }
+
+  .trip-time-panel {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .trip-time-cell.countdown-cell {
+    grid-column: 1 / -1;
+  }
+}

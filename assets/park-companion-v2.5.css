@@ -1,0 +1,159 @@
+/* v2.5 mobile density and Park Companion */
+
+.md-grid {
+  max-width: 78rem;
+}
+
+.md-content__inner {
+  margin-left: .35rem;
+  margin-right: .35rem;
+}
+
+.trip-checklist {
+  width: 100%;
+}
+
+.trip-item {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.park-advisor-title {
+  white-space: nowrap;
+}
+
+.same-area-cue {
+  flex-basis: 100%;
+  width: fit-content;
+  margin-bottom: .15rem;
+  padding: .2rem .45rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--day-accent, var(--md-primary-fg-color)) 12%, transparent);
+  font-size: .78rem;
+  font-weight: 900;
+}
+
+.coordinate-travel-note {
+  font-weight: 600;
+}
+
+.trip-item-actions a {
+  display: grid !important;
+  place-items: center;
+  align-content: center;
+  gap: .05rem;
+  min-width: 0;
+  padding-left: .5rem !important;
+  padding-right: .5rem !important;
+  line-height: 1.05;
+  text-align: center;
+}
+
+.trip-item-actions a small {
+  display: block;
+  margin-top: .14rem;
+  font-size: .63rem;
+  font-weight: 700;
+  opacity: .88;
+}
+
+.trip-badge-confirmed {
+  background: color-mix(in srgb, #23733a 88%, white) !important;
+}
+
+.park-companion-nearby {
+  grid-column: 1 / -1;
+}
+
+.park-companion-location-status {
+  margin-bottom: .45rem;
+  color: var(--trip-muted, var(--md-default-fg-color--light));
+  font-size: .76rem;
+  font-weight: 700;
+}
+
+.park-companion-nearby-list {
+  display: grid;
+  gap: .35rem;
+}
+
+.park-companion-nearby-item {
+  display: grid;
+  grid-template-columns: auto minmax(0,1fr) auto;
+  gap: .45rem;
+  align-items: center;
+  padding: .35rem .4rem;
+  border-radius: .45rem;
+  background: color-mix(in srgb, var(--day-bg, var(--md-default-bg-color)) 75%, transparent);
+}
+
+.park-companion-nearby-item small {
+  display: block;
+  margin-top: .08rem;
+  color: var(--trip-muted, var(--md-default-fg-color--light));
+  font-size: .7rem;
+}
+
+.park-companion-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: .45rem;
+  margin-top: .55rem;
+}
+
+.park-companion-location-button,
+.park-companion-restroom-link {
+  min-height: 42px;
+  padding: .45rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .55rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: .78rem;
+  font-weight: 850;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .md-main__inner {
+    margin-top: 0;
+  }
+
+  .md-content__inner {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: .45rem !important;
+    padding-right: .45rem !important;
+  }
+
+  .trip-item {
+    width: 100% !important;
+    max-width: none !important;
+    padding-left: .7rem !important;
+    padding-right: .7rem !important;
+  }
+
+  .trip-checklist {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .park-advisor {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .md-content__inner {
+    padding-left: .25rem !important;
+    padding-right: .25rem !important;
+  }
+
+  .trip-item {
+    padding-left: .55rem !important;
+    padding-right: .55rem !important;
+  }
+}
